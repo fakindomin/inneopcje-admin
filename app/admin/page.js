@@ -272,15 +272,13 @@ export default async function AdminPage({ searchParams }) {
                   Usuń
                 </ConfirmButton>
               </form>
-              {p.category === "telefony" && (
-                <Link
-                  href={`/telefon/${p.slug}`}
-                  target="_blank"
-                  className="text-xs px-2.5 py-1 rounded-md border border-brand-border text-brand-muted hover:bg-brand-cream ml-auto"
-                >
-                  Zobacz na stronie
-                </Link>
-              )}
+              <Link
+                href={`/produkt/${p.slug}`}
+                target="_blank"
+                className="text-xs px-2.5 py-1 rounded-md border border-brand-border text-brand-muted hover:bg-brand-cream ml-auto"
+              >
+                Zobacz na stronie
+              </Link>
             </div>
           </div>
         ))}

@@ -6,7 +6,7 @@ export default async function sitemap() {
   const result = await pool.query(`SELECT slug FROM products WHERE status = 'published'`);
 
   const productUrls = result.rows.map((row) => ({
-    url: `${SITE_URL}/telefon/${row.slug}`,
+    url: `${SITE_URL}/produkt/${row.slug}`,
   }));
 
   return [

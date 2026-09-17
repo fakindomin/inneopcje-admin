@@ -85,7 +85,7 @@ export default function SearchBox({ defaultValue = "" }) {
             <li key={s.slug}>
               <button
                 type="button"
-                onClick={() => router.push(`/telefon/${s.slug}`)}
+                onClick={() => router.push(`/produkt/${s.slug}`)}
                 className="w-full text-left px-4 py-2 text-sm text-brand-ink hover:bg-brand-cream"
               >
                 {s.name}

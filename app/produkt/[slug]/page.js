@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   return { title: `${product.name} — innaopcja.pl` };
 }
 
-export default async function TelefonPage({ params, searchParams }) {
+export default async function ProductPage({ params, searchParams }) {
   const { slug } = await params;
   const sp = await searchParams;
   const product = await getProductBySlug(slug);

@@ -8,8 +8,8 @@ export default function AlternativeCard({ alt, fromSlug, fromName }) {
   const score = Number(alt.score).toFixed(1);
 
   const href = fromSlug
-    ? `/telefon/${alt.slug}?from=${encodeURIComponent(fromSlug)}&fromName=${encodeURIComponent(fromName)}`
-    : `/telefon/${alt.slug}`;
+    ? `/produkt/${alt.slug}?from=${encodeURIComponent(fromSlug)}&fromName=${encodeURIComponent(fromName)}`
+    : `/produkt/${alt.slug}`;
 
   return (
     <Link
