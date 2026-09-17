@@ -6,6 +6,10 @@ html, body {
   overscroll-behavior-y: none;
 }
 
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   background-color: #f6f3ec;
   color: #1b1f2a;
