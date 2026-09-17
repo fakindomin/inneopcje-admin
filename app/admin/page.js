@@ -5,6 +5,7 @@ import {
   listCategories,
   getBotEnabled,
   listRecentRuns,
+  getStatusCounts,
 } from "../../lib/adminQueries.js";
 import {
   publishProduct,
@@ -59,16 +60,22 @@ export default async function AdminPage({ searchParams }) {
   const status = params?.status ?? "all";
   const category = params?.category ?? "all";
 
-  const [products, failedQueue, categories, botEnabled, recentRuns] = await Promise.all([
+  const [products, failedQueue, categories, botEnabled, recentRuns, statusCounts] = await Promise.all([
     listProducts({ status, category }),
     listFailedQueue(),
     listCategories(),
     getBotEnabled(),
     listRecentRuns(),
+    getStatusCounts(),
   ]);
 
   const categoryTabs = [{ value: "all", label: "wszystkie kategorie" }, ...categories.map((c) => ({ value: c.slug, label: c.name }))];
   const ranToday = recentRuns.some((r) => r.status !== "skipped" && isToday(r.started_at));
+  const tabCounts = {
+    all: statusCounts.published + statusCounts.draft,
+    published: statusCounts.published,
+    draft: statusCounts.draft,
+  };
 
   return (
     <main className="max-w-[900px] mx-auto px-6 py-10">
@@ -167,19 +174,34 @@ export default async function AdminPage({ searchParams }) {
       </div>
 
       <div className="flex gap-2 mb-2">
-        {STATUS_TABS.map((tab) => (
-          <Link
-            key={tab.value}
-            href={`/admin?status=${tab.value}&category=${category}`}
-            className={`text-sm px-3 py-1.5 rounded-md border ${
-              status === tab.value
-                ? "border-brand-ink bg-brand-ink text-brand-cream"
-                : "border-brand-border text-brand-secondary"
-            }`}
-          >
-            {tab.label}
-          </Link>
-        ))}
+        {STATUS_TABS.map((tab) => {
+          const count = tabCounts[tab.value] ?? 0;
+          const needsAttention = tab.value === "draft" && count > 0;
+          return (
+            <Link
+              key={tab.value}
+              href={`/admin?status=${tab.value}&category=${category}`}
+              className={`flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-md border ${
+                status === tab.value
+                  ? "border-brand-ink bg-brand-ink text-brand-cream"
+                  : "border-brand-border text-brand-secondary"
+              }`}
+            >
+              {tab.label}
+              <span
+                className={`text-[11px] leading-none px-1.5 py-0.5 rounded-full ${
+                  needsAttention
+                    ? "bg-amber-100 text-amber-800"
+                    : status === tab.value
+                    ? "bg-white/20 text-brand-cream"
+                    : "bg-brand-cream text-brand-muted"
+                }`}
+              >
+                {count}
+              </span>
+            </Link>
+          );
+        })}
       </div>
 
       <div className="flex flex-wrap gap-2 mb-6">
