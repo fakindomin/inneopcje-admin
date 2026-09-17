@@ -7,6 +7,7 @@ import {
   listRecentRuns,
   getStatusCounts,
   getQueueDepth,
+  getTodayRequestEstimate,
 } from "../../lib/adminQueries.js";
 import AutoRefresh from "../../components/AutoRefresh.js";
 import {
@@ -32,6 +33,12 @@ const RUN_STATUS_LABELS = {
   failed: "błąd",
   skipped: "pominięty (bot wyłączony)",
 };
+
+// Observed from a live RESOURCE_EXHAUSTED response on this project
+// (GenerateRequestsPerDayPerProjectPerModel-FreeTier). Check
+// aistudio.google.com/rate-limit for the current real number — this is
+// just a display reference, not read from the API.
+const GEMINI_DAILY_QUOTA_ESTIMATE = 20;
 
 // A run stuck in "running" past this many minutes is almost certainly a
 // GitHub Actions job someone re-ran on a stale commit rather than a fresh
@@ -112,15 +119,17 @@ export default async function AdminPage({ searchParams }) {
   const status = params?.status ?? "all";
   const category = params?.category ?? "all";
 
-  const [products, failedQueue, categories, botEnabled, recentRuns, statusCounts, queueDepth] = await Promise.all([
-    listProducts({ status, category }),
-    listFailedQueue(),
-    listCategories(),
-    getBotEnabled(),
-    listRecentRuns(),
-    getStatusCounts(),
-    getQueueDepth(),
-  ]);
+  const [products, failedQueue, categories, botEnabled, recentRuns, statusCounts, queueDepth, todayRequests] =
+    await Promise.all([
+      listProducts({ status, category }),
+      listFailedQueue(),
+      listCategories(),
+      getBotEnabled(),
+      listRecentRuns(),
+      getStatusCounts(),
+      getQueueDepth(),
+      getTodayRequestEstimate(),
+    ]);
 
   const categoryTabs = [{ value: "all", label: "wszystkie kategorie" }, ...categories.map((c) => ({ value: c.slug, label: c.name }))];
   const ranToday = recentRuns.some((r) => r.status !== "skipped" && isToday(r.started_at));
@@ -172,12 +181,27 @@ export default async function AdminPage({ searchParams }) {
           </form>
         </div>
 
-        <div className="flex items-start gap-2 mb-3">
+        <div className="flex items-start gap-2 mb-2">
           <span className={`text-[11px] px-2 py-0.5 rounded-full shrink-0 ${LIVE_STATUS_STYLES[liveStatus.kind]}`}>
             {liveStatus.kind === "running" ? "na żywo" : liveStatus.kind}
           </span>
           <p className="text-xs text-brand-secondary">{liveStatus.label}</p>
         </div>
+
+        <p className="text-xs text-brand-muted mb-3">
+          Dzisiaj (szacunkowo): {todayRequests}/{GEMINI_DAILY_QUOTA_ESTIMATE} zapytań do Gemini
+          {todayRequests >= GEMINI_DAILY_QUOTA_ESTIMATE ? " — limit prawdopodobnie wyczerpany" : ""}. Realny limit
+          sprawdzisz na{" "}
+          <a
+            href="https://aistudio.google.com/rate-limit"
+            target="_blank"
+            rel="noreferrer"
+            className="underline hover:text-brand-ink"
+          >
+            aistudio.google.com/rate-limit
+          </a>
+          .
+        </p>
 
         <p className="text-xs text-brand-muted mb-3">
           {ranToday ? "Dzisiaj już był przebieg." : "Dzisiaj jeszcze nie było przebiegu."} Harmonogram (cron) działa
