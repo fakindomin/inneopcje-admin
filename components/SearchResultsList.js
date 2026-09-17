@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import VerdictCard, { PRICE_TIER_LABELS } from "./VerdictCard";
+import VerdictCard from "./VerdictCard";
 import AlternativeCard from "./AlternativeCard";
 import { IconArrowLeft } from "./icons";
 
@@ -85,9 +85,6 @@ export default function SearchResultsList({ results }) {
             onClick={() => toggle(result.slug)}
             className="w-full text-left flex flex-col bg-white border border-brand-ink rounded-xl p-3.5 hover:bg-brand-cream transition-colors"
           >
-            <p className="text-xs text-brand-muted mb-0.5">
-              {result.brand} &middot; {PRICE_TIER_LABELS[result.price_tier] ?? result.price_tier}
-            </p>
             <p className="font-medium text-sm text-brand-ink mb-0.5">{result.name}</p>
             <p className="text-xs text-brand-muted mb-1.5">
               {result.price_pln_approx} zł &middot; {Number(result.score).toFixed(1)}/10
