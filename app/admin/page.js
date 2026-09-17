@@ -34,16 +34,16 @@ const RUN_STATUS_LABELS = {
   skipped: "pominięty (bot wyłączony)",
 };
 
-// Observed from a live RESOURCE_EXHAUSTED response on this project
-// (GenerateRequestsPerDayPerProjectPerModel-FreeTier). Check
-// aistudio.google.com/rate-limit for the current real number — this is
-// just a display reference, not read from the API.
-const GEMINI_DAILY_QUOTA_ESTIMATE = 20;
+// Confirmed on aistudio.google.com/rate-limit for gemini-3.5-flash-lite on
+// this project (RPD 500). Check that dashboard for the current real number —
+// this is just a display reference, not read from the API.
+const GEMINI_DAILY_QUOTA_ESTIMATE = 500;
 
 // A run stuck in "running" past this many minutes is almost certainly a
 // GitHub Actions job someone re-ran on a stale commit rather than a fresh
-// "Run workflow" — the job itself times out after 15 minutes.
-const STUCK_THRESHOLD_MINUTES = 20;
+// "Run workflow" — the job itself times out after 40 minutes
+// (BATCH_SIZE=450 in the bot repo's scripts/build.js @ ~4.2s/call).
+const STUCK_THRESHOLD_MINUTES = 45;
 
 const LIVE_STATUS_STYLES = {
   running: "bg-green-100 text-green-800",
