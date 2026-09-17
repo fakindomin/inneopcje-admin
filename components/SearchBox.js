@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { CATEGORY_ICONS, IconSearch } from "./icons";
+import { getCategoryIcon, IconSearch } from "./icons";
 
 const EXAMPLE_MODELS = ["iPhone 17", "Galaxy S26", "Pixel 10 Pro", "OnePlus 15"];
 
@@ -82,7 +82,7 @@ export default function SearchBox({ defaultValue = "" }) {
       {open && (
         <ul className="absolute top-full left-0 right-0 mt-1.5 bg-white border border-brand-ink rounded-xl overflow-hidden z-20">
           {suggestions.map((s) => {
-            const CategoryIcon = CATEGORY_ICONS[s.category];
+            const CategoryIcon = getCategoryIcon(s.category);
             return (
               <li key={s.slug}>
                 <button
@@ -90,7 +90,7 @@ export default function SearchBox({ defaultValue = "" }) {
                   onClick={() => router.push(`/produkt/${s.slug}`)}
                   className="w-full flex items-center gap-2 text-left px-4 py-2 text-sm text-brand-ink hover:bg-brand-cream"
                 >
-                  {CategoryIcon && <CategoryIcon className="text-brand-muted shrink-0" />}
+                  <CategoryIcon className="text-brand-muted shrink-0" />
                   {s.name}
                 </button>
               </li>

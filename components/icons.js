@@ -87,7 +87,21 @@ export function IconTv(props) {
   );
 }
 
+export function IconBox(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
+      <path d="M21 8l-9-5-9 5 9 5 9-5z" />
+      <path d="M3 8v8l9 5 9-5V8" />
+      <path d="M12 13v8" />
+    </svg>
+  );
+}
+
 export const CATEGORY_ICONS = {
   telefony: IconPhone,
   telewizory: IconTv,
 };
+
+export function getCategoryIcon(category) {
+  return CATEGORY_ICONS[category] ?? IconBox;
+}
