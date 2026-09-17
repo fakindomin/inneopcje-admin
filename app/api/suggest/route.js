@@ -12,11 +12,12 @@ export async function GET(request) {
 
   const pool = getPool();
   const result = await pool.query(
-    `SELECT name, slug
-     FROM products
-     WHERE status = 'published'
-       AND (normalized_name ILIKE '%' || $1 || '%' OR similarity(normalized_name, $1) > 0.2)
-     ORDER BY similarity(normalized_name, $1) DESC, name ASC
+    `SELECT p.name, p.slug, c.slug AS category
+     FROM products p
+     JOIN categories c ON c.id = p.category_id
+     WHERE p.status = 'published'
+       AND (p.normalized_name ILIKE '%' || $1 || '%' OR similarity(p.normalized_name, $1) > 0.2)
+     ORDER BY similarity(p.normalized_name, $1) DESC, p.name ASC
      LIMIT 6`,
     [q]
   );
