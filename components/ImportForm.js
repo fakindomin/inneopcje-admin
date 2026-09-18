@@ -132,11 +132,11 @@ export default function ImportForm({ categories }) {
         {fileError && <p className="text-xs text-red-700">{fileError}</p>}
         <textarea
           name="payload"
-          rows={10}
+          rows={28}
           value={payload}
           onChange={(e) => setPayload(e.target.value)}
           placeholder="Wklej tu tablicę JSON zwróconą przez Gemini (albo wgraj plik powyżej)"
-          className="w-full border border-brand-border rounded-md px-3 py-2 text-xs font-mono"
+          className="w-full border border-brand-border rounded-md px-3 py-2 text-xs font-mono resize-y min-h-[300px]"
         />
         {state?.status === "error" && <p className="text-xs text-red-700">{state.message}</p>}
         {state?.status === "done" && <p className="text-xs text-brand-ink">{state.message}</p>}
