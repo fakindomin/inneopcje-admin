@@ -124,6 +124,7 @@ export default async function AdminPage({ searchParams }) {
   const params = await searchParams;
   const status = params?.status ?? "all";
   const category = params?.category ?? "all";
+  const q = params?.q ?? "";
 
   const [
     products,
@@ -136,7 +137,7 @@ export default async function AdminPage({ searchParams }) {
     todayRequests,
     categoryPublishedCounts,
   ] = await Promise.all([
-    listProducts({ status, category }),
+    listProducts({ status, category, q }),
     listFailedQueue(),
     listCategories(),
     getBotEnabled(),
@@ -358,6 +359,32 @@ export default async function AdminPage({ searchParams }) {
         ))}
       </div>
 
+      <form action="/admin" className="flex gap-2 mb-3">
+        <input type="hidden" name="status" value={status} />
+        <input type="hidden" name="category" value={category} />
+        <input
+          type="text"
+          name="q"
+          defaultValue={q}
+          placeholder="Szukaj po nazwie lub marce (cała baza)..."
+          className="border border-brand-border rounded-md px-3 py-1.5 text-sm bg-white flex-1"
+        />
+        <button
+          type="submit"
+          className="text-xs px-3 py-1.5 rounded-md border border-brand-ink hover:bg-brand-cream shrink-0"
+        >
+          Szukaj
+        </button>
+        {q && (
+          <Link
+            href={`/admin?status=${status}&category=${category}`}
+            className="text-xs px-3 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream shrink-0"
+          >
+            Wyczyść
+          </Link>
+        )}
+      </form>
+
       <p className="text-xs text-brand-muted mb-3">{products.length} produktów</p>
 
       <div className="flex flex-col gap-3 mb-10">
@@ -411,9 +438,15 @@ export default async function AdminPage({ searchParams }) {
                 </ConfirmButton>
               </form>
               <Link
+                href={`/admin/products/${p.id}`}
+                className="text-xs px-2.5 py-1 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream ml-auto"
+              >
+                Edytuj
+              </Link>
+              <Link
                 href={`/produkt/${p.slug}`}
                 target="_blank"
-                className="text-xs px-2.5 py-1 rounded-md border border-brand-border text-brand-muted hover:bg-brand-cream ml-auto"
+                className="text-xs px-2.5 py-1 rounded-md border border-brand-border text-brand-muted hover:bg-brand-cream"
               >
                 Zobacz na stronie
               </Link>
