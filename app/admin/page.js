@@ -151,11 +151,16 @@ export default async function AdminPage({ searchParams }) {
         <p className="text-lg font-medium">
           <span className="text-brand-ink">Admin</span> <span className="text-brand-orange">innaopcja.pl</span>
         </p>
-        <form action={logoutAction}>
-          <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
-            Wyloguj
-          </button>
-        </form>
+        <div className="flex items-center gap-4">
+          <Link href="/admin/import" className="text-sm text-brand-secondary hover:text-brand-ink">
+            Ręczny import
+          </Link>
+          <form action={logoutAction}>
+            <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
+              Wyloguj
+            </button>
+          </form>
+        </div>
       </div>
 
       {/* Bot */}
