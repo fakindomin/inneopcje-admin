@@ -10,10 +10,12 @@ import {
   addCategory,
   setBotEnabled,
 } from "../../lib/adminQueries.js";
+import { linkAlternativesForProduct } from "../../lib/adminImport.js";
 
 export async function publishProduct(id) {
   await requireAdmin();
   await setProductStatus(id, "published");
+  await linkAlternativesForProduct(id);
   revalidatePath("/admin");
 }
 
