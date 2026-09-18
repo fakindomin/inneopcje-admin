@@ -109,9 +109,13 @@ function formatDateTime(dateValue) {
   });
 }
 
+// Matches the cron in innaopcja-bot's .github/workflows/build-database.yml —
+// 09:00 UTC (moved from 06:00 after confirming live that the free-tier daily
+// quota doesn't reset at UTC midnight; a 06:00 run hit RESOURCE_EXHAUSTED
+// from the previous day's usage).
 function nextScheduledRunLabel() {
   const now = new Date();
-  return now.getUTCHours() < 6 ? "dziś o 06:00 UTC" : "jutro o 06:00 UTC";
+  return now.getUTCHours() < 9 ? "dziś o 09:00 UTC" : "jutro o 09:00 UTC";
 }
 
 export default async function AdminPage({ searchParams }) {
