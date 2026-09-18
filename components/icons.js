@@ -87,6 +87,15 @@ export function IconTv(props) {
   );
 }
 
+export function IconLaptop(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
+      <rect x="4" y="4" width="16" height="11" rx="1" />
+      <path d="M2 19h20" />
+    </svg>
+  );
+}
+
 export function IconBox(props) {
   return (
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
@@ -100,6 +109,7 @@ export function IconBox(props) {
 export const CATEGORY_ICONS = {
   telefony: IconPhone,
   telewizory: IconTv,
+  laptopy: IconLaptop,
 };
 
 export function getCategoryIcon(category) {
