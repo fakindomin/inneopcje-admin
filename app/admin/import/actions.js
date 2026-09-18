@@ -3,17 +3,29 @@
 import { revalidatePath } from "next/cache";
 import { requireAdmin } from "../../../lib/adminAuth.js";
 import { validateImportPayload } from "../../../lib/importValidation.js";
-import { getCategoryIdBySlug, insertManualProduct, linkManualAlternatives } from "../../../lib/adminImport.js";
+import {
+  getCategoryIdBySlug,
+  findExistingProduct,
+  insertManualProduct,
+  linkManualAlternatives,
+} from "../../../lib/adminImport.js";
 
-export async function importProduct(prevState, formData) {
+// Gemini chat answers are sometimes wrapped in a ```json ... ``` fence even
+// when asked not to — strip it before JSON.parse instead of erroring out.
+function stripCodeFence(text) {
+  return text
+    .replace(/^```(?:json)?\s*/i, "")
+    .replace(/```\s*$/, "")
+    .trim();
+}
+
+export async function importProducts(prevState, formData) {
   await requireAdmin();
 
   const category = (formData.get("category") || "").toString();
-  const name = (formData.get("name") || "").toString().trim();
-  const rawJson = (formData.get("payload") || "").toString().trim();
+  const rawJson = stripCodeFence((formData.get("payload") || "").toString().trim());
 
   if (!category) return { status: "error", message: "Wybierz kategorię" };
-  if (!name) return { status: "error", message: "Podaj nazwę produktu" };
   if (!rawJson) return { status: "error", message: "Wklej odpowiedź JSON z czatu Gemini" };
 
   let parsed;
@@ -23,27 +35,58 @@ export async function importProduct(prevState, formData) {
     return { status: "error", message: `Niepoprawny JSON: ${err.message}` };
   }
 
-  const { data, error } = validateImportPayload(parsed, category);
-  if (error) return { status: "error", message: error };
+  const items = Array.isArray(parsed) ? parsed : [parsed];
+  if (items.length === 0) return { status: "error", message: "Tablica JSON jest pusta" };
 
   const categoryId = await getCategoryIdBySlug(category);
   if (!categoryId) return { status: "error", message: `Nieznana kategoria "${category}"` };
 
-  const status = data.confidence === "wysoka" ? "published" : "draft";
-  const product = await insertManualProduct(categoryId, name, data, status);
+  const results = [];
+  let published = 0;
+  let draft = 0;
+  let skipped = 0;
+  let failed = 0;
 
-  let linked = 0;
-  if (status === "published") {
-    linked = await linkManualAlternatives(categoryId, product);
+  for (const item of items) {
+    const rawName = typeof item?.name === "string" ? item.name.trim() : null;
+    const { data, error } = validateImportPayload(item, category);
+
+    if (error) {
+      failed++;
+      results.push({ name: rawName ?? "(brak nazwy)", status: "error", note: error });
+      continue;
+    }
+
+    const existing = await findExistingProduct(categoryId, data.name);
+    if (existing) {
+      skipped++;
+      results.push({ name: data.name, status: "skipped", note: `już jest w bazie (${existing.slug})` });
+      continue;
+    }
+
+    const status = data.confidence === "wysoka" ? "published" : "draft";
+    const product = await insertManualProduct(categoryId, data.name, data, status);
+
+    let linked = 0;
+    if (status === "published") {
+      linked = await linkManualAlternatives(categoryId, product);
+    }
+
+    if (status === "published") published++;
+    else draft++;
+    results.push({
+      name: product.name,
+      status,
+      note: `${product.slug}${linked > 0 ? ` — ${linked} alternatyw` : ""}`,
+    });
   }
 
   revalidatePath("/admin");
   revalidatePath("/admin/import");
 
   return {
-    status: "success",
-    message: `Zapisano "${product.name}" jako ${
-      status === "published" ? "opublikowany" : "do przejrzenia (draft)"
-    }${linked > 0 ? ` — ${linked} powiązanych alternatyw` : ""}.`,
+    status: "done",
+    message: `Gotowe: ${published} opublikowanych, ${draft} do przejrzenia, ${skipped} pominiętych (już istniały), ${failed} błędów — z ${items.length} pozycji.`,
+    results,
   };
 }

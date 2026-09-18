@@ -2,18 +2,32 @@
 
 import { useState, useActionState } from "react";
 import { buildImportPrompt } from "../lib/importPrompt.js";
-import { importProduct } from "../app/admin/import/actions.js";
+import { importProducts } from "../app/admin/import/actions.js";
+
+const RESULT_STYLES = {
+  published: "bg-green-100 text-green-800",
+  draft: "bg-amber-100 text-amber-800",
+  skipped: "bg-brand-cream text-brand-muted",
+  error: "bg-red-100 text-red-800",
+};
+
+const RESULT_LABELS = {
+  published: "opublikowano",
+  draft: "draft",
+  skipped: "pominięto",
+  error: "błąd",
+};
 
 export default function ImportForm({ categories }) {
   const [category, setCategory] = useState(categories[0]?.slug ?? "");
-  const [name, setName] = useState("");
+  const [scope, setScope] = useState("");
   const [prompt, setPrompt] = useState("");
   const [copied, setCopied] = useState(false);
-  const [state, formAction, pending] = useActionState(importProduct, null);
+  const [state, formAction, pending] = useActionState(importProducts, null);
 
   function handleGeneratePrompt() {
-    if (!category || !name.trim()) return;
-    setPrompt(buildImportPrompt(category, name.trim()));
+    if (!category || !scope.trim()) return;
+    setPrompt(buildImportPrompt(category, scope.trim()));
     setCopied(false);
   }
 
@@ -45,27 +59,31 @@ export default function ImportForm({ categories }) {
           </select>
           <input
             type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder='Nazwa produktu, np. "Samsung Galaxy S25"'
-            className="border border-brand-border rounded-md px-3 py-1.5 text-sm bg-white flex-1 min-w-[220px]"
+            value={scope}
+            onChange={(e) => setScope(e.target.value)}
+            placeholder={`Zakres, np. "wszystkie obecnie sprzedawane telewizory Samsung" albo "wszystkie iPhone'y"`}
+            className="border border-brand-border rounded-md px-3 py-1.5 text-sm bg-white flex-1 min-w-[280px]"
           />
           <button
             type="button"
             onClick={handleGeneratePrompt}
-            disabled={!category || !name.trim()}
+            disabled={!category || !scope.trim()}
             className="text-xs px-3 py-1.5 rounded-md border border-brand-ink hover:bg-brand-cream shrink-0 disabled:opacity-50"
           >
             Generuj prompt
           </button>
         </div>
+        <p className="text-xs text-brand-muted mb-3">
+          To ma zwrócić wiele modeli naraz jako tablicę JSON — nie jeden produkt na raz. Zakres może być dowolnie
+          szeroki lub wąski: marka, cała kategoria, konkretna seria itd.
+        </p>
 
         {prompt && (
           <div>
             <textarea
               readOnly
               value={prompt}
-              rows={12}
+              rows={14}
               className="w-full border border-brand-border rounded-md px-3 py-2 text-xs font-mono bg-brand-cream/40"
             />
             <div className="flex items-center gap-3 mt-2">
@@ -77,8 +95,8 @@ export default function ImportForm({ categories }) {
                 {copied ? "Skopiowano ✓" : "Kopiuj do schowka"}
               </button>
               <p className="text-xs text-brand-muted">
-                Wklej ten prompt w zwykłym czacie Gemini, poproś o wyszukanie/weryfikację jeśli czegoś nie jest
-                pewien, i skopiuj zwrócony JSON poniżej.
+                Wklej ten prompt w zwykłym czacie Gemini, dopytaj/popraw jeśli trzeba, i skopiuj zwróconą tablicę
+                JSON poniżej.
               </p>
             </div>
           </div>
@@ -88,15 +106,14 @@ export default function ImportForm({ categories }) {
       <form action={formAction} className="border border-brand-border rounded-lg p-4 bg-white flex flex-col gap-3">
         <p className="text-sm font-medium text-brand-ink">Krok 2 — wklej odpowiedź i zapisz</p>
         <input type="hidden" name="category" value={category} />
-        <input type="hidden" name="name" value={name} />
         <textarea
           name="payload"
           rows={10}
-          placeholder="Wklej tu JSON zwrócony przez Gemini"
+          placeholder="Wklej tu tablicę JSON zwróconą przez Gemini"
           className="w-full border border-brand-border rounded-md px-3 py-2 text-xs font-mono"
         />
         {state?.status === "error" && <p className="text-xs text-red-700">{state.message}</p>}
-        {state?.status === "success" && <p className="text-xs text-green-700">{state.message}</p>}
+        {state?.status === "done" && <p className="text-xs text-brand-ink">{state.message}</p>}
         <button
           type="submit"
           disabled={pending}
@@ -104,6 +121,22 @@ export default function ImportForm({ categories }) {
         >
           {pending ? "Zapisywanie..." : "Waliduj i zapisz"}
         </button>
+
+        {state?.results?.length > 0 && (
+          <div className="flex flex-col gap-1.5 mt-2">
+            {state.results.map((r, i) => (
+              <div key={i} className="flex items-start gap-2 text-xs">
+                <span className={`px-2 py-0.5 rounded-full shrink-0 ${RESULT_STYLES[r.status]}`}>
+                  {RESULT_LABELS[r.status]}
+                </span>
+                <div>
+                  <span className="text-brand-ink font-medium">{r.name}</span>{" "}
+                  <span className="text-brand-muted">— {r.note}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </form>
     </div>
   );
