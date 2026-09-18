@@ -10,24 +10,29 @@ import {
   addCategory,
   setBotEnabled,
 } from "../../lib/adminQueries.js";
-import { linkAlternativesForProduct } from "../../lib/adminImport.js";
+import { getProductCategoryId, recomputeCategoryAlternatives } from "../../lib/adminImport.js";
 
 export async function publishProduct(id) {
   await requireAdmin();
   await setProductStatus(id, "published");
-  await linkAlternativesForProduct(id);
+  const categoryId = await getProductCategoryId(id);
+  if (categoryId) await recomputeCategoryAlternatives(categoryId);
   revalidatePath("/admin");
 }
 
 export async function unpublishProduct(id) {
   await requireAdmin();
   await setProductStatus(id, "draft");
+  const categoryId = await getProductCategoryId(id);
+  if (categoryId) await recomputeCategoryAlternatives(categoryId);
   revalidatePath("/admin");
 }
 
 export async function removeProduct(id) {
   await requireAdmin();
+  const categoryId = await getProductCategoryId(id);
   await deleteProduct(id);
+  if (categoryId) await recomputeCategoryAlternatives(categoryId);
   revalidatePath("/admin");
 }
 

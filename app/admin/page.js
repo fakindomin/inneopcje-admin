@@ -8,6 +8,8 @@ import {
   getStatusCounts,
   getQueueDepth,
   getTodayRequestEstimate,
+  getCategoryPublishedCounts,
+  MIN_PUBLISHED_FOR_FULL_ALTERNATIVES,
 } from "../../lib/adminQueries.js";
 import AutoRefresh from "../../components/AutoRefresh.js";
 import {
@@ -123,17 +125,27 @@ export default async function AdminPage({ searchParams }) {
   const status = params?.status ?? "all";
   const category = params?.category ?? "all";
 
-  const [products, failedQueue, categories, botEnabled, recentRuns, statusCounts, queueDepth, todayRequests] =
-    await Promise.all([
-      listProducts({ status, category }),
-      listFailedQueue(),
-      listCategories(),
-      getBotEnabled(),
-      listRecentRuns(),
-      getStatusCounts(),
-      getQueueDepth(),
-      getTodayRequestEstimate(),
-    ]);
+  const [
+    products,
+    failedQueue,
+    categories,
+    botEnabled,
+    recentRuns,
+    statusCounts,
+    queueDepth,
+    todayRequests,
+    categoryPublishedCounts,
+  ] = await Promise.all([
+    listProducts({ status, category }),
+    listFailedQueue(),
+    listCategories(),
+    getBotEnabled(),
+    listRecentRuns(),
+    getStatusCounts(),
+    getQueueDepth(),
+    getTodayRequestEstimate(),
+    getCategoryPublishedCounts(),
+  ]);
 
   const categoryTabs = [{ value: "all", label: "wszystkie kategorie" }, ...categories.map((c) => ({ value: c.slug, label: c.name }))];
   const ranToday = recentRuns.some((r) => r.status !== "skipped" && isToday(r.started_at));
@@ -259,11 +271,25 @@ export default async function AdminPage({ searchParams }) {
       <div className="border border-brand-border rounded-lg p-4 bg-white mb-6">
         <p className="text-sm font-medium text-brand-ink mb-3">Kategorie</p>
         <div className="flex flex-wrap gap-2 mb-3">
-          {categories.map((c) => (
-            <span key={c.id} className="text-xs px-2.5 py-1 rounded-md border border-brand-border text-brand-secondary">
-              {c.name}
-            </span>
-          ))}
+          {categories.map((c) => {
+            const counts = categoryPublishedCounts.find((x) => x.slug === c.slug);
+            const tooFew = counts && counts.publishedCount < MIN_PUBLISHED_FOR_FULL_ALTERNATIVES;
+            return (
+              <span
+                key={c.id}
+                className={`text-xs px-2.5 py-1 rounded-md border ${
+                  tooFew ? "border-amber-300 bg-amber-50 text-amber-800" : "border-brand-border text-brand-secondary"
+                }`}
+                title={
+                  tooFew
+                    ? `Za mało opublikowanych produktów na komplet 3 porównań (potrzeba min. ${MIN_PUBLISHED_FOR_FULL_ALTERNATIVES})`
+                    : undefined
+                }
+              >
+                {c.name} ({counts?.publishedCount ?? 0}){tooFew ? " ⚠" : ""}
+              </span>
+            );
+          })}
           {categories.length === 0 && <p className="text-xs text-brand-muted">Brak kategorii.</p>}
         </div>
         <form action={createCategory} className="flex gap-2">

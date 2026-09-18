@@ -7,7 +7,7 @@ import {
   getCategoryIdBySlug,
   findExistingProduct,
   insertManualProduct,
-  linkManualAlternatives,
+  recomputeCategoryAlternatives,
 } from "../../../lib/adminImport.js";
 
 // Gemini chat answers are sometimes wrapped in a ```json ... ``` fence even
@@ -67,18 +67,15 @@ export async function importProducts(prevState, formData) {
     const status = data.confidence === "wysoka" ? "published" : "draft";
     const product = await insertManualProduct(categoryId, data.name, data, status);
 
-    let linked = 0;
-    if (status === "published") {
-      linked = await linkManualAlternatives(categoryId, product);
-    }
-
     if (status === "published") published++;
     else draft++;
-    results.push({
-      name: product.name,
-      status,
-      note: `${product.slug}${linked > 0 ? ` — ${linked} alternatyw` : ""}`,
-    });
+    results.push({ name: product.name, status, note: product.slug });
+  }
+
+  // One pass over the whole category after the batch, not per-item — so
+  // e.g. item #1 in this same paste also sees item #5 as a candidate.
+  if (published > 0) {
+    await recomputeCategoryAlternatives(categoryId);
   }
 
   revalidatePath("/admin");
