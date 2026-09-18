@@ -23,6 +23,8 @@ export default function ImportForm({ categories }) {
   const [scope, setScope] = useState("");
   const [prompt, setPrompt] = useState("");
   const [copied, setCopied] = useState(false);
+  const [payload, setPayload] = useState("");
+  const [fileError, setFileError] = useState("");
   const [state, formAction, pending] = useActionState(importProducts, null);
 
   function handleGeneratePrompt() {
@@ -39,6 +41,18 @@ export default function ImportForm({ categories }) {
       // Clipboard API can be unavailable (e.g. non-HTTPS); the textarea below
       // is still selectable/copyable by hand in that case.
     }
+  }
+
+  function handleFileUpload(e) {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // allow re-uploading the same filename later
+    if (!file) return;
+
+    setFileError("");
+    const reader = new FileReader();
+    reader.onload = () => setPayload(String(reader.result ?? ""));
+    reader.onerror = () => setFileError("Nie udało się odczytać pliku");
+    reader.readAsText(file);
   }
 
   return (
@@ -106,10 +120,22 @@ export default function ImportForm({ categories }) {
       <form action={formAction} className="border border-brand-border rounded-lg p-4 bg-white flex flex-col gap-3">
         <p className="text-sm font-medium text-brand-ink">Krok 2 — wklej odpowiedź i zapisz</p>
         <input type="hidden" name="category" value={category} />
+        <div className="flex items-center gap-3">
+          <input
+            type="file"
+            accept="application/json,.json"
+            onChange={handleFileUpload}
+            className="text-xs file:mr-3 file:px-3 file:py-1.5 file:rounded-md file:border file:border-brand-border file:bg-white file:text-xs hover:file:bg-brand-cream file:cursor-pointer"
+          />
+          <p className="text-xs text-brand-muted">albo wklej JSON ręcznie poniżej</p>
+        </div>
+        {fileError && <p className="text-xs text-red-700">{fileError}</p>}
         <textarea
           name="payload"
           rows={10}
-          placeholder="Wklej tu tablicę JSON zwróconą przez Gemini"
+          value={payload}
+          onChange={(e) => setPayload(e.target.value)}
+          placeholder="Wklej tu tablicę JSON zwróconą przez Gemini (albo wgraj plik powyżej)"
           className="w-full border border-brand-border rounded-md px-3 py-2 text-xs font-mono"
         />
         {state?.status === "error" && <p className="text-xs text-red-700">{state.message}</p>}
