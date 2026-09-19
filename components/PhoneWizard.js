@@ -7,28 +7,21 @@ export default function PhoneWizard() {
   const [answers, setAnswers] = useState({});
   const steps = resolvePath(answers);
 
+  // Only ever touch the one node being changed. resolvePath validates every
+  // stored answer against that node's CURRENT options on every call, so a
+  // later node whose options don't depend on this one just keeps matching
+  // and survives untouched — no need to guess here which downstream nodes
+  // are "still valid" and which need to be wiped.
   function handleAnswer(nodeId, optionId) {
-    // Answering a node only ever needs to clear ITS OWN old answer plus
-    // anything that was answered after it in the previous render — since
-    // resolvePath recomputes from scratch each time, simply dropping every
-    // key from this node onward and re-adding this one answer is enough;
-    // any node that's still reachable via a different route just gets
-    // re-asked (this prototype doesn't yet implement convergent-answer
-    // reuse — see project_wizard_flowchart memory).
-    const idx = steps.findIndex((s) => s.id === nodeId);
-    const keepIds = steps.slice(0, idx).map((s) => s.id);
-    const next = {};
-    for (const id of keepIds) next[id] = answers[id];
-    next[nodeId] = optionId;
-    setAnswers(next);
+    setAnswers((prev) => ({ ...prev, [nodeId]: optionId }));
   }
 
   function handleReopen(nodeId) {
-    const idx = steps.findIndex((s) => s.id === nodeId);
-    const keepIds = steps.slice(0, idx).map((s) => s.id);
-    const next = {};
-    for (const id of keepIds) next[id] = answers[id];
-    setAnswers(next);
+    setAnswers((prev) => {
+      const next = { ...prev };
+      delete next[nodeId];
+      return next;
+    });
   }
 
   function handleRestart() {
@@ -54,7 +47,7 @@ export default function PhoneWizard() {
             <button
               type="button"
               onClick={() => handleReopen(s.id)}
-              className="text-left border border-brand-border rounded-md px-3 py-2 mb-1 bg-white hover:border-brand-orange transition-colors flex-1"
+              className="animate-slide-in text-left border border-brand-border rounded-md px-3 py-2 mb-1 bg-white hover:border-brand-orange transition-colors flex-1"
             >
               <p className="text-[11px] text-brand-muted">{s.question}</p>
               <p className="text-sm text-brand-ink font-medium">{chosen?.label}</p>
@@ -64,7 +57,7 @@ export default function PhoneWizard() {
       })}
 
       {activeStep && (
-        <div className="flex gap-3">
+        <div key={activeStep.id} className="flex gap-3 animate-slide-in">
           <div className="flex flex-col items-center">
             <div className="w-2.5 h-2.5 rounded-full border-2 border-brand-orange shrink-0 mt-1" />
           </div>
@@ -87,7 +80,7 @@ export default function PhoneWizard() {
       )}
 
       {isDone && (
-        <div className="border border-brand-orange rounded-lg p-4 bg-white">
+        <div className="border border-brand-orange rounded-lg p-4 bg-white animate-slide-in">
           <p className="text-sm font-medium text-brand-ink mb-1">Gotowe — tu pojawi się dopasowany telefon</p>
           <p className="text-xs text-brand-muted">
             (Placeholder — ten prototyp nie jest jeszcze podpięty pod prawdziwą bazę produktów. Chodzi na razie
