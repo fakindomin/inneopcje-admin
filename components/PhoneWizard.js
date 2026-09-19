@@ -2,10 +2,20 @@
 
 import { useState } from "react";
 import { resolvePath } from "../lib/wizardTree.js";
+import WizardStep from "./WizardStep.js";
+import WizardEntrance from "./WizardEntrance.js";
 
 export default function PhoneWizard() {
   const [answers, setAnswers] = useState({});
+  // How many of the currently-valid steps are actually shown. resolvePath
+  // already includes the next step the instant an answer is set, but the
+  // capsule for it shouldn't slide out until the one above it has fully
+  // finished settling - so revealing it is gated on that step's own
+  // onSettled callback, not on resolvePath's output directly.
+  const [revealedCount, setRevealedCount] = useState(1);
+
   const steps = resolvePath(answers);
+  const visibleSteps = steps.slice(0, Math.min(revealedCount, steps.length));
 
   // Only ever touch the one node being changed. resolvePath validates every
   // stored answer against that node's CURRENT options on every call, so a
@@ -17,83 +27,53 @@ export default function PhoneWizard() {
   }
 
   function handleReopen(nodeId) {
+    const idx = steps.findIndex((s) => s.id === nodeId);
     setAnswers((prev) => {
       const next = { ...prev };
       delete next[nodeId];
       return next;
     });
+    if (idx >= 0) setRevealedCount(idx + 1);
   }
 
   function handleRestart() {
     setAnswers({});
+    setRevealedCount(1);
   }
 
-  const answeredSteps = steps.filter((s) => s.answer && s.id !== "wynik");
-  const activeStep = steps.find((s) => !s.answer);
-  const isDone = steps.some((s) => s.id === "wynik");
-
   return (
-    <div className="flex flex-col gap-3">
-      {answeredSteps.map((s, i) => {
-        const chosen = s.options.find((o) => o.id === s.answer);
-        return (
-          <div key={s.id} className="flex gap-3">
+    <div className="flex flex-col">
+      {visibleSteps.map((s, i) =>
+        s.id === "wynik" ? (
+          <WizardEntrance key="wynik" className={`wizard-row${i === 0 ? " wizard-row-first" : ""}`}>
             <div className="flex flex-col items-center">
-              <div className="w-2.5 h-2.5 rounded-full bg-brand-orange shrink-0 mt-1" />
-              {(i < answeredSteps.length - 1 || activeStep || isDone) && (
-                <div className="w-px flex-1 bg-brand-border mt-1" />
-              )}
+              <div className="wizard-dot wizard-dot-result" />
             </div>
-            <button
-              type="button"
-              onClick={() => handleReopen(s.id)}
-              className="animate-slide-in text-left border border-brand-border rounded-md px-3 py-2 mb-1 bg-white hover:border-brand-orange transition-colors flex-1"
-            >
-              <p className="text-[11px] text-brand-muted">{s.question}</p>
-              <p className="text-sm text-brand-ink font-medium">{chosen?.label}</p>
-            </button>
-          </div>
-        );
-      })}
-
-      {activeStep && (
-        <div key={activeStep.id} className="flex gap-3 animate-slide-in">
-          <div className="flex flex-col items-center">
-            <div className="w-2.5 h-2.5 rounded-full border-2 border-brand-orange shrink-0 mt-1" />
-          </div>
-          <div className="border border-brand-border rounded-lg p-4 bg-white flex-1">
-            <p className="text-sm font-medium text-brand-ink mb-3">{activeStep.question}</p>
-            <div className="flex flex-col gap-2">
-              {activeStep.options.map((o) => (
-                <button
-                  key={o.id}
-                  type="button"
-                  onClick={() => handleAnswer(activeStep.id, o.id)}
-                  className="text-left text-sm border border-brand-border rounded-md px-3 py-2 hover:border-brand-orange hover:bg-brand-cream/60 transition-colors"
-                >
-                  {o.label}
-                </button>
-              ))}
+            <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
+              <p className="text-sm font-medium text-brand-ink mb-1">Gotowe — tu pojawi się dopasowany telefon</p>
+              <p className="text-xs text-brand-muted">
+                (Placeholder — ten prototyp nie jest jeszcze podpięty pod prawdziwą bazę produktów. Chodzi na razie
+                o sam mechanizm i wygląd.)
+              </p>
+              <button
+                type="button"
+                onClick={handleRestart}
+                className="mt-3 text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
+              >
+                Zacznij od nowa
+              </button>
             </div>
-          </div>
-        </div>
-      )}
-
-      {isDone && (
-        <div className="border border-brand-orange rounded-lg p-4 bg-white animate-slide-in">
-          <p className="text-sm font-medium text-brand-ink mb-1">Gotowe — tu pojawi się dopasowany telefon</p>
-          <p className="text-xs text-brand-muted">
-            (Placeholder — ten prototyp nie jest jeszcze podpięty pod prawdziwą bazę produktów. Chodzi na razie
-            o sam mechanizm i wygląd.)
-          </p>
-          <button
-            type="button"
-            onClick={handleRestart}
-            className="mt-3 text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
-          >
-            Zacznij od nowa
-          </button>
-        </div>
+          </WizardEntrance>
+        ) : (
+          <WizardStep
+            key={s.id}
+            step={s}
+            isFirst={i === 0}
+            onAnswer={(optionId) => handleAnswer(s.id, optionId)}
+            onReopen={() => handleReopen(s.id)}
+            onSettled={() => setRevealedCount((n) => n + 1)}
+          />
+        )
       )}
     </div>
   );
