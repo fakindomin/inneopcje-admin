@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import WizardEntrance from "./WizardEntrance.js";
+import WizardHeightReveal from "./WizardHeightReveal.js";
 
 // One step, one persistent element for its whole life: it mounts once, as
 // an active question, and later morphs in place into its compact
@@ -11,15 +11,47 @@ import WizardEntrance from "./WizardEntrance.js";
 // line. Nothing here is ever torn down and rebuilt as something else, so
 // there's no hand-off seam between "question" and "answered chip".
 //
+// Reopening (step.answer going from set back to null) plays the same
+// choreography in reverse: the dot and question un-transition for free
+// since they're driven by the same CSS classes either way, but the
+// removed options need to be explicitly brought back with an "entering"
+// version of the leaving animation, not just snapped back into existence.
+//
+// `exiting`/`onExited` let the PARENT retract this step out of the list
+// entirely (used when reopening an EARLIER step invalidates this one) -
+// see WizardHeightReveal for the shrink-to-nothing animation itself.
+//
 // The body can't be a native <button> (it needs to host the chosen
 // option, itself a <button>, for the whole rest of its life) so reopening
 // uses a keyboard-accessible div instead.
-export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettled }) {
+export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettled, exiting, onExited }) {
   const prevAnswerRef = useRef(step.answer);
   const [answered, setAnswered] = useState(Boolean(step.answer));
   const [chosenId, setChosenId] = useState(step.answer || null);
   const [leavingIds, setLeavingIds] = useState([]);
-  const [removedIds, setRemovedIds] = useState([]);
+  // A step can mount ALREADY answered: resolvePath keeps an earlier answer
+  // to this node when it's still valid even after an unrelated upstream
+  // answer changes (see wizardTree.js), so this step never goes through
+  // the null-\>set transition below at all - it just shows up pre-settled.
+  // Without this, the settle effect (which is what normally populates
+  // removedIds) never runs, and the other options sit there fully
+  // rendered forever underneath an otherwise-compact "answered" capsule.
+  const [removedIds, setRemovedIds] = useState(() =>
+    step.answer ? step.options.filter((o) => o.id !== step.answer).map((o) => o.id) : []
+  );
+
+  // Same "mounts already answered" case as above, different consequence:
+  // onSettled is otherwise only called from the live settle transition
+  // below, which never runs here either (no null-\>set change to catch) -
+  // so without this, the parent never learns this step is done and the
+  // next one never reveals. The whole wizard just stops advancing, with
+  // no visible error, the moment a reopened answer changes something that
+  // makes resolvePath skip straight past one or more preserved-but-valid
+  // later answers.
+  useEffect(() => {
+    if (step.answer) onSettled();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     const prevAnswer = prevAnswerRef.current;
@@ -43,11 +75,23 @@ export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettle
     }
 
     if (prevAnswer && !step.answer) {
-      // reopened: back to a plain active question, options rebuilt fresh
+      // reopened: the dot/question/chosen-option morph reverses for free
+      // (same classes, same transitions, just toggled off), but the
+      // options that were removed from the DOM need to be brought back
+      // and given their own "entering" run of the leaving animation - put
+      // them back already in the collapsed "leaving" look, then release
+      // that on the next frame so they visibly un-collapse into place,
+      // instead of just popping back at full size.
+      const returning = step.options.filter((o) => o.id !== prevAnswer).map((o) => o.id);
       setAnswered(false);
       setChosenId(null);
-      setLeavingIds([]);
       setRemovedIds([]);
+      setLeavingIds(returning);
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          setLeavingIds([]);
+        });
+      });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [step.answer]);
@@ -62,8 +106,10 @@ export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettle
   const visibleOptions = step.options.filter((o) => !removedIds.includes(o.id));
 
   return (
-    <WizardEntrance
+    <WizardHeightReveal
       className={`wizard-row${isFirst ? " wizard-row-first" : ""}${answered ? " answered" : ""}`}
+      exiting={exiting}
+      onExited={onExited}
     >
       <div className="flex flex-col items-center">
         <div className="wizard-dot" />
@@ -103,6 +149,6 @@ export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettle
           })}
         </div>
       </div>
-    </WizardEntrance>
+    </WizardHeightReveal>
   );
 }
