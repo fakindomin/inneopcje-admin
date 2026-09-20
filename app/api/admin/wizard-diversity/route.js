@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { getPool } from "../../../../lib/db.js";
 import { requireAdmin } from "../../../../lib/adminAuth.js";
 import { resolvePath } from "../../../../lib/wizardTree.js";
-import { scoreCandidate } from "../../../../lib/wizardMatch.js";
+import { pickBest } from "../../../../lib/wizardMatch.js";
 import { getProducentByTier } from "../../../../lib/wizardBrands.js";
 
 // Diagnostic, admin-only: how much of the actual catalog can the wizard
@@ -42,16 +42,8 @@ export async function GET() {
     if (last.id === "wynik") {
       totalProfiles++;
       const candidates = byTier[last.profile.budzet];
-      if (candidates.length === 0) return;
-      let best = candidates[0];
-      let bestScore = scoreCandidate(best, last.profile);
-      for (let i = 1; i < candidates.length; i++) {
-        const s = scoreCandidate(candidates[i], last.profile);
-        if (s > bestScore) {
-          best = candidates[i];
-          bestScore = s;
-        }
-      }
+      const best = pickBest(candidates, last.profile);
+      if (!best) return;
       const counts = winCountsByTier[last.profile.budzet];
       counts.set(best.name, (counts.get(best.name) || 0) + 1);
       return;
