@@ -23,7 +23,20 @@ export default function PhoneWizard() {
   const [retractingIds, setRetractingIds] = useState([]);
   const reopenTargetRef = useRef(null);
 
-  const steps = resolvePath(answers);
+  // null = still loading. Fetched once up front rather than per-render:
+  // the "producent" step needs to know which brands the catalog actually
+  // carries in each price tier (see lib/wizardBrands.js) before it can
+  // offer real options instead of a stale hardcoded list.
+  const [producentByTier, setProducentByTier] = useState(null);
+
+  useEffect(() => {
+    fetch("/api/wizard-brands")
+      .then((r) => r.json())
+      .then((data) => setProducentByTier(data.producentByTier ?? {}))
+      .catch(() => setProducentByTier({}));
+  }, []);
+
+  const steps = producentByTier ? resolvePath(answers, producentByTier) : [];
   const visibleSteps = steps.slice(0, Math.min(revealedCount, steps.length));
   const busy = retractingIds.length > 0;
   const showResult = visibleSteps.some((s) => s.id === "wynik");
@@ -122,6 +135,21 @@ export default function PhoneWizard() {
     setRetractingIds([]);
     setMatch(undefined);
     fetchedForRef.current = null;
+  }
+
+  if (producentByTier === null) {
+    return (
+      <div className="flex flex-col">
+        <div className="wizard-row wizard-row-first">
+          <div className="flex flex-col items-center">
+            <div className="wizard-dot" />
+          </div>
+          <div className="wizard-body">
+            <p className="wizard-question">Ładowanie…</p>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
