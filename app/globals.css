@@ -29,3 +29,168 @@ body {
 .animate-slide-in {
   animation: slide-in 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
+
+/* ---- PhoneWizard step animation (components/WizardStep.js, WizardEntrance.js) ----
+   Each step is one persistent row for its whole life: it slides out from
+   under the row above it (WizardEntrance grows a clipping wrapper's real
+   height, bottom-anchored via justify-content below), then later morphs
+   in place into its compact "answered" capsule - nothing is ever removed
+   and rebuilt as something else. Colors are the brand tokens from
+   tailwind.config.cjs, hardcoded here since this file has no access to
+   Tailwind's config-based values. */
+
+.wizard-row {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+.wizard-row.wizard-row-first {
+  margin-top: 0;
+}
+
+.wizard-row-collapse {
+  overflow: hidden;
+  height: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: height 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.wizard-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  flex-shrink: 0;
+  margin-top: 6px;
+  box-sizing: border-box;
+  border: 2px solid #e4572e;
+  background: transparent;
+  transition: background-color 340ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.wizard-row.answered .wizard-dot,
+.wizard-dot.wizard-dot-result {
+  background: #e4572e;
+}
+
+.wizard-line {
+  width: 1px;
+  flex: 1;
+  min-height: 8px;
+  background: #e5e2d8;
+  margin-top: 4px;
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+.wizard-row.answered .wizard-line {
+  opacity: 1;
+}
+
+.wizard-body {
+  flex: 1;
+  border: 1px solid #e5e2d8;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 15px 15px 13px;
+  cursor: default;
+  transition: padding 340ms cubic-bezier(0.4, 0, 0.2, 1), border-color 160ms ease;
+}
+.wizard-row.answered .wizard-body {
+  padding: 8px 11px;
+  cursor: pointer;
+}
+.wizard-row.answered .wizard-body:hover {
+  border-color: #e4572e;
+}
+
+.wizard-question {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1b1f2a;
+  margin: 2px 0 10px;
+  transition: font-size 340ms cubic-bezier(0.4, 0, 0.2, 1), color 340ms ease,
+    margin 340ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.wizard-row.answered .wizard-question {
+  font-size: 10.5px;
+  font-weight: 400;
+  color: #8a8a80;
+  margin: 0 0 1px;
+}
+
+/* no `gap` here on purpose - gap reserves space between flex children by
+   their PRESENCE, not their rendered size, so a collapsed-to-nothing
+   option would still force its neighbouring gap until the moment it's
+   actually removed. Spacing instead comes from each option's own
+   margin-bottom, which transitions to a real 0 before removal. */
+.wizard-options {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.wizard-option {
+  text-align: left;
+  border: 1px solid #e5e2d8;
+  border-radius: 8px;
+  padding: 9px 11px;
+  margin-bottom: 7px;
+  background: #ffffff;
+  font: inherit;
+  font-size: 13px;
+  color: #1b1f2a;
+  cursor: pointer;
+  max-height: 40px;
+  transform-origin: top;
+  transition: opacity 280ms cubic-bezier(0.4, 0, 0.2, 1), transform 280ms cubic-bezier(0.22, 1, 0.36, 1),
+    max-height 280ms cubic-bezier(0.4, 0, 0.2, 1), margin 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    padding 340ms cubic-bezier(0.4, 0, 0.2, 1), border-color 340ms ease, background-color 340ms ease,
+    font-weight 200ms ease;
+}
+.wizard-option:last-child {
+  margin-bottom: 0;
+}
+.wizard-option:hover {
+  border-color: #e4572e;
+  background-color: rgba(246, 243, 236, 0.6);
+}
+.wizard-option:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+.wizard-option.leaving {
+  opacity: 0;
+  transform: translateX(6px);
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-color: transparent;
+  pointer-events: none;
+}
+
+/* the chosen option is the one piece of content that survives into the
+   answered capsule - it stays the exact same element, just re-styled from
+   "bordered button" into "the bold answer line". */
+.wizard-row.answered .wizard-option.chosen {
+  border-color: transparent;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wizard-row,
+  .wizard-row-collapse,
+  .wizard-dot,
+  .wizard-line,
+  .wizard-body,
+  .wizard-question,
+  .wizard-option {
+    transition-duration: 0.01ms !important;
+  }
+}
