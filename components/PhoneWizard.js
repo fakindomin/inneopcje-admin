@@ -1,9 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { resolvePath } from "../lib/wizardTree.js";
 import WizardStep from "./WizardStep.js";
 import WizardHeightReveal from "./WizardHeightReveal.js";
+import VerdictCard from "./VerdictCard.js";
 
 export default function PhoneWizard() {
   const [answers, setAnswers] = useState({});
@@ -21,9 +23,45 @@ export default function PhoneWizard() {
   const [retractingIds, setRetractingIds] = useState([]);
   const reopenTargetRef = useRef(null);
 
-  const steps = resolvePath(answers);
+  // null = still loading. Fetched once up front rather than per-render:
+  // the "producent" step needs to know which brands the catalog actually
+  // carries in each price tier (see lib/wizardBrands.js) before it can
+  // offer real options instead of a stale hardcoded list.
+  const [producentByTier, setProducentByTier] = useState(null);
+
+  useEffect(() => {
+    fetch("/api/wizard-brands")
+      .then((r) => r.json())
+      .then((data) => setProducentByTier(data.producentByTier ?? {}))
+      .catch(() => setProducentByTier({}));
+  }, []);
+
+  const steps = producentByTier ? resolvePath(answers, producentByTier) : [];
   const visibleSteps = steps.slice(0, Math.min(revealedCount, steps.length));
   const busy = retractingIds.length > 0;
+  const showResult = visibleSteps.some((s) => s.id === "wynik");
+
+  // undefined = fetching, null = fetched but no match, object = matched
+  // product. Keyed off `answers`' own identity (a new object every time it
+  // actually changes) rather than a boolean, so a Strict-Mode re-invoke of
+  // this effect with the same answers is a genuine no-op instead of
+  // re-firing the request.
+  const [match, setMatch] = useState(undefined);
+  const fetchedForRef = useRef(null);
+
+  useEffect(() => {
+    if (!showResult || fetchedForRef.current === answers) return;
+    fetchedForRef.current = answers;
+    setMatch(undefined);
+    fetch("/api/wizard-match", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ answers }),
+    })
+      .then((r) => r.json())
+      .then((data) => setMatch(data.product ?? null))
+      .catch(() => setMatch(null));
+  }, [showResult, answers]);
 
   // Only ever touch the one node being changed. resolvePath validates every
   // stored answer against that node's CURRENT options on every call, so a
@@ -95,6 +133,23 @@ export default function PhoneWizard() {
     setAnswers({});
     setRevealedCount(1);
     setRetractingIds([]);
+    setMatch(undefined);
+    fetchedForRef.current = null;
+  }
+
+  if (producentByTier === null) {
+    return (
+      <div className="flex flex-col">
+        <div className="wizard-row wizard-row-first">
+          <div className="flex flex-col items-center">
+            <div className="wizard-dot" />
+          </div>
+          <div className="wizard-body">
+            <p className="wizard-question">Ładowanie…</p>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -110,19 +165,47 @@ export default function PhoneWizard() {
             <div className="flex flex-col items-center">
               <div className="wizard-dot wizard-dot-result" />
             </div>
-            <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
-              <p className="text-sm font-medium text-brand-ink mb-1">Gotowe — tu pojawi się dopasowany telefon</p>
-              <p className="text-xs text-brand-muted">
-                (Placeholder — ten prototyp nie jest jeszcze podpięty pod prawdziwą bazę produktów. Chodzi na razie
-                o sam mechanizm i wygląd.)
-              </p>
-              <button
-                type="button"
-                onClick={handleRestart}
-                className="mt-3 text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
-              >
-                Zacznij od nowa
-              </button>
+            <div className="flex-1">
+              {match === undefined && (
+                <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
+                  <p className="text-sm font-medium text-brand-ink">Szukam najlepszego dopasowania…</p>
+                </div>
+              )}
+              {match === null && (
+                <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
+                  <p className="text-sm font-medium text-brand-ink mb-1">
+                    Nie mamy jeszcze telefonu w tym segmencie
+                  </p>
+                  <p className="text-xs text-brand-muted mb-3">Spróbuj zmienić wcześniejsze odpowiedzi.</p>
+                  <button
+                    type="button"
+                    onClick={handleRestart}
+                    className="text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
+                  >
+                    Zacznij od nowa
+                  </button>
+                </div>
+              )}
+              {match && (
+                <>
+                  <VerdictCard product={match} />
+                  <div className="flex items-center justify-between -mt-2">
+                    <Link
+                      href={`/produkt/${match.slug}`}
+                      className="text-xs text-brand-secondary hover:text-brand-ink"
+                    >
+                      Zobacz pełne zestawienie →
+                    </Link>
+                    <button
+                      type="button"
+                      onClick={handleRestart}
+                      className="text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
+                    >
+                      Zacznij od nowa
+                    </button>
+                  </div>
+                </>
+              )}
             </div>
           </WizardHeightReveal>
         ) : (
