@@ -7,6 +7,7 @@ import { importProducts } from "../app/admin/import/actions.js";
 const RESULT_STYLES = {
   published: "bg-green-100 text-green-800",
   draft: "bg-amber-100 text-amber-800",
+  updated: "bg-blue-100 text-blue-800",
   skipped: "bg-brand-cream text-brand-muted",
   error: "bg-red-100 text-red-800",
 };
@@ -14,12 +15,14 @@ const RESULT_STYLES = {
 const RESULT_LABELS = {
   published: "opublikowano",
   draft: "draft",
+  updated: "zaktualizowano",
   skipped: "pominięto",
   error: "błąd",
 };
 
 export default function ImportForm({ categories }) {
   const [category, setCategory] = useState(categories[0]?.slug ?? "");
+  const [mode, setMode] = useState("skip");
   const [scope, setScope] = useState("");
   const [prompt, setPrompt] = useState("");
   const [copied, setCopied] = useState(false);
@@ -120,6 +123,12 @@ export default function ImportForm({ categories }) {
       <form action={formAction} className="border border-brand-border rounded-lg p-4 bg-white flex flex-col gap-3">
         <p className="text-sm font-medium text-brand-ink">Krok 2 — wklej odpowiedź i zapisz</p>
         <input type="hidden" name="category" value={category} />
+        <input type="hidden" name="mode" value={mode} />
+        <label className="flex items-center gap-2 text-xs text-brand-muted">
+          <input type="checkbox" checked={mode === "update"} onChange={(e) => setMode(e.target.checked ? "update" : "skip")} />
+          Aktualizuj telefony, które już są w bazie (zamiast je pomijać) — użyj tego przy ponownym wklejaniu tego
+          samego zakresu, żeby uzupełnić nowe pola specyfikacji bez tworzenia duplikatów.
+        </label>
         <div className="flex items-center gap-3">
           <input
             type="file"

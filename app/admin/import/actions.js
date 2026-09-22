@@ -7,6 +7,7 @@ import {
   getCategoryIdBySlug,
   findExistingProduct,
   insertManualProduct,
+  updateProduct,
   recomputeCategoryAlternatives,
 } from "../../../lib/adminImport.js";
 
@@ -24,6 +25,11 @@ export async function importProducts(prevState, formData) {
 
   const category = (formData.get("category") || "").toString();
   const rawJson = stripCodeFence((formData.get("payload") || "").toString().trim());
+  // "update": a model that already exists gets its row overwritten with the
+  // freshly pasted data instead of being skipped — for backfilling fields
+  // added to the import prompt after a model was first imported, by simply
+  // re-running the same scope through Gemini again.
+  const updateExisting = formData.get("mode") === "update";
 
   if (!category) return { status: "error", message: "Wybierz kategorię" };
   if (!rawJson) return { status: "error", message: "Wklej odpowiedź JSON z czatu Gemini" };
@@ -44,6 +50,7 @@ export async function importProducts(prevState, formData) {
   const results = [];
   let published = 0;
   let draft = 0;
+  let updated = 0;
   let skipped = 0;
   let failed = 0;
 
@@ -59,8 +66,14 @@ export async function importProducts(prevState, formData) {
 
     const existing = await findExistingProduct(categoryId, data.name);
     if (existing) {
-      skipped++;
-      results.push({ name: data.name, status: "skipped", note: `już jest w bazie (${existing.slug})` });
+      if (updateExisting) {
+        await updateProduct(existing.id, categoryId, data);
+        updated++;
+        results.push({ name: data.name, status: "updated", note: `zaktualizowano (${existing.slug})` });
+      } else {
+        skipped++;
+        results.push({ name: data.name, status: "skipped", note: `już jest w bazie (${existing.slug})` });
+      }
       continue;
     }
 
@@ -74,7 +87,7 @@ export async function importProducts(prevState, formData) {
 
   // One pass over the whole category after the batch, not per-item — so
   // e.g. item #1 in this same paste also sees item #5 as a candidate.
-  if (published > 0) {
+  if (published > 0 || updated > 0) {
     await recomputeCategoryAlternatives(categoryId);
   }
 
@@ -83,7 +96,7 @@ export async function importProducts(prevState, formData) {
 
   return {
     status: "done",
-    message: `Gotowe: ${published} opublikowanych, ${draft} do przejrzenia, ${skipped} pominiętych (już istniały), ${failed} błędów — z ${items.length} pozycji.`,
+    message: `Gotowe: ${published} opublikowanych, ${draft} do przejrzenia, ${updated} zaktualizowanych, ${skipped} pominiętych (już istniały), ${failed} błędów — z ${items.length} pozycji.`,
     results,
   };
 }
