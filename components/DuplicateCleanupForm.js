@@ -26,9 +26,7 @@ function Candidate({ c, checked, onToggle, isRecommendedKeep }) {
           <span className="font-medium text-brand-ink">{c.name}</span>
           <span className="text-brand-muted">({c.slug})</span>
           {isRecommendedKeep && (
-            <span className="px-1.5 py-0.5 rounded-full bg-green-100 text-green-800 text-[10px]">
-              sugerowane: zachowaj
-            </span>
+            <span className="px-1.5 py-0.5 rounded-full bg-green-100 text-green-800 text-[10px]">zachowaj</span>
           )}
           <span className="px-1.5 py-0.5 rounded-full bg-brand-cream text-[10px]">
             kompletność: {c.completeness}
@@ -50,6 +48,7 @@ export default function DuplicateCleanupForm({ groups }) {
   const defaultChecked = useMemo(() => {
     const s = new Set();
     for (const g of groups) {
+      if (g.verified?.verdict === "distinct") continue; // confirmed different phones, nothing to unpublish
       for (const c of g.candidates) {
         if (c.slug !== g.recommendedKeepSlug) s.add(c.slug);
       }
@@ -79,24 +78,50 @@ export default function DuplicateCleanupForm({ groups }) {
   }
 
   const totalSelected = checkedSlugs.size;
+  const verifiedDuplicateCount = groups.filter((g) => g.verified?.verdict === "duplicate").length;
+  const verifiedDistinctCount = groups.filter((g) => g.verified?.verdict === "distinct").length;
+  const unverifiedCount = groups.length - verifiedDuplicateCount - verifiedDistinctCount;
 
   return (
     <form ref={formRef} action={formAction} className="flex flex-col gap-4">
+      <div className="text-[11px] text-brand-muted bg-brand-cream border border-brand-border rounded-md px-3 py-2">
+        Zweryfikowano na gsmarena.com: <strong>{verifiedDuplicateCount}</strong> grup to duplikaty (zaznaczone do
+        wycofania), <strong>{verifiedDistinctCount}</strong> grup to naprawdę różne telefony (nic nie zaznaczono).{" "}
+        {unverifiedCount > 0 && (
+          <>
+            <strong>{unverifiedCount}</strong> nowych grup bez weryfikacji — użyto heurystyki kompletności danych.
+          </>
+        )}
+      </div>
+
       {state?.status === "error" && <p className="text-xs text-red-700">{state.message}</p>}
       {state?.status === "done" && <p className="text-xs text-brand-ink bg-green-50 border border-green-200 rounded-md px-3 py-2">{state.message}</p>}
 
       {groups.map((g, i) => (
         <div key={i} className="border border-brand-border rounded-lg bg-white">
-          <div className="flex items-center justify-between px-3 pt-2">
-            <span className="text-[11px] text-brand-muted">Grupa {i + 1} / {groups.length}</span>
-            <button
-              type="button"
-              onClick={() => skipGroup(g)}
-              className="text-[11px] text-brand-secondary hover:text-brand-ink underline"
-            >
-              Pomiń tę grupę (to różne produkty)
-            </button>
+          <div className="flex items-center justify-between px-3 pt-2 gap-3">
+            <span className="text-[11px] text-brand-muted shrink-0">
+              Grupa {i + 1} / {groups.length}
+            </span>
+            {g.verified?.verdict === "duplicate" && (
+              <span className="text-[11px] text-green-700">✓ zweryfikowano (gsmarena.com): to ten sam telefon</span>
+            )}
+            {g.verified?.verdict === "distinct" && (
+              <span className="text-[11px] text-blue-700">✓ zweryfikowano (gsmarena.com): to różne telefony</span>
+            )}
+            {!g.verified && (
+              <button
+                type="button"
+                onClick={() => skipGroup(g)}
+                className="text-[11px] text-brand-secondary hover:text-brand-ink underline shrink-0"
+              >
+                Pomiń tę grupę (to różne produkty)
+              </button>
+            )}
           </div>
+          {g.verified && (
+            <p className="text-[11px] text-brand-muted px-3 pt-1">{g.verified.reason}</p>
+          )}
           <div className="p-1">
             {g.candidates.map((c) => (
               <Candidate
