@@ -174,6 +174,9 @@ export default async function AdminPage({ searchParams }) {
           <Link href="/admin/duplicate-cleanup" className="text-sm text-brand-secondary hover:text-brand-ink">
             Duplikaty
           </Link>
+          <Link href="/admin/import-telefony-merged" className="text-sm text-brand-secondary hover:text-brand-ink">
+            Nowa baza telefonów
+          </Link>
           <form action={logoutAction}>
             <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
               Wyloguj
