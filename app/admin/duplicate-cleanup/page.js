@@ -3,8 +3,9 @@ import { findDuplicateGroups } from "../../../lib/duplicateCleanup.js";
 import DuplicateCleanupForm from "../../../components/DuplicateCleanupForm.js";
 
 export default async function DuplicateCleanupPage() {
-  const { exactNameDuplicateGroups, generationSuffixDuplicateGroups } = await findDuplicateGroups();
-  const allGroups = [...exactNameDuplicateGroups, ...generationSuffixDuplicateGroups];
+  const { exactNameDuplicateGroups, generationSuffixDuplicateGroups, crossBrandDuplicateGroups } =
+    await findDuplicateGroups();
+  const allGroups = [...exactNameDuplicateGroups, ...generationSuffixDuplicateGroups, ...crossBrandDuplicateGroups];
 
   return (
     <main className="max-w-[1000px] mx-auto px-6 py-10">
