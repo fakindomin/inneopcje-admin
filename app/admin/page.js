@@ -168,6 +168,12 @@ export default async function AdminPage({ searchParams }) {
           <Link href="/admin/import" className="text-sm text-brand-secondary hover:text-brand-ink">
             Ręczny import
           </Link>
+          <Link href="/admin/specs-patch" className="text-sm text-brand-secondary hover:text-brand-ink">
+            Łatka specyfikacji
+          </Link>
+          <Link href="/admin/duplicate-cleanup" className="text-sm text-brand-secondary hover:text-brand-ink">
+            Duplikaty
+          </Link>
           <form action={logoutAction}>
             <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
               Wyloguj
