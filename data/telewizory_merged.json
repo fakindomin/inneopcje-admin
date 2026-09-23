@@ -1,0 +1,194 @@
+[
+  {
+    "id": "tv_samsung_ue43cu7172",
+    "brand": "Samsung",
+    "model": "UE43CU7172",
+    "screen_size_inches": 43,
+    "price_pln": 1549,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue50cu7172",
+    "brand": "Samsung",
+    "model": "UE50CU7172",
+    "screen_size_inches": 50,
+    "price_pln": 1799,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue55cu7172",
+    "brand": "Samsung",
+    "model": "UE55CU7172",
+    "screen_size_inches": 55,
+    "price_pln": 2095,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue65cu7172",
+    "brand": "Samsung",
+    "model": "UE65CU7172",
+    "screen_size_inches": 65,
+    "price_pln": 2799,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue75cu7172",
+    "brand": "Samsung",
+    "model": "UE75CU7172",
+    "screen_size_inches": 75,
+    "price_pln": 4299,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue85cu7172",
+    "brand": "Samsung",
+    "model": "UE85CU7172",
+    "screen_size_inches": 85,
+    "price_pln": 6699,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue43cu8002",
+    "brand": "Samsung",
+    "model": "UE43CU8002",
+    "screen_size_inches": 43,
+    "price_pln": 1849,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Edge_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue50cu8002",
+    "brand": "Samsung",
+    "model": "UE50CU8002",
+    "screen_size_inches": 50,
+    "price_pln": 2199,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Edge_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue55cu8002",
+    "brand": "Samsung",
+    "model": "UE55CU8002",
+    "screen_size_inches": 55,
+    "price_pln": 2599,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Edge_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue65cu8002",
+    "brand": "Samsung",
+    "model": "UE65CU8002",
+    "screen_size_inches": 65,
+    "price_pln": 3499,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Edge_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue75cu8002",
+    "brand": "Samsung",
+    "model": "UE75CU8002",
+    "screen_size_inches": 75,
+    "price_pln": 5299,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Edge_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue85cu8002",
+    "brand": "Samsung",
+    "model": "UE85CU8002",
+    "screen_size_inches": 85,
+    "price_pln": 7999,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Edge_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  }
+]

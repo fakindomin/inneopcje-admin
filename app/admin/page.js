@@ -212,6 +212,12 @@ export default async function AdminPage({ searchParams }) {
               >
                 Nowa baza telefonów
               </Link>
+              <Link
+                href="/admin/import-telewizory-merged"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Nowa baza telewizorów
+              </Link>
             </div>
           </div>
           <div>
