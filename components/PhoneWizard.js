@@ -25,18 +25,28 @@ export default function PhoneWizard() {
 
   // null = still loading. Fetched once up front rather than per-render:
   // the "producent" step needs to know which brands the catalog actually
-  // carries in each price tier (see lib/wizardBrands.js) before it can
-  // offer real options instead of a stale hardcoded list.
+  // carries in each price tier (see lib/wizardBrands.js), and
+  // "rozmiar_ekranu" needs to know whether that tier's recent catalog even
+  // spans a real screen-size range (see lib/wizardScreenRange.js), before
+  // either can offer/ask real options instead of stale/dishonest ones.
   const [producentByTier, setProducentByTier] = useState(null);
+  const [screenRangeByTier, setScreenRangeByTier] = useState(null);
 
   useEffect(() => {
     fetch("/api/wizard-brands")
       .then((r) => r.json())
-      .then((data) => setProducentByTier(data.producentByTier ?? {}))
-      .catch(() => setProducentByTier({}));
+      .then((data) => {
+        setProducentByTier(data.producentByTier ?? {});
+        setScreenRangeByTier(data.screenRangeByTier ?? {});
+      })
+      .catch(() => {
+        setProducentByTier({});
+        setScreenRangeByTier({});
+      });
   }, []);
 
-  const steps = producentByTier ? resolvePath(answers, producentByTier) : [];
+  const ready = producentByTier !== null && screenRangeByTier !== null;
+  const steps = ready ? resolvePath(answers, producentByTier, screenRangeByTier) : [];
   const visibleSteps = steps.slice(0, Math.min(revealedCount, steps.length));
   const busy = retractingIds.length > 0;
   const showResult = visibleSteps.some((s) => s.id === "wynik");
@@ -137,7 +147,7 @@ export default function PhoneWizard() {
     fetchedForRef.current = null;
   }
 
-  if (producentByTier === null) {
+  if (!ready) {
     return (
       <div className="flex flex-col">
         <div className="wizard-row wizard-row-first">

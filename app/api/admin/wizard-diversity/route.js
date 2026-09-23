@@ -4,6 +4,7 @@ import { requireAdmin } from "../../../../lib/adminAuth.js";
 import { resolvePath } from "../../../../lib/wizardTree.js";
 import { pickBest } from "../../../../lib/wizardMatch.js";
 import { getProducentByTier } from "../../../../lib/wizardBrands.js";
+import { hasMeaningfulScreenRangeByTier } from "../../../../lib/wizardScreenRange.js";
 
 // Diagnostic, admin-only: how much of the actual catalog can the wizard
 // ever surface as a result? Walks every reachable answer path and tallies,
@@ -19,7 +20,7 @@ export async function GET() {
 
   const dbPool = getPool();
   const result = await dbPool.query(
-    `SELECT p.id, p.name, p.brand, p.brand_recognition, p.score, p.price_tier, p.specs
+    `SELECT p.id, p.name, p.brand, p.brand_recognition, p.score, p.price_tier, p.specs, p.release_year
      FROM products p
      JOIN categories c ON c.id = p.category_id
      WHERE c.slug = 'telefony' AND p.status = 'published'`
@@ -30,13 +31,16 @@ export async function GET() {
     if (byTier[row.price_tier]) byTier[row.price_tier].push(row);
   }
 
-  const producentByTier = await getProducentByTier();
+  const [producentByTier, screenRangeByTier] = await Promise.all([
+    getProducentByTier(),
+    hasMeaningfulScreenRangeByTier(),
+  ]);
 
   const winCountsByTier = { budzetowy: new Map(), sredni: new Map(), premium: new Map() };
   let totalProfiles = 0;
 
   function walk(answers) {
-    const steps = resolvePath(answers, producentByTier);
+    const steps = resolvePath(answers, producentByTier, screenRangeByTier);
     const last = steps[steps.length - 1];
 
     if (last.id === "wynik") {
