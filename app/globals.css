@@ -205,23 +205,25 @@ body {
 }
 
 /* components/PageSlide.js - the homepage tile flow's page-to-page motion.
-   Pure upward translateY, no opacity - a fade running alongside the slide
-   on a different easing curve is what made the previous version read as
-   "a bit of movement, a bit of fade" instead of one confident motion.
-   Same duration/curve as the wizard's own step reveal
-   (WizardHeightReveal/.wizard-row-collapse) for a matching feel, and a
-   big enough distance to clearly read as sliding past the edge rather
-   than a small nudge. "entering" starts a beat below, settles to place;
-   "exiting" (played BEFORE the actual navigation, see PageSlide's
-   navigate()) lifts the current content the same distance past the top. */
+   Deliberately asymmetric, and the SAME at every level of the flow since
+   every page uses this one component/ruleset: the outgoing screen
+   ("exiting" - the current logo+tiles anchored together as one block) is a
+   pure, confident upward translateY with no opacity change at all; the
+   incoming screen ("entering" - whichever next level, search box or
+   category tiles) arrives with a lighter combined slide+fade, a shorter
+   distance than the exit so it reads as gentler. Same duration/curve as
+   the wizard's own step reveal (WizardHeightReveal/.wizard-row-collapse)
+   for a matching feel. */
 .page-slide {
-  transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1), opacity 420ms ease;
 }
 .page-slide-entering {
-  transform: translateY(120px);
+  transform: translateY(48px);
+  opacity: 0;
 }
 .page-slide-entered {
   transform: translateY(0);
+  opacity: 1;
 }
 .page-slide-exiting {
   transform: translateY(-120px);
