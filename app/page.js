@@ -24,6 +24,13 @@ export default function HomePage() {
       </form>
 
       <Link
+        href="/wybierz/telefony"
+        className="mt-4 bg-transparent border border-brand-ink rounded-md px-4 py-1.5 text-sm font-medium text-brand-ink hover:bg-white"
+      >
+        Nie wiem, czego chcę
+      </Link>
+
+      <Link
         href="/polityka-prywatnosci"
         className="text-xs text-brand-muted hover:text-brand-secondary mt-auto pt-10"
       >
