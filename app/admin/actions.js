@@ -9,6 +9,7 @@ import {
   resetQueueItem,
   addCategory,
   setBotEnabled,
+  listCategories,
 } from "../../lib/adminQueries.js";
 import { getProductCategoryId, recomputeCategoryAlternatives } from "../../lib/adminImport.js";
 
@@ -57,5 +58,21 @@ export async function createCategory(formData) {
 export async function setBotEnabledAction(enabled) {
   await requireAdmin();
   await setBotEnabled(enabled);
+  revalidatePath("/admin");
+}
+
+// product_alternatives is a CACHE, written once by recomputeCategoryAlternatives
+// and otherwise only refreshed as a side effect of specific product-level
+// admin actions (publish/unpublish/delete/edit, duplicate-cleanup) - a change
+// to the MATCHING ALGORITHM itself (lib/matching.js) has no such trigger, so
+// every category's cached rows silently keep reflecting whatever logic was
+// live the last time any of those actions ran, until something forces a
+// full recompute. This is that manual trigger.
+export async function recomputeAllAlternatives() {
+  await requireAdmin();
+  const categories = await listCategories();
+  for (const category of categories) {
+    await recomputeCategoryAlternatives(category.id);
+  }
   revalidatePath("/admin");
 }

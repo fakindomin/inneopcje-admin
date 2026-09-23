@@ -20,6 +20,7 @@ import {
   logoutAction,
   createCategory,
   setBotEnabledAction,
+  recomputeAllAlternatives,
 } from "./actions.js";
 import ConfirmButton from "../../components/ConfirmButton.js";
 
@@ -184,6 +185,11 @@ export default async function AdminPage({ searchParams }) {
           <Link href="/admin/editorial-patch" className="text-sm text-brand-secondary hover:text-brand-ink">
             Łatka werdyktu
           </Link>
+          <form action={recomputeAllAlternatives}>
+            <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
+              Przelicz Taniej/Lepiej/Inaczej
+            </button>
+          </form>
           <form action={logoutAction}>
             <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
               Wyloguj
