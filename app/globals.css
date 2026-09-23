@@ -141,7 +141,12 @@ body {
   font-size: 13px;
   color: #1b1f2a;
   cursor: pointer;
-  max-height: 40px;
+  /* Sized for up to ~3 wrapped lines at 13px/1.5 line-height + padding
+     (some option labels wrap on narrow phone widths) - not a real
+     design constraint, just the "resting" end of the leaving/entering
+     collapse transition below, which needs a concrete pixel value to
+     animate max-height to/from 0. */
+  max-height: 120px;
   transform-origin: top;
   transition: opacity 280ms cubic-bezier(0.4, 0, 0.2, 1), transform 280ms cubic-bezier(0.22, 1, 0.36, 1),
     max-height 280ms cubic-bezier(0.4, 0, 0.2, 1), margin 280ms cubic-bezier(0.4, 0, 0.2, 1),
