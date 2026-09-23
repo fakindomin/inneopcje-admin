@@ -198,66 +198,66 @@ export default async function AdminPage({ searchParams }) {
         <p className="text-sm font-medium text-brand-ink mb-3">Narzędzia</p>
         <div className="flex flex-col gap-3">
           <div>
-            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Import</p>
+            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Telefony</p>
             <div className="flex flex-wrap gap-2">
-              <Link
-                href="/admin/import"
-                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
-              >
-                Ręczny import
-              </Link>
               <Link
                 href="/admin/import-telefony-merged"
                 className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
               >
-                Nowa baza telefonów
-              </Link>
-              <Link
-                href="/admin/import-telewizory-merged"
-                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
-              >
-                Nowa baza telewizorów
-              </Link>
-            </div>
-          </div>
-          <div>
-            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Poprawki danych</p>
-            <div className="flex flex-wrap gap-2">
-              <Link
-                href="/admin/telewizory-price-backfill"
-                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
-              >
-                Ceny telewizorów
-              </Link>
-              <Link
-                href="/admin/duplicate-cleanup"
-                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
-              >
-                Duplikaty
+                Wgraj nową listę telefonów
               </Link>
               <Link
                 href="/admin/specs-patch"
                 className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
               >
-                Łatka specyfikacji
+                Uzupełnij brakujące dane telefonów
+              </Link>
+              <Link
+                href="/admin/duplicate-cleanup"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Znajdź powtórzone telefony
+              </Link>
+            </div>
+          </div>
+          <div>
+            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Telewizory</p>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href="/admin/import-telewizory-merged"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Wgraj nową listę telewizorów
+              </Link>
+              <Link
+                href="/admin/telewizory-price-backfill"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Uzupełnij ceny telewizorów
+              </Link>
+            </div>
+          </div>
+          <div>
+            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Wszystkie kategorie</p>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href="/admin/import"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Dodaj jeden produkt ręcznie
               </Link>
               <Link
                 href="/admin/editorial-patch"
                 className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
               >
-                Łatka werdyktu
+                Uzupełnij opisy produktów
               </Link>
-            </div>
-          </div>
-          <div>
-            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Utrzymanie</p>
-            <div className="flex flex-wrap gap-2">
               <form action={recomputeAllAlternatives}>
                 <button
                   type="submit"
                   className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
                 >
-                  Przelicz Taniej/Lepiej/Inaczej
+                  Odśwież podpowiedzi na stronach produktów
                 </button>
               </form>
             </div>
