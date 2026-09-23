@@ -3,12 +3,17 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 
-// How long the exit motion plays before the actual navigation fires - kept
-// in sync with the CSS transition duration below (app/globals.css's
-// .page-slide rule), same "animate first, change state after" pattern
-// already used for reopening an earlier wizard step (see
-// components/PhoneWizard.js's handleReopen/retractingIds).
-const TRANSITION_MS = 420;
+// How long the exit motion plays before the actual navigation fires.
+// Deliberately SHORTER than the CSS transition's own 420ms duration
+// (app/globals.css's .page-slide rule) - waiting for the literal last
+// frame left a visible gap of nothing on screen before the next page's
+// own entrance could start. The easing curve (cubic-bezier(0.22, 1, 0.36,
+// 1)) does almost all of its visual movement in the first ~60% of the
+// transition, so by this point the outgoing content already reads as
+// gone; firing the navigation here lets the incoming screen's entrance
+// begin immediately, overlapping the tail of the exit instead of waiting
+// it out.
+const NAVIGATE_DELAY_MS = 260;
 
 // keyed by pathname: Next.js's client-side router cache can restore a
 // previously-visited page (browser back/forward, or a plain <Link> back to
@@ -54,7 +59,7 @@ function PageSlideInner({ children, footer, className }) {
     }
 
     setPhase("exiting");
-    setTimeout(() => router.push(href), TRANSITION_MS);
+    setTimeout(() => router.push(href), NAVIGATE_DELAY_MS);
   }
 
   return (
