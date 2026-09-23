@@ -71,8 +71,13 @@ export async function setBotEnabledAction(enabled) {
 export async function recomputeAllAlternatives() {
   await requireAdmin();
   const categories = await listCategories();
+  let total = 0;
   for (const category of categories) {
-    await recomputeCategoryAlternatives(category.id);
+    total += await recomputeCategoryAlternatives(category.id);
   }
   revalidatePath("/admin");
+  // A plain server action has nothing else to show for itself -
+  // revalidatePath alone re-renders a page with no visible trace this ran,
+  // so the redirect carries the result for the confirmation banner below.
+  redirect(`/admin?recomputed=${total}`);
 }

@@ -169,32 +169,76 @@ export default async function AdminPage({ searchParams }) {
         <p className="text-lg font-medium">
           <span className="text-brand-ink">Admin</span> <span className="text-brand-orange">innaopcja.pl</span>
         </p>
-        <div className="flex items-center gap-4">
-          <Link href="/admin/import" className="text-sm text-brand-secondary hover:text-brand-ink">
-            Ręczny import
-          </Link>
-          <Link href="/admin/specs-patch" className="text-sm text-brand-secondary hover:text-brand-ink">
-            Łatka specyfikacji
-          </Link>
-          <Link href="/admin/duplicate-cleanup" className="text-sm text-brand-secondary hover:text-brand-ink">
-            Duplikaty
-          </Link>
-          <Link href="/admin/import-telefony-merged" className="text-sm text-brand-secondary hover:text-brand-ink">
-            Nowa baza telefonów
-          </Link>
-          <Link href="/admin/editorial-patch" className="text-sm text-brand-secondary hover:text-brand-ink">
-            Łatka werdyktu
-          </Link>
-          <form action={recomputeAllAlternatives}>
-            <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
-              Przelicz Taniej/Lepiej/Inaczej
-            </button>
-          </form>
-          <form action={logoutAction}>
-            <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
-              Wyloguj
-            </button>
-          </form>
+        <form action={logoutAction}>
+          <button type="submit" className="text-sm text-brand-secondary hover:text-brand-ink">
+            Wyloguj
+          </button>
+        </form>
+      </div>
+
+      {params?.recomputed != null && (
+        <div className="mb-4 text-xs px-3 py-2 rounded-md border border-green-300 bg-green-50 text-green-800">
+          Przeliczono Taniej/Lepiej/Inaczej dla {params.recomputed} opublikowanych produktów.
+        </div>
+      )}
+
+      {/* Narzędzia */}
+      <div className="border border-brand-border rounded-lg p-4 bg-white mb-4">
+        <p className="text-sm font-medium text-brand-ink mb-3">Narzędzia</p>
+        <div className="flex flex-col gap-3">
+          <div>
+            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Import</p>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href="/admin/import"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Ręczny import
+              </Link>
+              <Link
+                href="/admin/import-telefony-merged"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Nowa baza telefonów
+              </Link>
+            </div>
+          </div>
+          <div>
+            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Poprawki danych</p>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href="/admin/duplicate-cleanup"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Duplikaty
+              </Link>
+              <Link
+                href="/admin/specs-patch"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Łatka specyfikacji
+              </Link>
+              <Link
+                href="/admin/editorial-patch"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Łatka werdyktu
+              </Link>
+            </div>
+          </div>
+          <div>
+            <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Utrzymanie</p>
+            <div className="flex flex-wrap gap-2">
+              <form action={recomputeAllAlternatives}>
+                <button
+                  type="submit"
+                  className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+                >
+                  Przelicz Taniej/Lepiej/Inaczej
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
 
