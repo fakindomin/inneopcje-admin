@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Logo from "../components/Logo";
-import SearchBox from "../components/SearchBox";
+import HomeTiles from "../components/HomeTiles";
 
 export default function HomePage() {
   return (
@@ -11,24 +11,7 @@ export default function HomePage() {
         Znajdź lepszą opcję dla produktu, który Cię interesuje.
       </p>
 
-      <form action="/wyniki" method="GET" className="w-full max-w-[420px] mt-8">
-        <SearchBox />
-        <div className="flex justify-center mt-4">
-          <button
-            type="submit"
-            className="bg-transparent border border-brand-ink rounded-md px-4 py-1.5 text-sm font-medium hover:bg-white"
-          >
-            <span className="text-brand-ink">Inne</span> <span className="text-brand-orange">Opcje</span>
-          </button>
-        </div>
-      </form>
-
-      <Link
-        href="/wybierz/telefony"
-        className="mt-4 bg-transparent border border-brand-ink rounded-md px-4 py-1.5 text-sm font-medium text-brand-ink hover:bg-white"
-      >
-        Nie wiem, czego chcę
-      </Link>
+      <HomeTiles />
 
       <Link
         href="/polityka-prywatnosci"
