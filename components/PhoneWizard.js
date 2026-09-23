@@ -51,6 +51,13 @@ export default function PhoneWizard() {
   const busy = retractingIds.length > 0;
   const showResult = visibleSteps.some((s) => s.id === "wynik");
 
+  // Only used to build the "Zobacz pełne zestawienie" link's ?wprofile=
+  // param below - the wizard itself never renders anything from this, it
+  // just hands the profile to the product page (app/produkt/[slug]/page.js)
+  // so IT can prefer picks from the other selected brands, one click away,
+  // same as today - see lib/wizardMatch.js's otherBrandPicksForProduct.
+  const wynikProfile = steps.find((s) => s.id === "wynik")?.profile;
+
   // TEST/temporary - see app/api/wizard-live-count. Delete this state, the
   // effect below, and the badge in the render further down once the test
   // is done; nothing else depends on any of it.
@@ -76,24 +83,19 @@ export default function PhoneWizard() {
   // this effect with the same answers is a genuine no-op instead of
   // re-firing the request.
   const [match, setMatch] = useState(undefined);
-  const [otherBrandPicks, setOtherBrandPicks] = useState([]);
   const fetchedForRef = useRef(null);
 
   useEffect(() => {
     if (!showResult || fetchedForRef.current === answers) return;
     fetchedForRef.current = answers;
     setMatch(undefined);
-    setOtherBrandPicks([]);
     fetch("/api/wizard-match", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ answers }),
     })
       .then((r) => r.json())
-      .then((data) => {
-        setMatch(data.product ?? null);
-        setOtherBrandPicks(Array.isArray(data.otherBrandPicks) ? data.otherBrandPicks : []);
-      })
+      .then((data) => setMatch(data.product ?? null))
       .catch(() => setMatch(null));
   }, [showResult, answers]);
 
@@ -229,10 +231,14 @@ export default function PhoneWizard() {
               )}
               {match && (
                 <>
-                  <VerdictCard product={match} otherBrandPicks={otherBrandPicks} />
+                  <VerdictCard product={match} />
                   <div className="flex items-center justify-between -mt-2">
                     <Link
-                      href={`/produkt/${match.slug}`}
+                      href={
+                        Array.isArray(wynikProfile?.producent) && wynikProfile.producent.length > 1
+                          ? `/produkt/${match.slug}?wprofile=${encodeURIComponent(JSON.stringify(wynikProfile))}`
+                          : `/produkt/${match.slug}`
+                      }
                       className="text-xs text-brand-secondary hover:text-brand-ink"
                     >
                       Zobacz pełne zestawienie →

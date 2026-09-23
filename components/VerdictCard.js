@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { IconCheck, IconX } from "./icons";
-import AlternativeCard from "./AlternativeCard.js";
 
 export const PRICE_TIER_LABELS = {
   budzetowy: "budżetowy",
@@ -64,11 +63,7 @@ function PriceLine({ slug, initialPrice, priceCheckedAt }) {
   );
 }
 
-// otherBrandPicks is only populated by the wizard flow (see
-// lib/wizardMatch.js's findOtherBrandPicks) when someone picked more than
-// one producent - the other two render sites (product page, search
-// results) simply don't pass it, so this renders nothing extra for them.
-export default function VerdictCard({ product, otherBrandPicks = [] }) {
+export default function VerdictCard({ product }) {
   const score = Number(product.score).toFixed(1);
 
   return (
@@ -123,14 +118,6 @@ export default function VerdictCard({ product, otherBrandPicks = [] }) {
       >
         Sprawdź na Ceneo
       </a>
-
-      {otherBrandPicks.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3">
-          {otherBrandPicks.map((alt) => (
-            <AlternativeCard key={alt.slug} alt={alt} fromSlug={product.slug} fromName={product.name} />
-          ))}
-        </div>
-      )}
     </div>
   );
 }

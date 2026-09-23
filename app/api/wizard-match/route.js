@@ -29,6 +29,6 @@ export async function POST(request) {
     return NextResponse.json({ error: "incomplete" }, { status: 400 });
   }
 
-  const { product, otherBrandPicks } = await matchTelefon(wynikStep.profile);
-  return NextResponse.json({ product, otherBrandPicks });
+  const product = await matchTelefon(wynikStep.profile);
+  return NextResponse.json({ product });
 }
