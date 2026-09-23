@@ -163,6 +163,12 @@ body {
   cursor: default;
 }
 
+.wizard-option.multi-checked {
+  border-color: #e4572e;
+  background-color: rgba(228, 87, 46, 0.08);
+  font-weight: 600;
+}
+
 .wizard-option.leaving {
   opacity: 0;
   transform: translateX(6px);

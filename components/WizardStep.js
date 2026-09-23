@@ -25,6 +25,20 @@ import WizardHeightReveal from "./WizardHeightReveal.js";
 // option, itself a <button>, for the whole rest of its life) so reopening
 // uses a keyboard-accessible div instead.
 export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettled, exiting, onExited }) {
+  if (step.multiSelect) {
+    return (
+      <MultiSelectWizardStep
+        step={step}
+        isFirst={isFirst}
+        onAnswer={onAnswer}
+        onReopen={onReopen}
+        onSettled={onSettled}
+        exiting={exiting}
+        onExited={onExited}
+      />
+    );
+  }
+
   const prevAnswerRef = useRef(step.answer);
   const [answered, setAnswered] = useState(Boolean(step.answer));
   const [chosenId, setChosenId] = useState(step.answer || null);
@@ -148,6 +162,107 @@ export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettle
             );
           })}
         </div>
+      </div>
+    </WizardHeightReveal>
+  );
+}
+
+// Separate, deliberately simpler component for a multi-select step
+// (currently just "producent", up to `step.maxSelect` picks) - the
+// single-select choreography above is built entirely around exactly one
+// chosen option morphing into the answered capsule, and multi-select needs
+// a different interaction (toggle several, then an explicit confirm)
+// rather than "tap = answered", so it isn't reused here.
+function MultiSelectWizardStep({ step, isFirst, onAnswer, onReopen, onSettled, exiting, onExited }) {
+  const answered = Boolean(step.answer);
+  const [selected, setSelected] = useState(() => (Array.isArray(step.answer) ? step.answer : []));
+  const settledRef = useRef(false);
+
+  // Same "already answered on mount, or freshly reopened" bookkeeping the
+  // single-select version needs (see its own onSettled effect above) -
+  // onSettled must fire exactly once per answer, and reopening (step.answer
+  // going back to null) needs the checkboxes to start over from empty.
+  useEffect(() => {
+    if (step.answer) {
+      if (!settledRef.current) {
+        settledRef.current = true;
+        onSettled();
+      }
+      setSelected(step.answer);
+    } else {
+      settledRef.current = false;
+      setSelected([]);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step.answer]);
+
+  function toggle(id) {
+    setSelected((prev) => {
+      if (prev.includes(id)) return prev.filter((x) => x !== id);
+      if (prev.length >= step.maxSelect) return prev;
+      return [...prev, id];
+    });
+  }
+
+  function handleReopenKeyDown(e) {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onReopen();
+    }
+  }
+
+  return (
+    <WizardHeightReveal
+      className={`wizard-row${isFirst ? " wizard-row-first" : ""}${answered ? " answered" : ""}`}
+      exiting={exiting}
+      onExited={onExited}
+    >
+      <div className="flex flex-col items-center">
+        <div className="wizard-dot" />
+        <div className="wizard-line" />
+      </div>
+      <div
+        className="wizard-body"
+        role={answered ? "button" : undefined}
+        tabIndex={answered ? 0 : undefined}
+        onClick={answered ? onReopen : undefined}
+        onKeyDown={answered ? handleReopenKeyDown : undefined}
+      >
+        <p className="wizard-question">{step.question}</p>
+        {answered ? (
+          <p className="wizard-option chosen">
+            {step.options
+              .filter((o) => step.answer.includes(o.id))
+              .map((o) => o.label)
+              .join(", ")}
+          </p>
+        ) : (
+          <>
+            <div className="wizard-options">
+              {step.options.map((o) => {
+                const isChecked = selected.includes(o.id);
+                return (
+                  <button
+                    key={o.id}
+                    type="button"
+                    className={`wizard-option${isChecked ? " multi-checked" : ""}`}
+                    onClick={() => toggle(o.id)}
+                  >
+                    {o.label}
+                  </button>
+                );
+              })}
+            </div>
+            <button
+              type="button"
+              disabled={selected.length === 0}
+              onClick={() => onAnswer(selected)}
+              className="text-xs px-3 py-1.5 mt-1.5 rounded-md border border-brand-border hover:bg-brand-cream disabled:opacity-40 disabled:cursor-default disabled:hover:bg-transparent"
+            >
+              Zatwierdź ({selected.length}/{step.maxSelect})
+            </button>
+          </>
+        )}
       </div>
     </WizardHeightReveal>
   );

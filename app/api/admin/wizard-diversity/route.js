@@ -54,7 +54,12 @@ export async function GET() {
     }
 
     for (const opt of last.options) {
-      walk({ ...answers, [last.id]: opt.id });
+      // A multiSelect step (currently just "producent") stores an array -
+      // walking one single-brand pick per branch keeps this a linear
+      // per-option enumeration instead of exploding into every subset up
+      // to MAX_PRODUCENT, which this diagnostic doesn't need.
+      const value = last.multiSelect ? [opt.id] : opt.id;
+      walk({ ...answers, [last.id]: value });
     }
   }
 

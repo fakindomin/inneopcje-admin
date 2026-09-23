@@ -76,19 +76,24 @@ export default function PhoneWizard() {
   // this effect with the same answers is a genuine no-op instead of
   // re-firing the request.
   const [match, setMatch] = useState(undefined);
+  const [otherBrandPicks, setOtherBrandPicks] = useState([]);
   const fetchedForRef = useRef(null);
 
   useEffect(() => {
     if (!showResult || fetchedForRef.current === answers) return;
     fetchedForRef.current = answers;
     setMatch(undefined);
+    setOtherBrandPicks([]);
     fetch("/api/wizard-match", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ answers }),
     })
       .then((r) => r.json())
-      .then((data) => setMatch(data.product ?? null))
+      .then((data) => {
+        setMatch(data.product ?? null);
+        setOtherBrandPicks(Array.isArray(data.otherBrandPicks) ? data.otherBrandPicks : []);
+      })
       .catch(() => setMatch(null));
   }, [showResult, answers]);
 
@@ -224,7 +229,7 @@ export default function PhoneWizard() {
               )}
               {match && (
                 <>
-                  <VerdictCard product={match} />
+                  <VerdictCard product={match} otherBrandPicks={otherBrandPicks} />
                   <div className="flex items-center justify-between -mt-2">
                     <Link
                       href={`/produkt/${match.slug}`}
