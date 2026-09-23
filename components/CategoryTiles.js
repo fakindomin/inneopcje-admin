@@ -12,6 +12,7 @@ export default function CategoryTiles({ navigate }) {
   const router = useRouter();
   useEffect(() => {
     router.prefetch("/wybierz/telefony");
+    router.prefetch("/wybierz/telewizory");
   }, [router]);
 
   return (
@@ -23,13 +24,12 @@ export default function CategoryTiles({ navigate }) {
         <span className="big-tile-label">Telefon</span>
       </button>
 
-      <div className="big-tile big-tile-disabled" aria-disabled="true">
+      <button type="button" className="big-tile" onClick={() => navigate("/wybierz/telewizory")}>
         <span className="big-tile-icon">
           <IconTv width={20} height={20} />
         </span>
         <span className="big-tile-label">Telewizor</span>
-        <span className="big-tile-note">wkrótce</span>
-      </div>
+      </button>
     </div>
   );
 }
