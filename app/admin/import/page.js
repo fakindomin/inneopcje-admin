@@ -2,6 +2,10 @@ import Link from "next/link";
 import { listCategories } from "../../../lib/adminQueries.js";
 import ImportForm from "../../../components/ImportForm.js";
 
+// Queries the DB directly - can't be statically prerendered at build time
+// (preview deployments have no DATABASE_URL; it's production-only).
+export const dynamic = "force-dynamic";
+
 export default async function ImportPage() {
   const categories = await listCategories();
 

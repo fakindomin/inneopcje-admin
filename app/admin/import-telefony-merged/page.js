@@ -2,6 +2,10 @@ import Link from "next/link";
 import { previewTelefonyMergedImport } from "../../../lib/telefonyMergedImport.js";
 import ImportTelefonyMergedForm from "../../../components/ImportTelefonyMergedForm.js";
 
+// Queries the DB directly - can't be statically prerendered at build time
+// (preview deployments have no DATABASE_URL; it's production-only).
+export const dynamic = "force-dynamic";
+
 export default async function ImportTelefonyMergedPage() {
   const preview = await previewTelefonyMergedImport();
 

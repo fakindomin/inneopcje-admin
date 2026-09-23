@@ -3,6 +3,10 @@ import { notFound } from "next/navigation";
 import { getProductById, listCategories } from "../../../../lib/adminQueries.js";
 import EditProductForm from "../../../../components/EditProductForm.js";
 
+// Queries the DB directly - can't be statically prerendered at build time
+// (preview deployments have no DATABASE_URL; it's production-only).
+export const dynamic = "force-dynamic";
+
 export default async function EditProductPage({ params }) {
   const { id } = await params;
   const [product, categories] = await Promise.all([getProductById(Number(id)), listCategories()]);
