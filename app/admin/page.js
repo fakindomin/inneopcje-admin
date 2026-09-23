@@ -224,6 +224,12 @@ export default async function AdminPage({ searchParams }) {
             <p className="text-[11px] uppercase tracking-wide text-brand-muted mb-1.5">Poprawki danych</p>
             <div className="flex flex-wrap gap-2">
               <Link
+                href="/admin/telewizory-price-backfill"
+                className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
+              >
+                Ceny telewizorów
+              </Link>
+              <Link
                 href="/admin/duplicate-cleanup"
                 className="text-xs px-2.5 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream"
               >
