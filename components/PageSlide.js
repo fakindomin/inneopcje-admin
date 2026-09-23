@@ -8,9 +8,9 @@ import { useRouter } from "next/navigation";
 // .page-slide rule), same "animate first, change state after" pattern
 // already used for reopening an earlier wizard step (see
 // components/PhoneWizard.js's handleReopen/retractingIds).
-const TRANSITION_MS = 360;
+const TRANSITION_MS = 420;
 
-// Gives a page's content a slide+fade entrance on mount, and hands its
+// Gives a page's content a slide-up entrance on mount, and hands its
 // children a `navigate(href)` function that plays the same motion in
 // reverse - up and out - before actually changing the route. Used across
 // the homepage's tile flow (app/page.js -> app/wybierz/page.js ->
