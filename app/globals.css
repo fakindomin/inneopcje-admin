@@ -286,3 +286,27 @@ body {
   font-size: 11px;
   color: #8a8a80;
 }
+/* components/PhoneWizard.js - subtler variant for the two small actions
+   under the wizard result (Inna Opcja / Zacznij od nowa), stacked with
+   .big-tile: same shape, much lower visual weight than the main
+   navigational tiles elsewhere in the flow. */
+.big-tile-compact {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-color: #e5e2d8;
+}
+.big-tile-compact:hover {
+  background: #f6f3ec;
+}
+.big-tile-compact .big-tile-icon {
+  width: 26px;
+  height: 26px;
+  background: transparent;
+  color: #e4572e;
+}
+.big-tile-compact .big-tile-label {
+  font-size: 13px;
+  font-weight: 500;
+}

@@ -257,23 +257,23 @@ export default function PhoneWizard() {
                 {match && (
                   <>
                     <VerdictCard product={match} />
-                    <div className="grid grid-cols-2 gap-3">
+                    <div className="grid grid-cols-2 gap-2">
                       <Link
                         href={
                           Array.isArray(wynikProfile?.producent) && wynikProfile.producent.length > 1
                             ? `/produkt/${match.slug}?wprofile=${encodeURIComponent(JSON.stringify(wynikProfile))}`
                             : `/produkt/${match.slug}`
                         }
-                        className="big-tile"
+                        className="big-tile big-tile-compact"
                       >
                         <span className="big-tile-icon">
-                          <IconShuffle width={20} height={20} />
+                          <IconShuffle width={14} height={14} />
                         </span>
                         <span className="big-tile-label">Inna Opcja</span>
                       </Link>
-                      <button type="button" onClick={handleRestart} className="big-tile">
+                      <button type="button" onClick={handleRestart} className="big-tile big-tile-compact">
                         <span className="big-tile-icon">
-                          <IconRefresh width={20} height={20} />
+                          <IconRefresh width={14} height={14} />
                         </span>
                         <span className="big-tile-label">Zacznij od nowa</span>
                       </button>
