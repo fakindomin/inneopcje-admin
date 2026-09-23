@@ -1,17 +1,24 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Logo from "./Logo";
-import SearchBox from "./SearchBox";
 import VerdictCard from "./VerdictCard";
 import AlternativeCard from "./AlternativeCard";
-import { IconArrowLeft, IconSearch } from "./icons";
+import { IconArrowLeft, IconPhone, IconBox } from "./icons";
+
+// Which categories have their own wizard to restart into, and what that
+// tile should say - only telefony for now (see components/CategoryTiles.js,
+// telewizory is still "wkrótce"). A category with no entry here just
+// doesn't get a "dobierz nowy X" tile, only the generic "dobierz nowy
+// sprzęt" one.
+const CATEGORY_WIZARDS = {
+  telefony: { label: "Dobierz nowy telefon", href: "/wybierz/telefony", Icon: IconPhone },
+};
 
 export default function PhoneExplorer({ initialProduct, initialAlternatives, backTo }) {
-  const [searchOpen, setSearchOpen] = useState(false);
   const router = useRouter();
+  const categoryWizard = CATEGORY_WIZARDS[initialProduct.category_slug];
 
   return (
     <main className="max-w-[680px] mx-auto px-6 py-8">
@@ -22,22 +29,7 @@ export default function PhoneExplorer({ initialProduct, initialAlternatives, bac
             innaopcja<span className="text-brand-orange">.pl</span>
           </span>
         </Link>
-
-        <button
-          type="button"
-          onClick={() => setSearchOpen((open) => !open)}
-          aria-label="Szukaj"
-          className="text-brand-ink"
-        >
-          <IconSearch />
-        </button>
       </div>
-
-      {searchOpen && (
-        <form action="/wyniki" method="GET" className="mb-3">
-          <SearchBox />
-        </form>
-      )}
 
       {backTo && (
         <button
@@ -62,6 +54,23 @@ export default function PhoneExplorer({ initialProduct, initialAlternatives, bac
             <AlternativeCard alt={alt} fromSlug={initialProduct.slug} fromName={initialProduct.name} />
           </div>
         ))}
+      </div>
+
+      <div className="grid grid-cols-2 gap-3 mt-6">
+        {categoryWizard && (
+          <Link href={categoryWizard.href} className="big-tile">
+            <span className="big-tile-icon">
+              <categoryWizard.Icon width={20} height={20} />
+            </span>
+            <span className="big-tile-label">{categoryWizard.label}</span>
+          </Link>
+        )}
+        <Link href="/wybierz" className="big-tile">
+          <span className="big-tile-icon">
+            <IconBox width={20} height={20} />
+          </span>
+          <span className="big-tile-label">Dobierz nowy sprzęt</span>
+        </Link>
       </div>
     </main>
   );
