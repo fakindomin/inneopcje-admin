@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { getPool } from "../../../../../lib/db.js";
 import { fetchLivePrice } from "../../../../../lib/geminiPrice.js";
+import { parsePriceLow } from "../../../../../lib/matching.js";
 
 // A product's price is trusted for this long before a page view triggers a
 // live re-check - see components/VerdictCard.js for the client side of
@@ -9,6 +10,22 @@ import { fetchLivePrice } from "../../../../../lib/geminiPrice.js";
 // prices don't meaningfully move day to day, so this only spends a Gemini
 // call on products someone is actually looking at, roughly once a week.
 const STALE_AFTER_MS = 7 * 24 * 60 * 60 * 1000;
+
+// Gemini occasionally prices the wrong variant of a similarly-named model
+// (see lib/geminiPrice.js's prompt hardening) - a swing bigger than this
+// ratio in either direction is treated as a mistaken lookup rather than a
+// real price change, and the old price is kept. Real retail prices don't
+// jump this much in a week; a model this far off is almost always Gemini
+// confusing the product with a different variant.
+const MAX_PRICE_CHANGE_RATIO = 1.5;
+
+function isImplausibleChange(oldPriceStr, newPriceStr) {
+  const oldPrice = parsePriceLow({ price_pln_approx: oldPriceStr });
+  const newPrice = parsePriceLow({ price_pln_approx: newPriceStr });
+  if (!oldPrice || !newPrice) return false;
+  const ratio = Math.max(oldPrice, newPrice) / Math.min(oldPrice, newPrice);
+  return ratio > MAX_PRICE_CHANGE_RATIO;
+}
 
 export async function GET(request, { params }) {
   const { slug } = await params;
@@ -42,6 +59,13 @@ export async function GET(request, { params }) {
     newPrice = await fetchLivePrice(product.name);
   } catch (err) {
     console.error(`price refresh failed for "${product.name}" (${slug}):`, err.message);
+  }
+
+  if (newPrice !== null && isImplausibleChange(product.price_pln_approx, newPrice)) {
+    console.error(
+      `price refresh discarded implausible change for "${product.name}" (${slug}): ${product.price_pln_approx} -> ${newPrice}`
+    );
+    newPrice = null;
   }
 
   const finalPrice = newPrice ?? product.price_pln_approx;
