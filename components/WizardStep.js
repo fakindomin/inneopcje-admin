@@ -40,6 +40,43 @@ export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettle
     step.answer ? step.options.filter((o) => o.id !== step.answer).map((o) => o.id) : []
   );
 
+  // All options in an unanswered step should read as one uniform row of
+  // tiles, whatever their own text needs - a short "Bateria" sitting next
+  // to a two-line option looks like a layout bug even though neither is
+  // wrong on its own. Measured off the real DOM (scrollHeight reports an
+  // element's true, un-clipped content height regardless of its own
+  // max-height/overflow) rather than a hardcoded guess, since which
+  // options wrap depends on both the text and the viewport width -
+  // re-measured on resize for the same reason.
+  const optionRefs = useRef({});
+  const [uniformHeight, setUniformHeight] = useState(null);
+  useEffect(() => {
+    function measure() {
+      // offsetHeight (not scrollHeight) so the measured value already
+      // includes the border - min-height is applied border-box, so a
+      // content-only number would leave the tallest option 2px taller
+      // than everything else it's supposed to match. max-height is
+      // cleared first since it's what would otherwise clamp this exact
+      // element's own natural height.
+      const heights = step.options
+        .map((o) => optionRefs.current[o.id])
+        .filter(Boolean)
+        .map((el) => {
+          const prevMaxHeight = el.style.maxHeight;
+          el.style.maxHeight = "none";
+          const h = el.offsetHeight;
+          el.style.maxHeight = prevMaxHeight;
+          return h;
+        })
+        .filter((h) => h > 0);
+      if (heights.length > 0) setUniformHeight(Math.max(...heights));
+    }
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // Same "mounts already answered" case as above, different consequence:
   // onSettled is otherwise only called from the live settle transition
   // below, which never runs here either (no null-\>set change to catch) -
@@ -128,9 +165,19 @@ export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettle
             const leavingIndex = leavingIds.indexOf(o.id);
             const isLeaving = leavingIndex !== -1;
             const isChosen = o.id === chosenId;
+            // Uniform height only applies while the tiles are still being
+            // chosen among - a leaving option needs its min-height cleared
+            // too, or it would fight the max-height:0 collapse (min-height
+            // wins that conflict per the CSS spec) and never shrink away.
+            const style = {};
+            if (isLeaving) style.transitionDelay = `${leavingIndex * 40}ms`;
+            if (!answered && !isLeaving && uniformHeight) style.minHeight = `${uniformHeight}px`;
             return (
               <button
                 key={o.id}
+                ref={(el) => {
+                  optionRefs.current[o.id] = el;
+                }}
                 type="button"
                 // NOT disabled once chosen: a disabled button swallows its
                 // click instead of letting it bubble, so a click landing
@@ -139,7 +186,7 @@ export default function WizardStep({ step, isFirst, onAnswer, onReopen, onSettle
                 // the body's reopen handler. Wiring its own click straight
                 // to onReopen keeps the same element interactive for the
                 // capsule's entire life instead.
-                style={isLeaving ? { transitionDelay: `${leavingIndex * 40}ms` } : undefined}
+                style={Object.keys(style).length ? style : undefined}
                 className={`wizard-option${isChosen ? " chosen" : ""}${isLeaving ? " leaving" : ""}`}
                 onClick={isChosen && answered ? onReopen : () => onAnswer(o.id)}
               >

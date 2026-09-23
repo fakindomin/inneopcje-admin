@@ -131,6 +131,8 @@ body {
 }
 
 .wizard-option {
+  display: flex;
+  align-items: center;
   text-align: left;
   border: 1px solid #e5e2d8;
   border-radius: 8px;
@@ -141,17 +143,20 @@ body {
   font-size: 13px;
   color: #1b1f2a;
   cursor: pointer;
-  /* Sized for up to ~3 wrapped lines at 13px/1.5 line-height + padding
-     (some option labels wrap on narrow phone widths) - not a real
-     design constraint, just the "resting" end of the leaving/entering
-     collapse transition below, which needs a concrete pixel value to
-     animate max-height to/from 0. */
+  /* min-height is set inline per-option by WizardStep.js, to the tallest
+     option actually present in this step, so a row of tiles is always
+     the same height even when only one label wraps to two lines - the
+     rest just center their text in the extra room instead of looking
+     short next to it. max-height here is unrelated: sized well above
+     any realistic wrapped label, it only exists as the "resting" end of
+     the leaving/entering collapse transition below, which needs a
+     concrete pixel value to animate max-height to/from 0. */
   max-height: 120px;
   transform-origin: top;
   transition: opacity 280ms cubic-bezier(0.4, 0, 0.2, 1), transform 280ms cubic-bezier(0.22, 1, 0.36, 1),
-    max-height 280ms cubic-bezier(0.4, 0, 0.2, 1), margin 280ms cubic-bezier(0.4, 0, 0.2, 1),
-    padding 340ms cubic-bezier(0.4, 0, 0.2, 1), border-color 340ms ease, background-color 340ms ease,
-    font-weight 200ms ease;
+    max-height 280ms cubic-bezier(0.4, 0, 0.2, 1), min-height 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    margin 280ms cubic-bezier(0.4, 0, 0.2, 1), padding 340ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 340ms ease, background-color 340ms ease, font-weight 200ms ease;
 }
 .wizard-option:last-child {
   margin-bottom: 0;
