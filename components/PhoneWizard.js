@@ -52,9 +52,7 @@ export default function PhoneWizard() {
   // {} as "nothing to offer yet" for both (skips/asks-anyway rather than
   // erroring), so the first questions show immediately with the fetch
   // filling in behind them instead of a blank "Ładowanie…" screen for
-  // data nobody needs yet. `ready` still gates the test live-count fetch
-  // below, which has nothing useful to show before this data exists.
-  const ready = producentByTier !== null && screenRangeByTier !== null;
+  // data nobody needs yet.
   const steps = resolvePath(answers, producentByTier ?? {}, screenRangeByTier ?? {});
   const visibleSteps = steps.slice(0, Math.min(revealedCount, steps.length));
   const busy = retractingIds.length > 0;
@@ -97,25 +95,6 @@ export default function PhoneWizard() {
   // so IT can prefer picks from the other selected brands, one click away,
   // same as today - see lib/wizardMatch.js's otherBrandPicksForProduct.
   const wynikProfile = steps.find((s) => s.id === "wynik")?.profile;
-
-  // TEST/temporary - see app/api/wizard-live-count. Delete this state, the
-  // effect below, and the badge in the render further down once the test
-  // is done; nothing else depends on any of it.
-  const [liveCount, setLiveCount] = useState(null);
-  const liveCountFetchedForRef = useRef(null);
-
-  useEffect(() => {
-    if (!ready || liveCountFetchedForRef.current === answers) return;
-    liveCountFetchedForRef.current = answers;
-    fetch("/api/wizard-live-count", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ answers }),
-    })
-      .then((r) => r.json())
-      .then((data) => setLiveCount(typeof data?.count === "number" ? data.count : null))
-      .catch(() => setLiveCount(null));
-  }, [ready, answers]);
 
   // undefined = fetching, null = fetched but no match, object = matched
   // product. Keyed off `answers`' own identity (a new object every time it
@@ -215,13 +194,6 @@ export default function PhoneWizard() {
 
   return (
     <div className="flex flex-col">
-      {/* TEST/temporary - see app/api/wizard-live-count. Delete this block
-          once the test is done. */}
-      {liveCount !== null && (
-        <div className="text-xs text-brand-muted mb-2 px-1">
-          🧪 TEST: {liveCount} {liveCount === 1 ? "model pasuje" : "modeli pasuje"} do obecnych odpowiedzi
-        </div>
-      )}
       {visibleSteps.map((s, i) =>
         s.id === "wynik" ? (
           <div key="wynik" ref={setStepRef("wynik")}>
