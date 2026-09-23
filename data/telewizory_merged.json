@@ -1,90 +1,6904 @@
 [
   {
+    "id": "tv_lg_oled42c3",
+    "brand": "LG",
+    "model": "OLED42C3",
+    "screen_size_inches": 42,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled42c4",
+    "brand": "LG",
+    "model": "OLED42C4",
+    "screen_size_inches": 42,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled42c5",
+    "brand": "LG",
+    "model": "OLED42C5",
+    "screen_size_inches": 42,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled42c6",
+    "brand": "LG",
+    "model": "OLED42C6",
+    "screen_size_inches": 42,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48b4",
+    "brand": "LG",
+    "model": "OLED48B4",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48b5",
+    "brand": "LG",
+    "model": "OLED48B5",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48b6",
+    "brand": "LG",
+    "model": "OLED48B6",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48c3",
+    "brand": "LG",
+    "model": "OLED48C3",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48c4",
+    "brand": "LG",
+    "model": "OLED48C4",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48c5",
+    "brand": "LG",
+    "model": "OLED48C5",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48c6",
+    "brand": "LG",
+    "model": "OLED48C6",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48g5",
+    "brand": "LG",
+    "model": "OLED48G5",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled48g6",
+    "brand": "LG",
+    "model": "OLED48G6",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55b3",
+    "brand": "LG",
+    "model": "OLED55B3",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55b4",
+    "brand": "LG",
+    "model": "OLED55B4",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55b5",
+    "brand": "LG",
+    "model": "OLED55B5",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55b6",
+    "brand": "LG",
+    "model": "OLED55B6",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55c3",
+    "brand": "LG",
+    "model": "OLED55C3",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55c4",
+    "brand": "LG",
+    "model": "OLED55C4",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55c5",
+    "brand": "LG",
+    "model": "OLED55C5",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55c6",
+    "brand": "LG",
+    "model": "OLED55C6",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55g3",
+    "brand": "LG",
+    "model": "OLED55G3",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55g4",
+    "brand": "LG",
+    "model": "OLED55G4",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55g5",
+    "brand": "LG",
+    "model": "OLED55G5",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled55g6",
+    "brand": "LG",
+    "model": "OLED55G6",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65b3",
+    "brand": "LG",
+    "model": "OLED65B3",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65b4",
+    "brand": "LG",
+    "model": "OLED65B4",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65b5",
+    "brand": "LG",
+    "model": "OLED65B5",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65b6",
+    "brand": "LG",
+    "model": "OLED65B6",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65c3",
+    "brand": "LG",
+    "model": "OLED65C3",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65c4",
+    "brand": "LG",
+    "model": "OLED65C4",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65c5",
+    "brand": "LG",
+    "model": "OLED65C5",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65c6",
+    "brand": "LG",
+    "model": "OLED65C6",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65g3",
+    "brand": "LG",
+    "model": "OLED65G3",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65g4",
+    "brand": "LG",
+    "model": "OLED65G4",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65g5",
+    "brand": "LG",
+    "model": "OLED65G5",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65g6",
+    "brand": "LG",
+    "model": "OLED65G6",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65m4",
+    "brand": "LG",
+    "model": "OLED65M4",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled65m5",
+    "brand": "LG",
+    "model": "OLED65M5",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77b3",
+    "brand": "LG",
+    "model": "OLED77B3",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77b4",
+    "brand": "LG",
+    "model": "OLED77B4",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77b5",
+    "brand": "LG",
+    "model": "OLED77B5",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77b6",
+    "brand": "LG",
+    "model": "OLED77B6",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77c3",
+    "brand": "LG",
+    "model": "OLED77C3",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77c4",
+    "brand": "LG",
+    "model": "OLED77C4",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77c5",
+    "brand": "LG",
+    "model": "OLED77C5",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77c6h",
+    "brand": "LG",
+    "model": "OLED77C6H",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77g3",
+    "brand": "LG",
+    "model": "OLED77G3",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77g4",
+    "brand": "LG",
+    "model": "OLED77G4",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77g5",
+    "brand": "LG",
+    "model": "OLED77G5",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77g6",
+    "brand": "LG",
+    "model": "OLED77G6",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77m3",
+    "brand": "LG",
+    "model": "OLED77M3",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 3,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77m4",
+    "brand": "LG",
+    "model": "OLED77M4",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77m5",
+    "brand": "LG",
+    "model": "OLED77M5",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled77z3",
+    "brand": "LG",
+    "model": "OLED77Z3",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83b5",
+    "brand": "LG",
+    "model": "OLED83B5",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83b6",
+    "brand": "LG",
+    "model": "OLED83B6",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83c3",
+    "brand": "LG",
+    "model": "OLED83C3",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83c4",
+    "brand": "LG",
+    "model": "OLED83C4",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83c5",
+    "brand": "LG",
+    "model": "OLED83C5",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83c6h",
+    "brand": "LG",
+    "model": "OLED83C6H",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83g3",
+    "brand": "LG",
+    "model": "OLED83G3",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83g4",
+    "brand": "LG",
+    "model": "OLED83G4",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83g5",
+    "brand": "LG",
+    "model": "OLED83G5",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83g6",
+    "brand": "LG",
+    "model": "OLED83G6",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83m3",
+    "brand": "LG",
+    "model": "OLED83M3",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 3,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83m4",
+    "brand": "LG",
+    "model": "OLED83M4",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled83m5",
+    "brand": "LG",
+    "model": "OLED83M5",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled88z3",
+    "brand": "LG",
+    "model": "OLED88Z3",
+    "screen_size_inches": 88,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled97g4",
+    "brand": "LG",
+    "model": "OLED97G4",
+    "screen_size_inches": 97,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled97g5",
+    "brand": "LG",
+    "model": "OLED97G5",
+    "screen_size_inches": 97,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled97g6",
+    "brand": "LG",
+    "model": "OLED97G6",
+    "screen_size_inches": 97,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled97m3",
+    "brand": "LG",
+    "model": "OLED97M3",
+    "screen_size_inches": 97,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 3,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled97m4",
+    "brand": "LG",
+    "model": "OLED97M4",
+    "screen_size_inches": 97,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_oled97m5",
+    "brand": "LG",
+    "model": "OLED97M5",
+    "screen_size_inches": 97,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned7543",
+    "brand": "LG",
+    "model": "QNED7543",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned7550",
+    "brand": "LG",
+    "model": "QNED7550",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned7555",
+    "brand": "LG",
+    "model": "QNED7555",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned7565",
+    "brand": "LG",
+    "model": "QNED7565",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned7575",
+    "brand": "LG",
+    "model": "QNED7575",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8043",
+    "brand": "LG",
+    "model": "QNED8043",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8050",
+    "brand": "LG",
+    "model": "QNED8050",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8055",
+    "brand": "LG",
+    "model": "QNED8055",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8065",
+    "brand": "LG",
+    "model": "QNED8065",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8075",
+    "brand": "LG",
+    "model": "QNED8075",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8086",
+    "brand": "LG",
+    "model": "QNED8086",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned80t3a",
+    "brand": "LG",
+    "model": "QNED80T3A",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned80t5a",
+    "brand": "LG",
+    "model": "QNED80T5A",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned80t5b",
+    "brand": "LG",
+    "model": "QNED80T5B",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned80t6a",
+    "brand": "LG",
+    "model": "QNED80T6A",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned80t7a",
+    "brand": "LG",
+    "model": "QNED80T7A",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned80t8a",
+    "brand": "LG",
+    "model": "QNED80T8A",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8150",
+    "brand": "LG",
+    "model": "QNED8150",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8155",
+    "brand": "LG",
+    "model": "QNED8155",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8165",
+    "brand": "LG",
+    "model": "QNED8165",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8175",
+    "brand": "LG",
+    "model": "QNED8175",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8186",
+    "brand": "LG",
+    "model": "QNED8186",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8243",
+    "brand": "LG",
+    "model": "QNED8243",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8250",
+    "brand": "LG",
+    "model": "QNED8250",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8255",
+    "brand": "LG",
+    "model": "QNED8255",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8265",
+    "brand": "LG",
+    "model": "QNED8265",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8275",
+    "brand": "LG",
+    "model": "QNED8275",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8286",
+    "brand": "LG",
+    "model": "QNED8286",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned85100",
+    "brand": "LG",
+    "model": "QNED85100",
+    "screen_size_inches": 100,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8555",
+    "brand": "LG",
+    "model": "QNED8555",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8565",
+    "brand": "LG",
+    "model": "QNED8565",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8575",
+    "brand": "LG",
+    "model": "QNED8575",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8585",
+    "brand": "LG",
+    "model": "QNED8585",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8586",
+    "brand": "LG",
+    "model": "QNED8586",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned85t5a",
+    "brand": "LG",
+    "model": "QNED85T5A",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned85t5b",
+    "brand": "LG",
+    "model": "QNED85T5B",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned85t6a",
+    "brand": "LG",
+    "model": "QNED85T6A",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned85t7a",
+    "brand": "LG",
+    "model": "QNED85T7A",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned85t8a",
+    "brand": "LG",
+    "model": "QNED85T8A",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned85t9a",
+    "brand": "LG",
+    "model": "QNED85T9A",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned86100",
+    "brand": "LG",
+    "model": "QNED86100",
+    "screen_size_inches": 100,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8655",
+    "brand": "LG",
+    "model": "QNED8655",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8665",
+    "brand": "LG",
+    "model": "QNED8665",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8675",
+    "brand": "LG",
+    "model": "QNED8675",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned8686",
+    "brand": "LG",
+    "model": "QNED8686",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned90t6a",
+    "brand": "LG",
+    "model": "QNED90T6A",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned90t7a",
+    "brand": "LG",
+    "model": "QNED90T7A",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned90t8a",
+    "brand": "LG",
+    "model": "QNED90T8A",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned99t7a",
+    "brand": "LG",
+    "model": "QNED99T7A",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_qned99t8a",
+    "brand": "LG",
+    "model": "QNED99T8A",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QNED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur8043",
+    "brand": "LG",
+    "model": "UR8043",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur8050",
+    "brand": "LG",
+    "model": "UR8050",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur8055",
+    "brand": "LG",
+    "model": "UR8055",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur8065",
+    "brand": "LG",
+    "model": "UR8065",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur8070",
+    "brand": "LG",
+    "model": "UR8070",
+    "screen_size_inches": 70,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur8075",
+    "brand": "LG",
+    "model": "UR8075",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur8086",
+    "brand": "LG",
+    "model": "UR8086",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur9143",
+    "brand": "LG",
+    "model": "UR9143",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur9150",
+    "brand": "LG",
+    "model": "UR9150",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur9155",
+    "brand": "LG",
+    "model": "UR9155",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur9165",
+    "brand": "LG",
+    "model": "UR9165",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ur9175",
+    "brand": "LG",
+    "model": "UR9175",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ut8033",
+    "brand": "LG",
+    "model": "UT8033",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ut8050",
+    "brand": "LG",
+    "model": "UT8050",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ut8055",
+    "brand": "LG",
+    "model": "UT8055",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ut8065",
+    "brand": "LG",
+    "model": "UT8065",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ut8075",
+    "brand": "LG",
+    "model": "UT8075",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_lg_ut8086",
+    "brand": "LG",
+    "model": "UT8086",
+    "screen_size_inches": 86,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "webOS"
+    }
+  },
+  {
+    "id": "tv_samsung_mre55r85h",
+    "brand": "Samsung",
+    "model": "MRE55R85H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Micro_RGB",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_mre55r86h",
+    "brand": "Samsung",
+    "model": "MRE55R86H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Micro_RGB",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_mre65r85h",
+    "brand": "Samsung",
+    "model": "MRE65R85H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Micro_RGB",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_mre65r95h",
+    "brand": "Samsung",
+    "model": "MRE65R95H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Micro_RGB",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_mre75r85h",
+    "brand": "Samsung",
+    "model": "MRE75R85H",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Micro_RGB",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_mre75r95h",
+    "brand": "Samsung",
+    "model": "MRE75R95H",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Micro_RGB",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_mre85r85h",
+    "brand": "Samsung",
+    "model": "MRE85R85H",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Micro_RGB",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_mre85r95h",
+    "brand": "Samsung",
+    "model": "MRE85R95H",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Micro_RGB",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe100qn80f",
+    "brand": "Samsung",
+    "model": "QE100QN80F",
+    "screen_size_inches": 100,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe100qn80h",
+    "brand": "Samsung",
+    "model": "QE100QN80H",
+    "screen_size_inches": 100,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe115qn90f",
+    "brand": "Samsung",
+    "model": "QE115QN90F",
+    "screen_size_inches": 115,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe42s90d",
+    "brand": "Samsung",
+    "model": "QE42S90D",
+    "screen_size_inches": 42,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe42s90f",
+    "brand": "Samsung",
+    "model": "QE42S90F",
+    "screen_size_inches": 42,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe42s90h",
+    "brand": "Samsung",
+    "model": "QE42S90H",
+    "screen_size_inches": 42,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43ls03he",
+    "brand": "Samsung",
+    "model": "QE43LS03HE",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43q60c",
+    "brand": "Samsung",
+    "model": "QE43Q60C",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43q60d",
+    "brand": "Samsung",
+    "model": "QE43Q60D",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43q67d",
+    "brand": "Samsung",
+    "model": "QE43Q67D",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43q68d",
+    "brand": "Samsung",
+    "model": "QE43Q68D",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43q7f",
+    "brand": "Samsung",
+    "model": "QE43Q7F",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43q8f",
+    "brand": "Samsung",
+    "model": "QE43Q8F",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43qn90c",
+    "brand": "Samsung",
+    "model": "QE43QN90C",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43qn90d",
+    "brand": "Samsung",
+    "model": "QE43QN90D",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43qn90f",
+    "brand": "Samsung",
+    "model": "QE43QN90F",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe43qn92d",
+    "brand": "Samsung",
+    "model": "QE43QN92D",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe48s83h",
+    "brand": "Samsung",
+    "model": "QE48S83H",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe48s85h",
+    "brand": "Samsung",
+    "model": "QE48S85H",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe48s90d",
+    "brand": "Samsung",
+    "model": "QE48S90D",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe48s90f",
+    "brand": "Samsung",
+    "model": "QE48S90F",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe48s90h",
+    "brand": "Samsung",
+    "model": "QE48S90H",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe48s92d",
+    "brand": "Samsung",
+    "model": "QE48S92D",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe48s95h",
+    "brand": "Samsung",
+    "model": "QE48S95H",
+    "screen_size_inches": 48,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50ls03he",
+    "brand": "Samsung",
+    "model": "QE50LS03HE",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50q60c",
+    "brand": "Samsung",
+    "model": "QE50Q60C",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50q60d",
+    "brand": "Samsung",
+    "model": "QE50Q60D",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50q67d",
+    "brand": "Samsung",
+    "model": "QE50Q67D",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50q68d",
+    "brand": "Samsung",
+    "model": "QE50Q68D",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50q7f",
+    "brand": "Samsung",
+    "model": "QE50Q7F",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50q80c",
+    "brand": "Samsung",
+    "model": "QE50Q80C",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50q80d",
+    "brand": "Samsung",
+    "model": "QE50Q80D",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50q8f",
+    "brand": "Samsung",
+    "model": "QE50Q8F",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50qn80h",
+    "brand": "Samsung",
+    "model": "QE50QN80H",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50qn90c",
+    "brand": "Samsung",
+    "model": "QE50QN90C",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50qn90d",
+    "brand": "Samsung",
+    "model": "QE50QN90D",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50qn90f",
+    "brand": "Samsung",
+    "model": "QE50QN90F",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe50qn92d",
+    "brand": "Samsung",
+    "model": "QE50QN92D",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55ls03hw",
+    "brand": "Samsung",
+    "model": "QE55LS03HW",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55m70h",
+    "brand": "Samsung",
+    "model": "QE55M70H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Mini_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55m80h",
+    "brand": "Samsung",
+    "model": "QE55M80H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Mini_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q60c",
+    "brand": "Samsung",
+    "model": "QE55Q60C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q60d",
+    "brand": "Samsung",
+    "model": "QE55Q60D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q67d",
+    "brand": "Samsung",
+    "model": "QE55Q67D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q68d",
+    "brand": "Samsung",
+    "model": "QE55Q68D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q70c",
+    "brand": "Samsung",
+    "model": "QE55Q70C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q70d",
+    "brand": "Samsung",
+    "model": "QE55Q70D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q74d",
+    "brand": "Samsung",
+    "model": "QE55Q74D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q77d",
+    "brand": "Samsung",
+    "model": "QE55Q77D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q7f",
+    "brand": "Samsung",
+    "model": "QE55Q7F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q80c",
+    "brand": "Samsung",
+    "model": "QE55Q80C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q80d",
+    "brand": "Samsung",
+    "model": "QE55Q80D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55q8f",
+    "brand": "Samsung",
+    "model": "QE55Q8F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn700c",
+    "brand": "Samsung",
+    "model": "QE55QN700C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn70f",
+    "brand": "Samsung",
+    "model": "QE55QN70F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn70h",
+    "brand": "Samsung",
+    "model": "QE55QN70H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn80f",
+    "brand": "Samsung",
+    "model": "QE55QN80F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn80h",
+    "brand": "Samsung",
+    "model": "QE55QN80H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn85c",
+    "brand": "Samsung",
+    "model": "QE55QN85C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn85d",
+    "brand": "Samsung",
+    "model": "QE55QN85D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn85f",
+    "brand": "Samsung",
+    "model": "QE55QN85F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn90c",
+    "brand": "Samsung",
+    "model": "QE55QN90C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn90d",
+    "brand": "Samsung",
+    "model": "QE55QN90D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn90f",
+    "brand": "Samsung",
+    "model": "QE55QN90F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn92d",
+    "brand": "Samsung",
+    "model": "QE55QN92D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn95c",
+    "brand": "Samsung",
+    "model": "QE55QN95C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55qn95d",
+    "brand": "Samsung",
+    "model": "QE55QN95D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s83h",
+    "brand": "Samsung",
+    "model": "QE55S83H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s85d",
+    "brand": "Samsung",
+    "model": "QE55S85D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s85f",
+    "brand": "Samsung",
+    "model": "QE55S85F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s85h",
+    "brand": "Samsung",
+    "model": "QE55S85H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s90c",
+    "brand": "Samsung",
+    "model": "QE55S90C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s90d",
+    "brand": "Samsung",
+    "model": "QE55S90D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s90f",
+    "brand": "Samsung",
+    "model": "QE55S90F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s90h",
+    "brand": "Samsung",
+    "model": "QE55S90H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s92d",
+    "brand": "Samsung",
+    "model": "QE55S92D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s94d",
+    "brand": "Samsung",
+    "model": "QE55S94D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s95c",
+    "brand": "Samsung",
+    "model": "QE55S95C",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s95d",
+    "brand": "Samsung",
+    "model": "QE55S95D",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s95f",
+    "brand": "Samsung",
+    "model": "QE55S95F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s95h",
+    "brand": "Samsung",
+    "model": "QE55S95H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe55s99h",
+    "brand": "Samsung",
+    "model": "QE55S99H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65ls03hw",
+    "brand": "Samsung",
+    "model": "QE65LS03HW",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65m70h",
+    "brand": "Samsung",
+    "model": "QE65M70H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Mini_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65m80h",
+    "brand": "Samsung",
+    "model": "QE65M80H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Mini_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q60c",
+    "brand": "Samsung",
+    "model": "QE65Q60C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q60d",
+    "brand": "Samsung",
+    "model": "QE65Q60D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q67d",
+    "brand": "Samsung",
+    "model": "QE65Q67D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q68d",
+    "brand": "Samsung",
+    "model": "QE65Q68D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q70c",
+    "brand": "Samsung",
+    "model": "QE65Q70C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q70d",
+    "brand": "Samsung",
+    "model": "QE65Q70D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q74d",
+    "brand": "Samsung",
+    "model": "QE65Q74D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q77d",
+    "brand": "Samsung",
+    "model": "QE65Q77D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q7f",
+    "brand": "Samsung",
+    "model": "QE65Q7F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q80c",
+    "brand": "Samsung",
+    "model": "QE65Q80C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q80d",
+    "brand": "Samsung",
+    "model": "QE65Q80D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65q8f",
+    "brand": "Samsung",
+    "model": "QE65Q8F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn700c",
+    "brand": "Samsung",
+    "model": "QE65QN700C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn70f",
+    "brand": "Samsung",
+    "model": "QE65QN70F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn70h",
+    "brand": "Samsung",
+    "model": "QE65QN70H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn800c",
+    "brand": "Samsung",
+    "model": "QE65QN800C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn800d",
+    "brand": "Samsung",
+    "model": "QE65QN800D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn80f",
+    "brand": "Samsung",
+    "model": "QE65QN80F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn80h",
+    "brand": "Samsung",
+    "model": "QE65QN80H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn85c",
+    "brand": "Samsung",
+    "model": "QE65QN85C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn85d",
+    "brand": "Samsung",
+    "model": "QE65QN85D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn85f",
+    "brand": "Samsung",
+    "model": "QE65QN85F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn900c",
+    "brand": "Samsung",
+    "model": "QE65QN900C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn900d",
+    "brand": "Samsung",
+    "model": "QE65QN900D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn900f",
+    "brand": "Samsung",
+    "model": "QE65QN900F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn90c",
+    "brand": "Samsung",
+    "model": "QE65QN90C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn90d",
+    "brand": "Samsung",
+    "model": "QE65QN90D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn90f",
+    "brand": "Samsung",
+    "model": "QE65QN90F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn92d",
+    "brand": "Samsung",
+    "model": "QE65QN92D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn95c",
+    "brand": "Samsung",
+    "model": "QE65QN95C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn95d",
+    "brand": "Samsung",
+    "model": "QE65QN95D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65qn990f",
+    "brand": "Samsung",
+    "model": "QE65QN990F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s83h",
+    "brand": "Samsung",
+    "model": "QE65S83H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s85d",
+    "brand": "Samsung",
+    "model": "QE65S85D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s85f",
+    "brand": "Samsung",
+    "model": "QE65S85F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s85h",
+    "brand": "Samsung",
+    "model": "QE65S85H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s90c",
+    "brand": "Samsung",
+    "model": "QE65S90C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s90d",
+    "brand": "Samsung",
+    "model": "QE65S90D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s90f",
+    "brand": "Samsung",
+    "model": "QE65S90F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s90h",
+    "brand": "Samsung",
+    "model": "QE65S90H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s92d",
+    "brand": "Samsung",
+    "model": "QE65S92D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s94d",
+    "brand": "Samsung",
+    "model": "QE65S94D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s95c",
+    "brand": "Samsung",
+    "model": "QE65S95C",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s95d",
+    "brand": "Samsung",
+    "model": "QE65S95D",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s95f",
+    "brand": "Samsung",
+    "model": "QE65S95F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s95h",
+    "brand": "Samsung",
+    "model": "QE65S95H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe65s99h",
+    "brand": "Samsung",
+    "model": "QE65S99H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe70q60c",
+    "brand": "Samsung",
+    "model": "QE70Q60C",
+    "screen_size_inches": 70,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75ls03hw",
+    "brand": "Samsung",
+    "model": "QE75LS03HW",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75m70h",
+    "brand": "Samsung",
+    "model": "QE75M70H",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Mini_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75m80h",
+    "brand": "Samsung",
+    "model": "QE75M80H",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Mini_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q60c",
+    "brand": "Samsung",
+    "model": "QE75Q60C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q60d",
+    "brand": "Samsung",
+    "model": "QE75Q60D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q67d",
+    "brand": "Samsung",
+    "model": "QE75Q67D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q68d",
+    "brand": "Samsung",
+    "model": "QE75Q68D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q70c",
+    "brand": "Samsung",
+    "model": "QE75Q70C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q70d",
+    "brand": "Samsung",
+    "model": "QE75Q70D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q74d",
+    "brand": "Samsung",
+    "model": "QE75Q74D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q77d",
+    "brand": "Samsung",
+    "model": "QE75Q77D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q7f",
+    "brand": "Samsung",
+    "model": "QE75Q7F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q80c",
+    "brand": "Samsung",
+    "model": "QE75Q80C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q80d",
+    "brand": "Samsung",
+    "model": "QE75Q80D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75q8f",
+    "brand": "Samsung",
+    "model": "QE75Q8F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn700c",
+    "brand": "Samsung",
+    "model": "QE75QN700C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn70f",
+    "brand": "Samsung",
+    "model": "QE75QN70F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn70h",
+    "brand": "Samsung",
+    "model": "QE75QN70H",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn800c",
+    "brand": "Samsung",
+    "model": "QE75QN800C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn800d",
+    "brand": "Samsung",
+    "model": "QE75QN800D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn80f",
+    "brand": "Samsung",
+    "model": "QE75QN80F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn80h",
+    "brand": "Samsung",
+    "model": "QE75QN80H",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn85c",
+    "brand": "Samsung",
+    "model": "QE75QN85C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn85d",
+    "brand": "Samsung",
+    "model": "QE75QN85D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn85f",
+    "brand": "Samsung",
+    "model": "QE75QN85F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn900c",
+    "brand": "Samsung",
+    "model": "QE75QN900C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn900d",
+    "brand": "Samsung",
+    "model": "QE75QN900D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn900f",
+    "brand": "Samsung",
+    "model": "QE75QN900F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn90c",
+    "brand": "Samsung",
+    "model": "QE75QN90C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn90d",
+    "brand": "Samsung",
+    "model": "QE75QN90D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn90f",
+    "brand": "Samsung",
+    "model": "QE75QN90F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn92d",
+    "brand": "Samsung",
+    "model": "QE75QN92D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn95c",
+    "brand": "Samsung",
+    "model": "QE75QN95C",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn95d",
+    "brand": "Samsung",
+    "model": "QE75QN95D",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe75qn990f",
+    "brand": "Samsung",
+    "model": "QE75QN990F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s83h",
+    "brand": "Samsung",
+    "model": "QE77S83H",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s85d",
+    "brand": "Samsung",
+    "model": "QE77S85D",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s85f",
+    "brand": "Samsung",
+    "model": "QE77S85F",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s85h",
+    "brand": "Samsung",
+    "model": "QE77S85H",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s90c",
+    "brand": "Samsung",
+    "model": "QE77S90C",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s90d",
+    "brand": "Samsung",
+    "model": "QE77S90D",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s90f",
+    "brand": "Samsung",
+    "model": "QE77S90F",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s90h",
+    "brand": "Samsung",
+    "model": "QE77S90H",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s92d",
+    "brand": "Samsung",
+    "model": "QE77S92D",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s94d",
+    "brand": "Samsung",
+    "model": "QE77S94D",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s95c",
+    "brand": "Samsung",
+    "model": "QE77S95C",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s95d",
+    "brand": "Samsung",
+    "model": "QE77S95D",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s95f",
+    "brand": "Samsung",
+    "model": "QE77S95F",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s95h",
+    "brand": "Samsung",
+    "model": "QE77S95H",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe77s99h",
+    "brand": "Samsung",
+    "model": "QE77S99H",
+    "screen_size_inches": 77,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s83h",
+    "brand": "Samsung",
+    "model": "QE83S83H",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s85f",
+    "brand": "Samsung",
+    "model": "QE83S85F",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s85h",
+    "brand": "Samsung",
+    "model": "QE83S85H",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s90c",
+    "brand": "Samsung",
+    "model": "QE83S90C",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s90d",
+    "brand": "Samsung",
+    "model": "QE83S90D",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s90f",
+    "brand": "Samsung",
+    "model": "QE83S90F",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s90h",
+    "brand": "Samsung",
+    "model": "QE83S90H",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s95f",
+    "brand": "Samsung",
+    "model": "QE83S95F",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe83s99h",
+    "brand": "Samsung",
+    "model": "QE83S99H",
+    "screen_size_inches": 83,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QD-OLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 165,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85ls03hw",
+    "brand": "Samsung",
+    "model": "QE85LS03HW",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q60c",
+    "brand": "Samsung",
+    "model": "QE85Q60C",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q60d",
+    "brand": "Samsung",
+    "model": "QE85Q60D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q70c",
+    "brand": "Samsung",
+    "model": "QE85Q70C",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q70d",
+    "brand": "Samsung",
+    "model": "QE85Q70D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q77d",
+    "brand": "Samsung",
+    "model": "QE85Q77D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q7f",
+    "brand": "Samsung",
+    "model": "QE85Q7F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q80c",
+    "brand": "Samsung",
+    "model": "QE85Q80C",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q80d",
+    "brand": "Samsung",
+    "model": "QE85Q80D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85q8f",
+    "brand": "Samsung",
+    "model": "QE85Q8F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn70f",
+    "brand": "Samsung",
+    "model": "QE85QN70F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn70h",
+    "brand": "Samsung",
+    "model": "QE85QN70H",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn800c",
+    "brand": "Samsung",
+    "model": "QE85QN800C",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn800d",
+    "brand": "Samsung",
+    "model": "QE85QN800D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn80f",
+    "brand": "Samsung",
+    "model": "QE85QN80F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn80h",
+    "brand": "Samsung",
+    "model": "QE85QN80H",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn85c",
+    "brand": "Samsung",
+    "model": "QE85QN85C",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn85d",
+    "brand": "Samsung",
+    "model": "QE85QN85D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn85f",
+    "brand": "Samsung",
+    "model": "QE85QN85F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn900c",
+    "brand": "Samsung",
+    "model": "QE85QN900C",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn900d",
+    "brand": "Samsung",
+    "model": "QE85QN900D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn900f",
+    "brand": "Samsung",
+    "model": "QE85QN900F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn90c",
+    "brand": "Samsung",
+    "model": "QE85QN90C",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn90d",
+    "brand": "Samsung",
+    "model": "QE85QN90D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn90f",
+    "brand": "Samsung",
+    "model": "QE85QN90F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn92d",
+    "brand": "Samsung",
+    "model": "QE85QN92D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn95c",
+    "brand": "Samsung",
+    "model": "QE85QN95C",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn95d",
+    "brand": "Samsung",
+    "model": "QE85QN95D",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe85qn990f",
+    "brand": "Samsung",
+    "model": "QE85QN990F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe98ls03hw",
+    "brand": "Samsung",
+    "model": "QE98LS03HW",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe98q60d",
+    "brand": "Samsung",
+    "model": "QE98Q60D",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe98q80c",
+    "brand": "Samsung",
+    "model": "QE98Q80C",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe98q80d",
+    "brand": "Samsung",
+    "model": "QE98Q80D",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe98qn80h",
+    "brand": "Samsung",
+    "model": "QE98QN80H",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe98qn90d",
+    "brand": "Samsung",
+    "model": "QE98QN90D",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe98qn90f",
+    "brand": "Samsung",
+    "model": "QE98QN90F",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "4K",
+      "refresh_rate_hz": 144,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_qe98qn990f",
+    "brand": "Samsung",
+    "model": "QE98QN990F",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Neo_QLED",
+      "resolution": "8K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 4,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue32f6000f",
+    "brand": "Samsung",
+    "model": "UE32F6000F",
+    "screen_size_inches": 32,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "FHD",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue32h5000f",
+    "brand": "Samsung",
+    "model": "UE32H5000F",
+    "screen_size_inches": 32,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "HD",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue40f6000f",
+    "brand": "Samsung",
+    "model": "UE40F6000F",
+    "screen_size_inches": 40,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "FHD",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
     "id": "tv_samsung_ue43cu7172",
     "brand": "Samsung",
     "model": "UE43CU7172",
     "screen_size_inches": 43,
     "price_pln": 1549,
-    "release_year": 2023,
-    "brand_recognition": "mainstream",
-    "specs": {
-      "display_technology": "Direct_LED",
-      "resolution": "4K",
-      "refresh_rate_hz": 60,
-      "hdmi_2_1_ports": 0,
-      "smart_tv_system": "Tizen"
-    }
-  },
-  {
-    "id": "tv_samsung_ue50cu7172",
-    "brand": "Samsung",
-    "model": "UE50CU7172",
-    "screen_size_inches": 50,
-    "price_pln": 1799,
-    "release_year": 2023,
-    "brand_recognition": "mainstream",
-    "specs": {
-      "display_technology": "Direct_LED",
-      "resolution": "4K",
-      "refresh_rate_hz": 60,
-      "hdmi_2_1_ports": 0,
-      "smart_tv_system": "Tizen"
-    }
-  },
-  {
-    "id": "tv_samsung_ue55cu7172",
-    "brand": "Samsung",
-    "model": "UE55CU7172",
-    "screen_size_inches": 55,
-    "price_pln": 2095,
-    "release_year": 2023,
-    "brand_recognition": "mainstream",
-    "specs": {
-      "display_technology": "Direct_LED",
-      "resolution": "4K",
-      "refresh_rate_hz": 60,
-      "hdmi_2_1_ports": 0,
-      "smart_tv_system": "Tizen"
-    }
-  },
-  {
-    "id": "tv_samsung_ue65cu7172",
-    "brand": "Samsung",
-    "model": "UE65CU7172",
-    "screen_size_inches": 65,
-    "price_pln": 2799,
-    "release_year": 2023,
-    "brand_recognition": "mainstream",
-    "specs": {
-      "display_technology": "Direct_LED",
-      "resolution": "4K",
-      "refresh_rate_hz": 60,
-      "hdmi_2_1_ports": 0,
-      "smart_tv_system": "Tizen"
-    }
-  },
-  {
-    "id": "tv_samsung_ue75cu7172",
-    "brand": "Samsung",
-    "model": "UE75CU7172",
-    "screen_size_inches": 75,
-    "price_pln": 4299,
-    "release_year": 2023,
-    "brand_recognition": "mainstream",
-    "specs": {
-      "display_technology": "Direct_LED",
-      "resolution": "4K",
-      "refresh_rate_hz": 60,
-      "hdmi_2_1_ports": 0,
-      "smart_tv_system": "Tizen"
-    }
-  },
-  {
-    "id": "tv_samsung_ue85cu7172",
-    "brand": "Samsung",
-    "model": "UE85CU7172",
-    "screen_size_inches": 85,
-    "price_pln": 6699,
     "release_year": 2023,
     "brand_recognition": "mainstream",
     "specs": {
@@ -112,6 +6926,94 @@
     }
   },
   {
+    "id": "tv_samsung_ue43du7172",
+    "brand": "Samsung",
+    "model": "UE43DU7172",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue43du8072",
+    "brand": "Samsung",
+    "model": "UE43DU8072",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue43u8000f",
+    "brand": "Samsung",
+    "model": "UE43U8000F",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue43u8092h",
+    "brand": "Samsung",
+    "model": "UE43U8092H",
+    "screen_size_inches": 43,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue50cu7172",
+    "brand": "Samsung",
+    "model": "UE50CU7172",
+    "screen_size_inches": 50,
+    "price_pln": 1799,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
     "id": "tv_samsung_ue50cu8002",
     "brand": "Samsung",
     "model": "UE50CU8002",
@@ -121,6 +7023,94 @@
     "brand_recognition": "mainstream",
     "specs": {
       "display_technology": "Edge_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue50du7172",
+    "brand": "Samsung",
+    "model": "UE50DU7172",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue50du8072",
+    "brand": "Samsung",
+    "model": "UE50DU8072",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue50u8000f",
+    "brand": "Samsung",
+    "model": "UE50U8000F",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue50u8092h",
+    "brand": "Samsung",
+    "model": "UE50U8092H",
+    "screen_size_inches": 50,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue55cu7172",
+    "brand": "Samsung",
+    "model": "UE55CU7172",
+    "screen_size_inches": 55,
+    "price_pln": 2095,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
       "resolution": "4K",
       "refresh_rate_hz": 60,
       "hdmi_2_1_ports": 0,
@@ -144,6 +7134,112 @@
     }
   },
   {
+    "id": "tv_samsung_ue55du7172",
+    "brand": "Samsung",
+    "model": "UE55DU7172",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue55du8072",
+    "brand": "Samsung",
+    "model": "UE55DU8072",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue55u8000f",
+    "brand": "Samsung",
+    "model": "UE55U8000F",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue55u8092h",
+    "brand": "Samsung",
+    "model": "UE55U8092H",
+    "screen_size_inches": 55,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue58u8000f",
+    "brand": "Samsung",
+    "model": "UE58U8000F",
+    "screen_size_inches": 58,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue65cu7172",
+    "brand": "Samsung",
+    "model": "UE65CU7172",
+    "screen_size_inches": 65,
+    "price_pln": 2799,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
     "id": "tv_samsung_ue65cu8002",
     "brand": "Samsung",
     "model": "UE65CU8002",
@@ -153,6 +7249,112 @@
     "brand_recognition": "mainstream",
     "specs": {
       "display_technology": "Edge_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue65du7172",
+    "brand": "Samsung",
+    "model": "UE65DU7172",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue65du8072",
+    "brand": "Samsung",
+    "model": "UE65DU8072",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue65u8000f",
+    "brand": "Samsung",
+    "model": "UE65U8000F",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue65u8092h",
+    "brand": "Samsung",
+    "model": "UE65U8092H",
+    "screen_size_inches": 65,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue70u8000f",
+    "brand": "Samsung",
+    "model": "UE70U8000F",
+    "screen_size_inches": 70,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue75cu7172",
+    "brand": "Samsung",
+    "model": "UE75CU7172",
+    "screen_size_inches": 75,
+    "price_pln": 4299,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
       "resolution": "4K",
       "refresh_rate_hz": 60,
       "hdmi_2_1_ports": 0,
@@ -176,6 +7378,94 @@
     }
   },
   {
+    "id": "tv_samsung_ue75du7172",
+    "brand": "Samsung",
+    "model": "UE75DU7172",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue75du8072",
+    "brand": "Samsung",
+    "model": "UE75DU8072",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue75u8000f",
+    "brand": "Samsung",
+    "model": "UE75U8000F",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue75u8092h",
+    "brand": "Samsung",
+    "model": "UE75U8092H",
+    "screen_size_inches": 75,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue85cu7172",
+    "brand": "Samsung",
+    "model": "UE85CU7172",
+    "screen_size_inches": 85,
+    "price_pln": 6699,
+    "release_year": 2023,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "Direct_LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
     "id": "tv_samsung_ue85cu8002",
     "brand": "Samsung",
     "model": "UE85CU8002",
@@ -188,6 +7478,96 @@
       "resolution": "4K",
       "refresh_rate_hz": 60,
       "hdmi_2_1_ports": 0,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue85du7172",
+    "brand": "Samsung",
+    "model": "UE85DU7172",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue85du8072",
+    "brand": "Samsung",
+    "model": "UE85DU8072",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue85u8000f",
+    "brand": "Samsung",
+    "model": "UE85U8000F",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2025,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue85u8092h",
+    "brand": "Samsung",
+    "model": "UE85U8092H",
+    "screen_size_inches": 85,
+    "price_pln": null,
+    "release_year": 2026,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 60,
+      "hdmi_2_1_ports": 0,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
+      "smart_tv_system": "Tizen"
+    }
+  },
+  {
+    "id": "tv_samsung_ue98du9000",
+    "brand": "Samsung",
+    "model": "UE98DU9000",
+    "screen_size_inches": 98,
+    "price_pln": null,
+    "release_year": 2024,
+    "brand_recognition": "mainstream",
+    "specs": {
+      "display_technology": "LED",
+      "resolution": "4K",
+      "refresh_rate_hz": 120,
+      "hdmi_2_1_ports": 2,
+      "peak_brightness_nits": null,
+      "audio_watts": null,
       "smart_tv_system": "Tizen"
     }
   }
