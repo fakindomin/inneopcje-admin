@@ -51,6 +51,37 @@ export default function PhoneWizard() {
   const busy = retractingIds.length > 0;
   const showResult = visibleSteps.some((s) => s.id === "wynik");
 
+  // The further into the wizard someone gets, the more likely the newly
+  // revealed (or reopened) question lands below the fold - nothing used to
+  // bring it into view, so scrolling was entirely on the visitor. Each
+  // step's wrapper registers itself here by id; the effect below scrolls
+  // whichever one is CURRENTLY ACTIVE (index revealedCount-1) into view -
+  // depending on its id rather than the `steps` array (a new array every
+  // render) so this only fires when that actually changes, not on every
+  // unrelated re-render (price/live-count fetches, etc).
+  const stepRefs = useRef(new Map());
+  function setStepRef(id) {
+    return (el) => {
+      if (el) stepRefs.current.set(id, el);
+      else stepRefs.current.delete(id);
+    };
+  }
+  const currentStepId = steps[revealedCount - 1]?.id;
+  useEffect(() => {
+    if (!currentStepId) return;
+    // The newly-mounted row's own height-reveal animation (see
+    // WizardHeightReveal) grows from ~0 over ~420ms - scrolling before that
+    // finishes measures a still-collapsed element, so `block: "nearest"`
+    // sees it as trivially "already in view" and does nothing. Waiting the
+    // same ~500ms WizardHeightReveal itself already treats as "safe" (its
+    // own transitionend fallback) lets this measure the row at its real,
+    // settled size.
+    const timer = setTimeout(() => {
+      stepRefs.current.get(currentStepId)?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }, 480);
+    return () => clearTimeout(timer);
+  }, [currentStepId]);
+
   // Only used to build the "Zobacz pełne zestawienie" link's ?wprofile=
   // param below - the wizard itself never renders anything from this, it
   // just hands the profile to the product page (app/produkt/[slug]/page.js)
@@ -199,50 +230,27 @@ export default function PhoneWizard() {
       )}
       {visibleSteps.map((s, i) =>
         s.id === "wynik" ? (
-          <WizardHeightReveal
-            key="wynik"
-            className={`wizard-row${i === 0 ? " wizard-row-first" : ""}`}
-            exiting={retractingIds.includes(s.id)}
-            onExited={() => handleRetracted(s.id)}
-          >
-            <div className="flex flex-col items-center">
-              <div className="wizard-dot wizard-dot-result" />
-            </div>
-            <div className="flex-1">
-              {match === undefined && (
-                <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
-                  <p className="text-sm font-medium text-brand-ink">Szukam najlepszego dopasowania…</p>
-                </div>
-              )}
-              {match === null && (
-                <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
-                  <p className="text-sm font-medium text-brand-ink mb-1">
-                    Nie mamy jeszcze telefonu w tym segmencie
-                  </p>
-                  <p className="text-xs text-brand-muted mb-3">Spróbuj zmienić wcześniejsze odpowiedzi.</p>
-                  <button
-                    type="button"
-                    onClick={handleRestart}
-                    className="text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
-                  >
-                    Zacznij od nowa
-                  </button>
-                </div>
-              )}
-              {match && (
-                <>
-                  <VerdictCard product={match} />
-                  <div className="flex items-center justify-between -mt-2">
-                    <Link
-                      href={
-                        Array.isArray(wynikProfile?.producent) && wynikProfile.producent.length > 1
-                          ? `/produkt/${match.slug}?wprofile=${encodeURIComponent(JSON.stringify(wynikProfile))}`
-                          : `/produkt/${match.slug}`
-                      }
-                      className="text-xs text-brand-secondary hover:text-brand-ink"
-                    >
-                      Zobacz pełne zestawienie →
-                    </Link>
+          <div key="wynik" ref={setStepRef("wynik")}>
+            <WizardHeightReveal
+              className={`wizard-row${i === 0 ? " wizard-row-first" : ""}`}
+              exiting={retractingIds.includes(s.id)}
+              onExited={() => handleRetracted(s.id)}
+            >
+              <div className="flex flex-col items-center">
+                <div className="wizard-dot wizard-dot-result" />
+              </div>
+              <div className="flex-1">
+                {match === undefined && (
+                  <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
+                    <p className="text-sm font-medium text-brand-ink">Szukam najlepszego dopasowania…</p>
+                  </div>
+                )}
+                {match === null && (
+                  <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
+                    <p className="text-sm font-medium text-brand-ink mb-1">
+                      Nie mamy jeszcze telefonu w tym segmencie
+                    </p>
+                    <p className="text-xs text-brand-muted mb-3">Spróbuj zmienić wcześniejsze odpowiedzi.</p>
                     <button
                       type="button"
                       onClick={handleRestart}
@@ -251,21 +259,46 @@ export default function PhoneWizard() {
                       Zacznij od nowa
                     </button>
                   </div>
-                </>
-              )}
-            </div>
-          </WizardHeightReveal>
+                )}
+                {match && (
+                  <>
+                    <VerdictCard product={match} />
+                    <div className="flex items-center justify-between -mt-2">
+                      <Link
+                        href={
+                          Array.isArray(wynikProfile?.producent) && wynikProfile.producent.length > 1
+                            ? `/produkt/${match.slug}?wprofile=${encodeURIComponent(JSON.stringify(wynikProfile))}`
+                            : `/produkt/${match.slug}`
+                        }
+                        className="text-xs text-brand-secondary hover:text-brand-ink"
+                      >
+                        Zobacz pełne zestawienie →
+                      </Link>
+                      <button
+                        type="button"
+                        onClick={handleRestart}
+                        className="text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
+                      >
+                        Zacznij od nowa
+                      </button>
+                    </div>
+                  </>
+                )}
+              </div>
+            </WizardHeightReveal>
+          </div>
         ) : (
-          <WizardStep
-            key={s.id}
-            step={s}
-            isFirst={i === 0}
-            onAnswer={(optionId) => handleAnswer(s.id, optionId)}
-            onReopen={() => handleReopen(s.id)}
-            onSettled={() => setRevealedCount((n) => n + 1)}
-            exiting={retractingIds.includes(s.id)}
-            onExited={() => handleRetracted(s.id)}
-          />
+          <div key={s.id} ref={setStepRef(s.id)}>
+            <WizardStep
+              step={s}
+              isFirst={i === 0}
+              onAnswer={(optionId) => handleAnswer(s.id, optionId)}
+              onReopen={() => handleReopen(s.id)}
+              onSettled={() => setRevealedCount((n) => n + 1)}
+              exiting={retractingIds.includes(s.id)}
+              onExited={() => handleRetracted(s.id)}
+            />
+          </div>
         )
       )}
     </div>
