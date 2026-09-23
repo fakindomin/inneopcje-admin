@@ -6,6 +6,7 @@ import { resolvePath } from "../lib/wizardTree.js";
 import WizardStep from "./WizardStep.js";
 import WizardHeightReveal from "./WizardHeightReveal.js";
 import VerdictCard from "./VerdictCard.js";
+import { IconShuffle, IconRefresh } from "./icons.js";
 
 export default function PhoneWizard() {
   const [answers, setAnswers] = useState({});
@@ -256,23 +257,25 @@ export default function PhoneWizard() {
                 {match && (
                   <>
                     <VerdictCard product={match} />
-                    <div className="flex items-center justify-between -mt-2">
+                    <div className="grid grid-cols-2 gap-3">
                       <Link
                         href={
                           Array.isArray(wynikProfile?.producent) && wynikProfile.producent.length > 1
                             ? `/produkt/${match.slug}?wprofile=${encodeURIComponent(JSON.stringify(wynikProfile))}`
                             : `/produkt/${match.slug}`
                         }
-                        className="text-xs text-brand-secondary hover:text-brand-ink"
+                        className="big-tile"
                       >
-                        Zobacz pełne zestawienie →
+                        <span className="big-tile-icon">
+                          <IconShuffle width={20} height={20} />
+                        </span>
+                        <span className="big-tile-label">Inna Opcja</span>
                       </Link>
-                      <button
-                        type="button"
-                        onClick={handleRestart}
-                        className="text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
-                      >
-                        Zacznij od nowa
+                      <button type="button" onClick={handleRestart} className="big-tile">
+                        <span className="big-tile-icon">
+                          <IconRefresh width={20} height={20} />
+                        </span>
+                        <span className="big-tile-label">Zacznij od nowa</span>
                       </button>
                     </div>
                   </>
