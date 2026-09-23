@@ -116,13 +116,24 @@ function formatDateTime(dateValue) {
   });
 }
 
-// innaopcja-bot's cron runs hourly (not a single guessed daily time — see
-// .github/workflows/build-database.yml) and just checks whether there's
-// quota left; most ticks on an already-exhausted day exit in seconds.
+// innaopcja-bot's cron runs weekly, Monday 03:00 UTC (see
+// .github/workflows/build-database.yml in that repo) - new phone/TV models
+// don't appear often enough to justify more; live price refresh is a
+// separate, per-view mechanism (app/api/phone/[slug]/price) unrelated to
+// this schedule.
 function nextScheduledRunLabel() {
   const now = new Date();
-  const minutesLeft = 59 - now.getUTCMinutes();
-  return `za ${minutesLeft} min (co godzinę — większość sprawdzeń nic nie robi, jeśli limit dzienny już wyczerpany)`;
+  const next = new Date(now);
+  next.setUTCHours(3, 0, 0, 0);
+  const daysUntilMonday = (1 - now.getUTCDay() + 7) % 7;
+  next.setUTCDate(next.getUTCDate() + daysUntilMonday);
+  if (next <= now) next.setUTCDate(next.getUTCDate() + 7);
+
+  const diffMs = next - now;
+  const days = Math.floor(diffMs / (24 * 60 * 60 * 1000));
+  const hours = Math.floor((diffMs % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+  const parts = [days > 0 ? `${days}d` : null, `${hours}h`].filter(Boolean).join(" ");
+  return `za ${parts} (co tydzień, poniedziałek 03:00 UTC)`;
 }
 
 export default async function AdminPage({ searchParams }) {
