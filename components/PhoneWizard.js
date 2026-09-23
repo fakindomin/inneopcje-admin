@@ -45,8 +45,16 @@ export default function PhoneWizard() {
       });
   }, []);
 
+  // Rendering never waits on this fetch: only "producent" and
+  // "rozmiar_ekranu" (several answers deep) actually need real
+  // producentByTier/screenRangeByTier data - resolvePath already treats
+  // {} as "nothing to offer yet" for both (skips/asks-anyway rather than
+  // erroring), so the first questions show immediately with the fetch
+  // filling in behind them instead of a blank "Ładowanie…" screen for
+  // data nobody needs yet. `ready` still gates the test live-count fetch
+  // below, which has nothing useful to show before this data exists.
   const ready = producentByTier !== null && screenRangeByTier !== null;
-  const steps = ready ? resolvePath(answers, producentByTier, screenRangeByTier) : [];
+  const steps = resolvePath(answers, producentByTier ?? {}, screenRangeByTier ?? {});
   const visibleSteps = steps.slice(0, Math.min(revealedCount, steps.length));
   const busy = retractingIds.length > 0;
   const showResult = visibleSteps.some((s) => s.id === "wynik");
@@ -202,21 +210,6 @@ export default function PhoneWizard() {
     setRetractingIds([]);
     setMatch(undefined);
     fetchedForRef.current = null;
-  }
-
-  if (!ready) {
-    return (
-      <div className="flex flex-col">
-        <div className="wizard-row wizard-row-first">
-          <div className="flex flex-col items-center">
-            <div className="wizard-dot" />
-          </div>
-          <div className="wizard-body">
-            <p className="wizard-question">Ładowanie…</p>
-          </div>
-        </div>
-      </div>
-    );
   }
 
   return (
