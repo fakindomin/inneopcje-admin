@@ -190,6 +190,12 @@ body {
   margin-bottom: 0;
   font-weight: 600;
   cursor: pointer;
+  /* .wizard-option's own max-height/overflow exist only to animate an
+     UNCHOSEN option collapsing away - the chosen one survives into the
+     answered capsule for good, so a longer label (more than ~2 lines)
+     must be free to grow instead of silently clipping mid-word. */
+  max-height: none;
+  overflow: visible;
 }
 
 @media (prefers-reduced-motion: reduce) {
