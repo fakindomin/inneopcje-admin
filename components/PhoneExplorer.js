@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Logo from "./Logo";
 import VerdictCard from "./VerdictCard";
@@ -36,12 +35,12 @@ export default function PhoneExplorer({ initialProduct, initialAlternatives, bac
         {(navigate) => (
           <>
             <div className="flex items-center justify-between mb-3">
-              <Link href="/" className="flex items-center gap-1.5">
+              <button type="button" onClick={() => navigate("/")} className="flex items-center gap-1.5">
                 <Logo width={20} height={16} />
                 <span className="text-[13px] font-medium text-brand-ink">
                   innaopcja<span className="text-brand-orange">.pl</span>
                 </span>
-              </Link>
+              </button>
             </div>
 
             {backTo && (

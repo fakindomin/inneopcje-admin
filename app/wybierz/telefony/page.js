@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import PhoneWizard from "../../../components/PhoneWizard.js";
 import PageSlide from "../../../components/PageSlide.js";
+import Logo from "../../../components/Logo.js";
 
 export default function WybierzTelefonyPage() {
   // Warms "/" for the back button below - same reasoning as
@@ -22,12 +23,8 @@ export default function WybierzTelefonyPage() {
               <p className="text-lg font-medium">
                 <span className="text-brand-ink">Dobierz</span> <span className="text-brand-orange">telefon</span>
               </p>
-              <button
-                type="button"
-                onClick={() => navigate("/")}
-                className="text-sm text-brand-secondary hover:text-brand-ink"
-              >
-                ← Strona główna
+              <button type="button" onClick={() => navigate("/")} aria-label="Strona główna">
+                <Logo width={20} height={16} />
               </button>
             </div>
             <PhoneWizard />

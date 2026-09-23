@@ -16,29 +16,24 @@ export default function SzukajPage() {
 
   return (
     <main className="min-h-dvh flex flex-col items-center px-6 pt-16 sm:pt-24 pb-16">
-      <PageSlide
-        className="w-full flex flex-col items-center"
-        footer={(navigate) => (
-          <button
-            type="button"
-            onClick={() => navigate("/")}
-            className="text-xs text-brand-muted hover:text-brand-secondary mt-auto pt-10"
-          >
-            ← Strona główna
-          </button>
+      <PageSlide className="w-full flex flex-col items-center">
+        {(navigate) => (
+          <>
+            <button type="button" onClick={() => navigate("/")} aria-label="Strona główna">
+              <Logo width={80} height={63} label="innaopcja.pl" />
+            </button>
+
+            <p className="text-sm text-brand-secondary text-center max-w-[420px] mt-6">
+              Znajdź lepszą opcję dla produktu, który Cię interesuje.
+            </p>
+
+            <div className="w-full max-w-[420px] mt-8">
+              <form action="/wyniki" method="GET">
+                <SearchBox />
+              </form>
+            </div>
+          </>
         )}
-      >
-        <Logo width={80} height={63} label="innaopcja.pl" />
-
-        <p className="text-sm text-brand-secondary text-center max-w-[420px] mt-6">
-          Znajdź lepszą opcję dla produktu, który Cię interesuje.
-        </p>
-
-        <div className="w-full max-w-[420px] mt-8">
-          <form action="/wyniki" method="GET">
-            <SearchBox />
-          </form>
-        </div>
       </PageSlide>
     </main>
   );
