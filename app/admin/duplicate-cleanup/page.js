@@ -2,6 +2,10 @@ import Link from "next/link";
 import { findDuplicateGroups } from "../../../lib/duplicateCleanup.js";
 import DuplicateCleanupForm from "../../../components/DuplicateCleanupForm.js";
 
+// Queries the DB directly - can't be statically prerendered at build time
+// (preview deployments have no DATABASE_URL; it's production-only).
+export const dynamic = "force-dynamic";
+
 export default async function DuplicateCleanupPage() {
   const { exactNameDuplicateGroups, generationSuffixDuplicateGroups, crossBrandDuplicateGroups } =
     await findDuplicateGroups();

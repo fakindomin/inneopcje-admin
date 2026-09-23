@@ -23,6 +23,10 @@ import {
 } from "./actions.js";
 import ConfirmButton from "../../components/ConfirmButton.js";
 
+// Queries the DB directly - can't be statically prerendered at build time
+// (preview deployments have no DATABASE_URL; it's production-only).
+export const dynamic = "force-dynamic";
+
 const STATUS_TABS = [
   { value: "all", label: "Wszystkie" },
   { value: "published", label: "Opublikowane" },
