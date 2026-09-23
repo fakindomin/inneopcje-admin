@@ -226,7 +226,13 @@ body {
   opacity: 1;
 }
 .page-slide-exiting {
-  transform: translateY(-120px);
+  /* --page-slide-exit-distance is set inline by PageSlide.js, measured
+     from the element's own real height right before it starts exiting -
+     120px is only a fallback for the rare case that measurement didn't
+     run. Without a real, content-aware distance, taller content (more
+     tiles) would get cut off mid-slide instead of fully clearing the top
+     edge before the next page takes over. */
+  transform: translateY(calc(-1 * var(--page-slide-exit-distance, 120px)));
 }
 
 @media (prefers-reduced-motion: reduce) {

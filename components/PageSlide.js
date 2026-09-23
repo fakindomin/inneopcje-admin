@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
+import { useRouter, usePathname } from "next/navigation";
 
 // How long the exit motion plays before the actual navigation fires - kept
 // in sync with the CSS transition duration below (app/globals.css's
@@ -10,15 +10,26 @@ import { useRouter } from "next/navigation";
 // components/PhoneWizard.js's handleReopen/retractingIds).
 const TRANSITION_MS = 420;
 
-// Gives a page's content a slide-up entrance on mount, and hands its
-// children a `navigate(href)` function that plays the same motion in
-// reverse - up and out - before actually changing the route. Used across
-// the homepage's tile flow (app/page.js -> app/wybierz/page.js ->
-// app/wybierz/telefony/page.js, and app/szukaj/page.js) so a tapped tile
-// visibly leaves before whatever replaces it arrives, instead of the
-// browser just snapping to the next page.
-export default function PageSlide({ children, className }) {
+// keyed by pathname: Next.js's client-side router cache can restore a
+// previously-visited page (browser back/forward, or a plain <Link> back to
+// it) without actually remounting the component tree, which meant the
+// entrance animation - driven by a mount effect - simply never replayed.
+// Keying on the CURRENT pathname forces React to treat every distinct URL
+// as a fresh instance of PageSlideInner regardless of what Next's own
+// cache does underneath, so the entrance always plays on every arrival,
+// however it happened.
+export default function PageSlide(props) {
+  const pathname = usePathname();
+  return <PageSlideInner key={pathname} {...props} />;
+}
+
+// `footer` is for content that should trigger the SAME exit-then-navigate
+// sequence (e.g. a "← Strona główna" back link) without being part of the
+// sliding block itself - rendered outside the animated wrapper, but still
+// handed the same `navigate` function as `children`.
+function PageSlideInner({ children, footer, className }) {
   const [phase, setPhase] = useState("entering"); // entering -> entered -> exiting
+  const ref = useRef(null);
   const router = useRouter();
 
   useEffect(() => {
@@ -28,13 +39,30 @@ export default function PageSlide({ children, className }) {
 
   function navigate(href) {
     if (phase === "exiting") return;
+
+    // A fixed exit distance can't be trusted to fully clear the top edge -
+    // this catalog of tiles is meant to grow, and taller content would get
+    // cut off mid-slide the instant the next page mounts. Measuring the
+    // element's own current bottom edge (its distance from the viewport
+    // top) is exactly how far it needs to travel to be fully hidden above
+    // it, whatever its real height turns out to be - same reasoning as
+    // WizardHeightReveal measuring its own content instead of guessing.
+    const el = ref.current;
+    if (el) {
+      const distance = Math.ceil(el.getBoundingClientRect().bottom) + 24;
+      el.style.setProperty("--page-slide-exit-distance", `${distance}px`);
+    }
+
     setPhase("exiting");
     setTimeout(() => router.push(href), TRANSITION_MS);
   }
 
   return (
-    <div className={`page-slide page-slide-${phase}${className ? ` ${className}` : ""}`}>
-      {typeof children === "function" ? children(navigate) : children}
-    </div>
+    <>
+      <div ref={ref} className={`page-slide page-slide-${phase}${className ? ` ${className}` : ""}`}>
+        {typeof children === "function" ? children(navigate) : children}
+      </div>
+      {typeof footer === "function" ? footer(navigate) : footer}
+    </>
   );
 }
