@@ -22,7 +22,8 @@ export default function EditorialPatchPage() {
           {"{ \"slug\": { \"verdict\": \"...\", \"summary\": \"...\", \"pros\": [\"...\"], \"cons\": [\"...\"] } }"}
         </code>
         . Listę produktów bez werdyktu zobaczysz pod{" "}
-        <code className="text-[11px] bg-brand-cream px-1 py-0.5 rounded">/api/admin/missing-verdict</code>.
+        <code className="text-[11px] bg-brand-cream px-1 py-0.5 rounded">/api/admin/missing-verdict</code> (dla
+        telewizorów: <code className="text-[11px] bg-brand-cream px-1 py-0.5 rounded">?category=telewizory</code>).
       </p>
 
       <EditorialPatchForm />
