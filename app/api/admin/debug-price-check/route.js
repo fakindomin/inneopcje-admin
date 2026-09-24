@@ -43,17 +43,22 @@ export async function GET(request) {
     error = err.message;
   }
 
-  // ?probe=1 tests the primary and fallback keys directly, one at a time,
-  // bypassing fetchLivePrice's shared retry - separates "both keys share
-  // one exhausted quota" from "the retry logic itself is broken".
+  // ?probe=1 tests the primary key and every configured fallback directly,
+  // one at a time, bypassing fetchLivePrice's shared retry - separates
+  // "these keys share one exhausted quota" from "the retry logic itself is
+  // broken", and shows exactly which of several fallbacks (if any) works.
   let probe = null;
   if (new URL(request.url).searchParams.get("probe")) {
     probe = {};
-    for (const [label, key] of [
+    const candidates = [
       [keySource, apiKey],
       ["GEMINI_API_KEY_FALLBACK", process.env.GEMINI_API_KEY_FALLBACK],
-    ]) {
-      if (label === "GEMINI_API_KEY_FALLBACK" && !key) {
+      ["GEMINI_API_KEY_FALLBACK_2", process.env.GEMINI_API_KEY_FALLBACK_2],
+      ["GEMINI_API_KEY_FALLBACK_3", process.env.GEMINI_API_KEY_FALLBACK_3],
+      ["GEMINI_API_KEY_FALLBACK_4", process.env.GEMINI_API_KEY_FALLBACK_4],
+    ];
+    for (const [label, key] of candidates) {
+      if (label !== keySource && !key) {
         probe[label] = { present: false };
         continue;
       }
