@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { getPool } from "../../../../lib/db.js";
 import { requireAdmin } from "../../../../lib/adminAuth.js";
-import { fetchLivePrice, generatePriceText } from "../../../../lib/geminiPrice.js";
+import { fetchLivePrice, generatePriceText, DEFAULT_MODEL } from "../../../../lib/geminiPrice.js";
 
 // Diagnostic only, no writes: calls Gemini for a product's live price the
 // same way app/api/phone/[slug]/price/route.js does (same key selection,
@@ -47,6 +47,11 @@ export async function GET(request) {
   // one at a time, bypassing fetchLivePrice's shared retry - separates
   // "these keys share one exhausted quota" from "the retry logic itself is
   // broken", and shows exactly which of several fallbacks (if any) works.
+  // ?model= overrides the model for the probe only, to tell "these keys are
+  // exhausted" apart from "this particular model has no free quota right
+  // now" (identical 429s across unrelated accounts/keys points at the
+  // model, not any one key).
+  const model = new URL(request.url).searchParams.get("model") || DEFAULT_MODEL;
   let probe = null;
   if (new URL(request.url).searchParams.get("probe")) {
     probe = {};
@@ -63,7 +68,7 @@ export async function GET(request) {
         continue;
       }
       try {
-        probe[label] = { present: true, result: await generatePriceText(product.name, key) };
+        probe[label] = { present: true, result: await generatePriceText(product.name, key, model) };
       } catch (err) {
         probe[label] = { present: true, error: err.message };
       }
@@ -76,6 +81,7 @@ export async function GET(request) {
     category: product.category_slug,
     keySource,
     keyPresent,
+    model,
     currentDbPrice: product.price_pln_approx,
     currentPriceCheckedAt: product.price_checked_at,
     geminiResult: result,
