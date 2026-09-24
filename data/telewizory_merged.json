@@ -4,7 +4,7 @@
     "brand": "LG",
     "model": "OLED42C3",
     "screen_size_inches": 42,
-    "price_pln": null,
+    "price_pln": 3799,
     "release_year": 2023,
     "brand_recognition": "mainstream",
     "specs": {
@@ -22,7 +22,7 @@
     "brand": "LG",
     "model": "OLED42C4",
     "screen_size_inches": 42,
-    "price_pln": null,
+    "price_pln": 3799,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -40,7 +40,7 @@
     "brand": "LG",
     "model": "OLED42C5",
     "screen_size_inches": 42,
-    "price_pln": null,
+    "price_pln": 4199,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -58,7 +58,7 @@
     "brand": "LG",
     "model": "OLED42C6",
     "screen_size_inches": 42,
-    "price_pln": null,
+    "price_pln": 4299,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -76,7 +76,7 @@
     "brand": "LG",
     "model": "OLED48B4",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 3499,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -94,7 +94,7 @@
     "brand": "LG",
     "model": "OLED48B5",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 3799,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -112,7 +112,7 @@
     "brand": "LG",
     "model": "OLED48B6",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 3999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -130,7 +130,7 @@
     "brand": "LG",
     "model": "OLED48C3",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 4199,
     "release_year": 2023,
     "brand_recognition": "mainstream",
     "specs": {
@@ -148,7 +148,7 @@
     "brand": "LG",
     "model": "OLED48C4",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 4199,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -166,7 +166,7 @@
     "brand": "LG",
     "model": "OLED48C5",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 4599,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -184,7 +184,7 @@
     "brand": "LG",
     "model": "OLED48C6",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 4799,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -202,7 +202,7 @@
     "brand": "LG",
     "model": "OLED48G5",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 4899,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -220,7 +220,7 @@
     "brand": "LG",
     "model": "OLED48G6",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 6499,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -256,7 +256,7 @@
     "brand": "LG",
     "model": "OLED55B4",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 3999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -274,7 +274,7 @@
     "brand": "LG",
     "model": "OLED55B5",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 4499,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -292,7 +292,7 @@
     "brand": "LG",
     "model": "OLED55B6",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 4999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -310,7 +310,7 @@
     "brand": "LG",
     "model": "OLED55C3",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 4699,
     "release_year": 2023,
     "brand_recognition": "mainstream",
     "specs": {
@@ -328,7 +328,7 @@
     "brand": "LG",
     "model": "OLED55C4",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 4599,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -346,7 +346,7 @@
     "brand": "LG",
     "model": "OLED55C5",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 5299,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -364,7 +364,7 @@
     "brand": "LG",
     "model": "OLED55C6",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 5999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -382,7 +382,7 @@
     "brand": "LG",
     "model": "OLED55G3",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 3999,
     "release_year": 2023,
     "brand_recognition": "mainstream",
     "specs": {
@@ -400,7 +400,7 @@
     "brand": "LG",
     "model": "OLED55G4",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 5122,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -418,7 +418,7 @@
     "brand": "LG",
     "model": "OLED55G5",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 5475,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -436,7 +436,7 @@
     "brand": "LG",
     "model": "OLED55G6",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 9999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -472,7 +472,7 @@
     "brand": "LG",
     "model": "OLED65B4",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 5299,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -490,7 +490,7 @@
     "brand": "LG",
     "model": "OLED65B5",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 5999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -508,7 +508,7 @@
     "brand": "LG",
     "model": "OLED65B6",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 6799,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -526,7 +526,7 @@
     "brand": "LG",
     "model": "OLED65C3",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 5899,
     "release_year": 2023,
     "brand_recognition": "mainstream",
     "specs": {
@@ -544,7 +544,7 @@
     "brand": "LG",
     "model": "OLED65C4",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 6299,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -562,7 +562,7 @@
     "brand": "LG",
     "model": "OLED65C5",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 7199,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -580,7 +580,7 @@
     "brand": "LG",
     "model": "OLED65C6",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 7999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -598,7 +598,7 @@
     "brand": "LG",
     "model": "OLED65G3",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 5899,
     "release_year": 2023,
     "brand_recognition": "mainstream",
     "specs": {
@@ -616,7 +616,7 @@
     "brand": "LG",
     "model": "OLED65G4",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 6999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -634,7 +634,7 @@
     "brand": "LG",
     "model": "OLED65G5",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 7799,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -652,7 +652,7 @@
     "brand": "LG",
     "model": "OLED65G6",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 11999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -670,7 +670,7 @@
     "brand": "LG",
     "model": "OLED65M4",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 11999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -688,7 +688,7 @@
     "brand": "LG",
     "model": "OLED65M5",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 12999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -724,7 +724,7 @@
     "brand": "LG",
     "model": "OLED77B4",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 8999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -742,7 +742,7 @@
     "brand": "LG",
     "model": "OLED77B5",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 9999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -760,7 +760,7 @@
     "brand": "LG",
     "model": "OLED77B6",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 10999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -796,7 +796,7 @@
     "brand": "LG",
     "model": "OLED77C4",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 9999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -814,7 +814,7 @@
     "brand": "LG",
     "model": "OLED77C5",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 10999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -832,7 +832,7 @@
     "brand": "LG",
     "model": "OLED77C6H",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 11499,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -868,7 +868,7 @@
     "brand": "LG",
     "model": "OLED77G4",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 11499,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -886,7 +886,7 @@
     "brand": "LG",
     "model": "OLED77G5",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 12999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -904,7 +904,7 @@
     "brand": "LG",
     "model": "OLED77G6",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 14999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -940,7 +940,7 @@
     "brand": "LG",
     "model": "OLED77M4",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 17999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -958,7 +958,7 @@
     "brand": "LG",
     "model": "OLED77M5",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 20999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -994,7 +994,7 @@
     "brand": "LG",
     "model": "OLED83B5",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 13999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1012,7 +1012,7 @@
     "brand": "LG",
     "model": "OLED83B6",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 15999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1048,7 +1048,7 @@
     "brand": "LG",
     "model": "OLED83C4",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 14999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1066,7 +1066,7 @@
     "brand": "LG",
     "model": "OLED83C5",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 15999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1084,7 +1084,7 @@
     "brand": "LG",
     "model": "OLED83C6H",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 17999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1120,7 +1120,7 @@
     "brand": "LG",
     "model": "OLED83G4",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 16999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1138,7 +1138,7 @@
     "brand": "LG",
     "model": "OLED83G5",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 18999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1156,7 +1156,7 @@
     "brand": "LG",
     "model": "OLED83G6",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 22999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1192,7 +1192,7 @@
     "brand": "LG",
     "model": "OLED83M4",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 24999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1210,7 +1210,7 @@
     "brand": "LG",
     "model": "OLED83M5",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 26999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1444,7 +1444,7 @@
     "brand": "LG",
     "model": "QNED8043",
     "screen_size_inches": 43,
-    "price_pln": null,
+    "price_pln": 2199,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1462,7 +1462,7 @@
     "brand": "LG",
     "model": "QNED8050",
     "screen_size_inches": 50,
-    "price_pln": null,
+    "price_pln": 2499,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1480,7 +1480,7 @@
     "brand": "LG",
     "model": "QNED8055",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 2899,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1498,7 +1498,7 @@
     "brand": "LG",
     "model": "QNED8065",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 3799,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1516,7 +1516,7 @@
     "brand": "LG",
     "model": "QNED8075",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 5499,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1534,7 +1534,7 @@
     "brand": "LG",
     "model": "QNED8086",
     "screen_size_inches": 86,
-    "price_pln": null,
+    "price_pln": 7999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1552,7 +1552,7 @@
     "brand": "LG",
     "model": "QNED80T3A",
     "screen_size_inches": 43,
-    "price_pln": null,
+    "price_pln": 1999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1570,7 +1570,7 @@
     "brand": "LG",
     "model": "QNED80T5A",
     "screen_size_inches": 50,
-    "price_pln": null,
+    "price_pln": 2299,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1588,7 +1588,7 @@
     "brand": "LG",
     "model": "QNED80T5B",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 2599,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1606,7 +1606,7 @@
     "brand": "LG",
     "model": "QNED80T6A",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 3499,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1624,7 +1624,7 @@
     "brand": "LG",
     "model": "QNED80T7A",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 4999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1642,7 +1642,7 @@
     "brand": "LG",
     "model": "QNED80T8A",
     "screen_size_inches": 86,
-    "price_pln": null,
+    "price_pln": 7499,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1750,7 +1750,7 @@
     "brand": "LG",
     "model": "QNED8243",
     "screen_size_inches": 43,
-    "price_pln": null,
+    "price_pln": 2299,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1768,7 +1768,7 @@
     "brand": "LG",
     "model": "QNED8250",
     "screen_size_inches": 50,
-    "price_pln": null,
+    "price_pln": 2599,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1786,7 +1786,7 @@
     "brand": "LG",
     "model": "QNED8255",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 2999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1804,7 +1804,7 @@
     "brand": "LG",
     "model": "QNED8265",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 3999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1822,7 +1822,7 @@
     "brand": "LG",
     "model": "QNED8275",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 5799,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1840,7 +1840,7 @@
     "brand": "LG",
     "model": "QNED8286",
     "screen_size_inches": 86,
-    "price_pln": null,
+    "price_pln": 8499,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1858,7 +1858,7 @@
     "brand": "LG",
     "model": "QNED85100",
     "screen_size_inches": 100,
-    "price_pln": null,
+    "price_pln": 14999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1876,8 +1876,8 @@
     "brand": "LG",
     "model": "QNED8555",
     "screen_size_inches": 55,
-    "price_pln": null,
-    "release_year": 2023,
+    "price_pln": 2348,
+    "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
       "display_technology": "QNED",
@@ -1894,8 +1894,8 @@
     "brand": "LG",
     "model": "QNED8565",
     "screen_size_inches": 65,
-    "price_pln": null,
-    "release_year": 2023,
+    "price_pln": 4464,
+    "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
       "display_technology": "QNED",
@@ -1912,8 +1912,8 @@
     "brand": "LG",
     "model": "QNED8575",
     "screen_size_inches": 75,
-    "price_pln": null,
-    "release_year": 2023,
+    "price_pln": 6999,
+    "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
       "display_technology": "QNED",
@@ -1948,7 +1948,7 @@
     "brand": "LG",
     "model": "QNED8586",
     "screen_size_inches": 86,
-    "price_pln": null,
+    "price_pln": 9999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1966,7 +1966,7 @@
     "brand": "LG",
     "model": "QNED85T5A",
     "screen_size_inches": 50,
-    "price_pln": null,
+    "price_pln": 2499,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -1984,7 +1984,7 @@
     "brand": "LG",
     "model": "QNED85T5B",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 2899,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2002,7 +2002,7 @@
     "brand": "LG",
     "model": "QNED85T6A",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 3999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2020,7 +2020,7 @@
     "brand": "LG",
     "model": "QNED85T7A",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 5999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2038,7 +2038,7 @@
     "brand": "LG",
     "model": "QNED85T8A",
     "screen_size_inches": 86,
-    "price_pln": null,
+    "price_pln": 8999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2056,7 +2056,7 @@
     "brand": "LG",
     "model": "QNED85T9A",
     "screen_size_inches": 98,
-    "price_pln": null,
+    "price_pln": 16999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2092,7 +2092,7 @@
     "brand": "LG",
     "model": "QNED8655",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 3299,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2110,7 +2110,7 @@
     "brand": "LG",
     "model": "QNED8665",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 4799,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2128,7 +2128,7 @@
     "brand": "LG",
     "model": "QNED8675",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 7499,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2146,7 +2146,7 @@
     "brand": "LG",
     "model": "QNED8686",
     "screen_size_inches": 86,
-    "price_pln": null,
+    "price_pln": 10999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2164,7 +2164,7 @@
     "brand": "LG",
     "model": "QNED90T6A",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 5999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2182,7 +2182,7 @@
     "brand": "LG",
     "model": "QNED90T7A",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 7999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2200,7 +2200,7 @@
     "brand": "LG",
     "model": "QNED90T8A",
     "screen_size_inches": 86,
-    "price_pln": null,
+    "price_pln": 10999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2470,7 +2470,7 @@
     "brand": "LG",
     "model": "UT8033",
     "screen_size_inches": 43,
-    "price_pln": null,
+    "price_pln": 1599,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2488,7 +2488,7 @@
     "brand": "LG",
     "model": "UT8050",
     "screen_size_inches": 50,
-    "price_pln": null,
+    "price_pln": 1899,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2506,7 +2506,7 @@
     "brand": "LG",
     "model": "UT8055",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 2199,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2524,7 +2524,7 @@
     "brand": "LG",
     "model": "UT8065",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 2799,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2542,7 +2542,7 @@
     "brand": "LG",
     "model": "UT8075",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 4299,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
@@ -2560,7 +2560,7 @@
     "brand": "LG",
     "model": "UT8086",
     "screen_size_inches": 86,
-    "price_pln": null,
+    "price_pln": 6999,
     "release_year": 2024,
     "brand_recognition": "mainstream",
     "specs": {
