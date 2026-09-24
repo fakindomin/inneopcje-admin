@@ -76,6 +76,28 @@ export async function GET(request) {
     }
   }
 
+  // ?groundingTest=1 runs exactly 2 calls (grounding on vs off) against the
+  // single best-quota key (GEMINI_API_KEY_FALLBACK_5, confirmed 0/500 used
+  // in AI Studio) instead of the full multi-key probe - cheaper on quota
+  // while directly testing whether Search grounding (tools:
+  // [{googleSearch}]) is its own, separately-exhausted free-tier resource,
+  // independent of the base model's RPD/RPM shown in the Rate Limits page.
+  let groundingTest = null;
+  if (new URL(request.url).searchParams.get("groundingTest")) {
+    const key = process.env.GEMINI_API_KEY_FALLBACK_5;
+    groundingTest = {};
+    for (const [label, grounding] of [
+      ["withGrounding", true],
+      ["withoutGrounding", false],
+    ]) {
+      try {
+        groundingTest[label] = { result: await generatePriceText(product.name, key, model, grounding) };
+      } catch (err) {
+        groundingTest[label] = { error: err.message };
+      }
+    }
+  }
+
   return NextResponse.json({
     slug,
     name: product.name,
@@ -89,5 +111,6 @@ export async function GET(request) {
     geminiError: error,
     tookMs: Date.now() - startedAt,
     probe,
+    groundingTest,
   });
 }
