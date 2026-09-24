@@ -29,12 +29,14 @@ export async function patchEditorial(prevState, formData) {
   const entries = Object.entries(parsed);
   if (entries.length === 0) return { status: "error", message: "Pusty obiekt" };
 
-  const pool = getPool();
   const results = [];
-  let updated = 0;
-  let notFound = 0;
   let failed = 0;
 
+  // Validate everything in JS first - only well-formed entries go into the
+  // single bulk UPDATE below. Order of results.push mirrors input order;
+  // the "updated"/"not_found" rows for valid entries are filled in after
+  // the bulk write, once we know which slugs the DB actually matched.
+  const valid = [];
   for (const [slug, fields] of entries) {
     if (!fields || typeof fields !== "object" || Array.isArray(fields)) {
       failed++;
@@ -57,23 +59,51 @@ export async function patchEditorial(prevState, formData) {
       results.push({ slug, status: "error", note: "pros/cons muszą być niepustymi tablicami" });
       continue;
     }
+    valid.push({ slug, verdict, summary, pros, cons });
+    results.push({ slug, status: "pending", note: verdict });
+  }
 
+  let updated = 0;
+  let notFound = 0;
+
+  if (valid.length > 0) {
+    const pool = getPool();
+    // One round-trip for the whole batch instead of one UPDATE per slug -
+    // a few hundred sequential queries (e.g. a full-category rewrite) blew
+    // past the Server Action's time limit here before. unnest() zips the
+    // parallel arrays back into rows for the UPDATE...FROM join.
+    let matchedSlugs;
     try {
-      const { rowCount } = await pool.query(
-        `UPDATE products SET verdict = $1, summary = $2, pros = $3::jsonb, cons = $4::jsonb, updated_at = now()
-         WHERE slug = $5`,
-        [verdict, summary, JSON.stringify(pros), JSON.stringify(cons), slug]
+      const { rows } = await pool.query(
+        `UPDATE products AS p
+         SET verdict = data.verdict, summary = data.summary, pros = data.pros::jsonb, cons = data.cons::jsonb, updated_at = now()
+         FROM unnest($1::text[], $2::text[], $3::text[], $4::text[], $5::text[])
+           AS data(slug, verdict, summary, pros, cons)
+         WHERE p.slug = data.slug
+         RETURNING p.slug`,
+        [
+          valid.map((v) => v.slug),
+          valid.map((v) => v.verdict),
+          valid.map((v) => v.summary),
+          valid.map((v) => JSON.stringify(v.pros)),
+          valid.map((v) => JSON.stringify(v.cons)),
+        ]
       );
-      if (rowCount === 0) {
-        notFound++;
-        results.push({ slug, status: "not_found", note: "brak produktu o tym slugu" });
-      } else {
-        updated++;
-        results.push({ slug, status: "updated", note: verdict });
-      }
+      matchedSlugs = new Set(rows.map((r) => r.slug));
     } catch (err) {
-      failed++;
-      results.push({ slug, status: "error", note: err.message });
+      return { status: "error", message: `Zapis do bazy nie powiódł się: ${err.message}` };
+    }
+
+    for (const result of results) {
+      if (result.status !== "pending") continue;
+      if (matchedSlugs.has(result.slug)) {
+        result.status = "updated";
+        updated++;
+      } else {
+        result.status = "not_found";
+        result.note = "brak produktu o tym slugu";
+        notFound++;
+      }
     }
   }
 

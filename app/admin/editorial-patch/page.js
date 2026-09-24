@@ -1,6 +1,12 @@
 import Link from "next/link";
 import EditorialPatchForm from "../../../components/EditorialPatchForm.js";
 
+// Belt-and-suspenders alongside actions.js's bulk UPDATE...FROM unnest() -
+// a very large pasted patch (hundreds of products) should now finish in
+// well under a second either way, but this keeps the same safety margin
+// telewizory-price-backfill/route.js gives its own batch endpoint.
+export const maxDuration = 60;
+
 export default function EditorialPatchPage() {
   return (
     <main className="max-w-[900px] mx-auto px-6 py-10">
