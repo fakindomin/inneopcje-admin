@@ -32,8 +32,10 @@ export async function GET(request, { params }) {
   const pool = getPool();
 
   const { rows } = await pool.query(
-    `SELECT id, name, specs->>'price_pln_approx' AS price_pln_approx, price_checked_at
-     FROM products WHERE slug = $1 AND status = 'published'`,
+    `SELECT p.id, p.name, p.specs->>'price_pln_approx' AS price_pln_approx, p.price_checked_at, c.slug AS category_slug
+     FROM products p
+     JOIN categories c ON c.id = p.category_id
+     WHERE p.slug = $1 AND p.status = 'published'`,
     [slug]
   );
   const product = rows[0];
@@ -54,9 +56,16 @@ export async function GET(request, { params }) {
   // bumped, so a model Gemini can never confidently price doesn't retry
   // (and spend a call) on every single view, only once a week like everything
   // else.
+  // telewizory has its own isolated key/quota (see lib/wizardMatchTv.js's
+  // sibling bulk backfill, app/api/admin/telewizory-price-backfill/route.js)
+  // specifically so this lazy per-page-view path never eats into it -
+  // without this, every stale TV page view would silently spend phone
+  // quota instead.
+  const apiKey = product.category_slug === "telewizory" ? process.env.GEMINI_API_KEY_TV : undefined;
+
   let newPrice = null;
   try {
-    newPrice = await fetchLivePrice(product.name);
+    newPrice = await fetchLivePrice(product.name, { apiKey });
   } catch (err) {
     console.error(`price refresh failed for "${product.name}" (${slug}):`, err.message);
   }

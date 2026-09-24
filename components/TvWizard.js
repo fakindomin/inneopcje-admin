@@ -1,17 +1,22 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { resolvePath } from "../lib/wizardTreeTv.js";
 import WizardStep from "./WizardStep.js";
 import WizardHeightReveal from "./WizardHeightReveal.js";
+import VerdictCard from "./VerdictCard.js";
 import { IconShuffle, IconRefresh } from "./icons.js";
 
-// Preview-only: no live producent/screen-range data (lib/wizardTreeTv.js
-// uses the static brand list directly) and no /api/wizard-match call at
-// the end - this is purely the question flow and its resolved profile,
-// for review before any real matching is wired up. Structurally a
-// trimmed copy of components/PhoneWizard.js - see that file for the
-// reveal/reopen/retract choreography this mirrors.
+// Mirrors components/PhoneWizard.js's reveal/reopen/retract choreography
+// and its /api/wizard-match call - see that file for the full reasoning.
+// Two deliberate differences from it: no live producent/screen-range fetch
+// (lib/wizardTreeTv.js's producent list is the static ALLOWED_BRANDS, not a
+// per-tier catalog lookup), and "Inna Opcja" never appends ?wprofile= - the
+// product page's otherBrandPicksForProduct (lib/wizardMatch.js) is
+// hardcoded to the telefony category, so passing a telewizory profile
+// through it would silently rank phones as a TV's alternatives instead of
+// erroring. Building a telewizory-aware equivalent is a separate task.
 export default function TvWizard() {
   const [answers, setAnswers] = useState({});
   const [revealedCount, setRevealedCount] = useState(1);
@@ -38,7 +43,27 @@ export default function TvWizard() {
     return () => clearTimeout(timer);
   }, [currentStepId]);
 
-  const wynikProfile = steps.find((s) => s.id === "wynik")?.profile;
+  const showResult = visibleSteps.some((s) => s.id === "wynik");
+
+  // undefined = fetching, null = fetched but no match, object = matched
+  // product. Same fetchedForRef-keyed-off-answers pattern as PhoneWizard.js
+  // so a Strict-Mode re-invoke with the same answers is a no-op.
+  const [match, setMatch] = useState(undefined);
+  const fetchedForRef = useRef(null);
+
+  useEffect(() => {
+    if (!showResult || fetchedForRef.current === answers) return;
+    fetchedForRef.current = answers;
+    setMatch(undefined);
+    fetch("/api/wizard-match-tv", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ answers }),
+    })
+      .then((r) => r.json())
+      .then((data) => setMatch(data.product ?? null))
+      .catch(() => setMatch(null));
+  }, [showResult, answers]);
 
   function handleAnswer(nodeId, optionId) {
     if (busy) return;
@@ -86,6 +111,8 @@ export default function TvWizard() {
     setAnswers({});
     setRevealedCount(1);
     setRetractingIds([]);
+    setMatch(undefined);
+    fetchedForRef.current = null;
   }
 
   return (
@@ -102,32 +129,45 @@ export default function TvWizard() {
                 <div className="wizard-dot wizard-dot-result" />
               </div>
               <div className="flex-1">
-                <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
-                  <p className="text-sm font-medium text-brand-ink mb-1">
-                    🧪 Podgląd: tu pojawi się dopasowany telewizor
-                  </p>
-                  <p className="text-xs text-brand-muted mb-3">
-                    Baza telewizorów nie jest jeszcze podpięta do tej ankiety — poniżej widać, co ankieta by
-                    przekazała do dopasowania.
-                  </p>
-                  <pre className="text-[11px] bg-brand-cream rounded-md p-2 overflow-x-auto mb-3">
-                    {JSON.stringify(wynikProfile, null, 2)}
-                  </pre>
-                  <div className="grid grid-cols-2 gap-2">
-                    <div className="big-tile big-tile-compact big-tile-disabled">
-                      <span className="big-tile-icon">
-                        <IconShuffle width={14} height={14} />
-                      </span>
-                      <span className="big-tile-label">Inna Opcja</span>
-                    </div>
-                    <button type="button" onClick={handleRestart} className="big-tile big-tile-compact">
-                      <span className="big-tile-icon">
-                        <IconRefresh width={14} height={14} />
-                      </span>
-                      <span className="big-tile-label">Zacznij od nowa</span>
+                {match === undefined && (
+                  <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
+                    <p className="text-sm font-medium text-brand-ink">Szukam najlepszego dopasowania…</p>
+                  </div>
+                )}
+                {match === null && (
+                  <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
+                    <p className="text-sm font-medium text-brand-ink mb-1">
+                      Nie mamy jeszcze telewizora w tym segmencie
+                    </p>
+                    <p className="text-xs text-brand-muted mb-3">Spróbuj zmienić wcześniejsze odpowiedzi.</p>
+                    <button
+                      type="button"
+                      onClick={handleRestart}
+                      className="text-xs px-3 py-1.5 rounded-md border border-brand-border hover:bg-brand-cream"
+                    >
+                      Zacznij od nowa
                     </button>
                   </div>
-                </div>
+                )}
+                {match && (
+                  <>
+                    <VerdictCard product={match} />
+                    <div className="grid grid-cols-2 gap-2">
+                      <Link href={`/produkt/${match.slug}`} className="big-tile big-tile-compact">
+                        <span className="big-tile-icon">
+                          <IconShuffle width={14} height={14} />
+                        </span>
+                        <span className="big-tile-label">Inna Opcja</span>
+                      </Link>
+                      <button type="button" onClick={handleRestart} className="big-tile big-tile-compact">
+                        <span className="big-tile-icon">
+                          <IconRefresh width={14} height={14} />
+                        </span>
+                        <span className="big-tile-label">Zacznij od nowa</span>
+                      </button>
+                    </div>
+                  </>
+                )}
               </div>
             </WizardHeightReveal>
           </div>
