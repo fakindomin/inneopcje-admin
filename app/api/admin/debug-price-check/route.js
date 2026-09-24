@@ -61,6 +61,7 @@ export async function GET(request) {
       ["GEMINI_API_KEY_FALLBACK_2", process.env.GEMINI_API_KEY_FALLBACK_2],
       ["GEMINI_API_KEY_FALLBACK_3", process.env.GEMINI_API_KEY_FALLBACK_3],
       ["GEMINI_API_KEY_FALLBACK_4", process.env.GEMINI_API_KEY_FALLBACK_4],
+      ["GEMINI_API_KEY_FALLBACK_5", process.env.GEMINI_API_KEY_FALLBACK_5],
     ];
     for (const [label, key] of candidates) {
       if (label !== keySource && !key) {
