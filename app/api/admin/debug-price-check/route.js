@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { getPool } from "../../../../lib/db.js";
 import { requireAdmin } from "../../../../lib/adminAuth.js";
-import { fetchLivePrice } from "../../../../lib/geminiPrice.js";
+import { fetchLivePrice, generatePriceText } from "../../../../lib/geminiPrice.js";
 
 // Diagnostic only, no writes: calls Gemini for a product's live price the
 // same way app/api/phone/[slug]/price/route.js does (same key selection,
@@ -43,6 +43,28 @@ export async function GET(request) {
     error = err.message;
   }
 
+  // ?probe=1 tests the primary and fallback keys directly, one at a time,
+  // bypassing fetchLivePrice's shared retry - separates "both keys share
+  // one exhausted quota" from "the retry logic itself is broken".
+  let probe = null;
+  if (new URL(request.url).searchParams.get("probe")) {
+    probe = {};
+    for (const [label, key] of [
+      [keySource, apiKey],
+      ["GEMINI_API_KEY_FALLBACK", process.env.GEMINI_API_KEY_FALLBACK],
+    ]) {
+      if (label === "GEMINI_API_KEY_FALLBACK" && !key) {
+        probe[label] = { present: false };
+        continue;
+      }
+      try {
+        probe[label] = { present: true, result: await generatePriceText(product.name, key) };
+      } catch (err) {
+        probe[label] = { present: true, error: err.message };
+      }
+    }
+  }
+
   return NextResponse.json({
     slug,
     name: product.name,
@@ -54,5 +76,6 @@ export async function GET(request) {
     geminiResult: result,
     geminiError: error,
     tookMs: Date.now() - startedAt,
+    probe,
   });
 }
