@@ -2992,7 +2992,7 @@
     "brand": "Samsung",
     "model": "QE43QN90F",
     "screen_size_inches": 43,
-    "price_pln": null,
+    "price_pln": 4279,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -3136,7 +3136,7 @@
     "brand": "Samsung",
     "model": "QE48S95H",
     "screen_size_inches": 48,
-    "price_pln": null,
+    "price_pln": 7777,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -3316,7 +3316,7 @@
     "brand": "Samsung",
     "model": "QE50QN80H",
     "screen_size_inches": 50,
-    "price_pln": null,
+    "price_pln": 3199,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -3748,7 +3748,7 @@
     "brand": "Samsung",
     "model": "QE55QN80H",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 5499,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -4054,7 +4054,7 @@
     "brand": "Samsung",
     "model": "QE55S90H",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 4449,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -4162,7 +4162,7 @@
     "brand": "Samsung",
     "model": "QE55S95H",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 6999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -4180,7 +4180,7 @@
     "brand": "Samsung",
     "model": "QE55S99H",
     "screen_size_inches": 55,
-    "price_pln": null,
+    "price_pln": 8333,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -4684,7 +4684,7 @@
     "brand": "Samsung",
     "model": "QE65QN900F",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 5998,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -4810,7 +4810,7 @@
     "brand": "Samsung",
     "model": "QE65QN990F",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 10999,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -5080,7 +5080,7 @@
     "brand": "Samsung",
     "model": "QE65S99H",
     "screen_size_inches": 65,
-    "price_pln": null,
+    "price_pln": 14999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -5602,7 +5602,7 @@
     "brand": "Samsung",
     "model": "QE75QN900F",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 10486,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -5728,7 +5728,7 @@
     "brand": "Samsung",
     "model": "QE75QN990F",
     "screen_size_inches": 75,
-    "price_pln": null,
+    "price_pln": 13899,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -5998,7 +5998,7 @@
     "brand": "Samsung",
     "model": "QE77S99H",
     "screen_size_inches": 77,
-    "price_pln": null,
+    "price_pln": 19895,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -6160,7 +6160,7 @@
     "brand": "Samsung",
     "model": "QE83S99H",
     "screen_size_inches": 83,
-    "price_pln": null,
+    "price_pln": 24999,
     "release_year": 2026,
     "brand_recognition": "mainstream",
     "specs": {
@@ -6556,7 +6556,7 @@
     "brand": "Samsung",
     "model": "QE85QN900F",
     "screen_size_inches": 85,
-    "price_pln": null,
+    "price_pln": 12499,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -6682,7 +6682,7 @@
     "brand": "Samsung",
     "model": "QE85QN990F",
     "screen_size_inches": 85,
-    "price_pln": null,
+    "price_pln": 26299,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -6826,7 +6826,7 @@
     "brand": "Samsung",
     "model": "QE98QN990F",
     "screen_size_inches": 98,
-    "price_pln": null,
+    "price_pln": 82495,
     "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
@@ -7559,7 +7559,7 @@
     "model": "UE98DU9000",
     "screen_size_inches": 98,
     "price_pln": null,
-    "release_year": 2024,
+    "release_year": 2025,
     "brand_recognition": "mainstream",
     "specs": {
       "display_technology": "LED",
