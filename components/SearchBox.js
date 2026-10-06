@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { getCategoryIcon, IconSearch } from "./icons";
 
-const EXAMPLE_MODELS = ["iPhone 17", "Galaxy S26", "Pixel 10 Pro", "OnePlus 15"];
+const EXAMPLE_MODELS = ["Wiedźmin 3", "Diuna", "1984", "Elden Ring"];
 
 export default function SearchBox({ defaultValue = "" }) {
   const [value, setValue] = useState(defaultValue);

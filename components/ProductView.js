@@ -42,7 +42,7 @@ export default function ProductView({ product, alternatives, backTo }) {
               </>
             )}
 
-            <Link href="/wybierz" className="big-tile big-tile-compact w-full">
+            <Link href="/wybierz/gry" className="big-tile big-tile-compact w-full">
               <span className="big-tile-label">Dobierz nową grę</span>
             </Link>
           </>

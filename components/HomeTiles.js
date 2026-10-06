@@ -27,7 +27,7 @@ export default function HomeTiles({ navigate }) {
         <span className="big-tile-icon">
           <IconSearch width={20} height={20} />
         </span>
-        <span className="big-tile-label">Znam model który chcę porównać</span>
+        <span className="big-tile-label">Wiem czego szukam</span>
       </button>
 
       <button type="button" className="big-tile" onClick={() => navigate("/wybierz")}>

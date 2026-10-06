@@ -147,8 +147,39 @@ export function IconRefresh(props) {
   );
 }
 
+export function IconBook(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+    </svg>
+  );
+}
+
+export function IconFilm(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <path d="M7 3v18M17 3v18M3 8h4M3 16h4M17 8h4M17 16h4" />
+    </svg>
+  );
+}
+
+export function IconMusic(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
+      <path d="M9 18V5l12-2v13" />
+      <circle cx="6" cy="18" r="3" />
+      <circle cx="18" cy="16" r="3" />
+    </svg>
+  );
+}
+
 export const CATEGORY_ICONS = {
   gry: IconGamepad,
+  ksiazki: IconBook,
+  filmy: IconFilm,
+  muzyka: IconMusic,
 };
 
 export function getCategoryIcon(category) {
