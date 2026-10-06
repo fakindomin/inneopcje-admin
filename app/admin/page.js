@@ -61,7 +61,7 @@ export default async function AdminPage({ searchParams }) {
 
       {params?.recomputed != null && (
         <div className="mb-4 text-xs px-3 py-2 rounded-md border border-green-300 bg-green-50 text-green-800">
-          Przeliczono Taniej/Lepiej/Inaczej dla {params.recomputed} opublikowanych produktów.
+          Przeliczono Podobne/Inaczej/"A może..." dla {params.recomputed} opublikowanych produktów.
         </div>
       )}
 

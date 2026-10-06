@@ -76,6 +76,7 @@ export const ANGLE_ICONS = {
   "arrow-up-right": IconArrowUpRight,
   "arrow-right": IconArrowRight,
   "arrow-down-right": IconArrowDownRight,
+  shuffle: IconShuffle,
 };
 
 export function IconPhone(props) {
