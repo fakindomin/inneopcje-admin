@@ -1,0 +1,4260 @@
+[
+  {
+    "name": "Wiedźmin 3: Dziki Gon",
+    "slug": "wiedzmin-3-dziki-gon",
+    "brand": "CD Projekt Red",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG akcji",
+      "fabula_score": 5,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 90
+    },
+    "price_tier": "sredni",
+    "release_year": 2015,
+    "verdict": "Wydana przez CD Projekt Red, Wiedźmin 3: Dziki Gon to rpg akcji na PC, PlayStation, Xbox i Switch. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Długie sesje - trudno wcisnąć w krótką przerwę",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "slug": "cyberpunk-2077",
+    "brand": "CD Projekt Red",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG akcji",
+      "fabula_score": 5,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 75
+    },
+    "price_tier": "sredni",
+    "release_year": 2020,
+    "verdict": "Cyberpunk 2077 to rpg akcji dostępna na PC, PlayStation i Xbox. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (CD Projekt Red)"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2",
+    "brand": "Rockstar Games",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda (otwarty świat)",
+      "fabula_score": 5,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 90
+    },
+    "price_tier": "sredni",
+    "release_year": 2018,
+    "verdict": "Wydana przez Rockstar Games, Red Dead Redemption 2 to akcja/przygoda (otwarty świat) na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Znane, sprawdzone studio stojące za produkcją (Rockstar Games)"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Długie sesje - trudno wcisnąć w krótką przerwę",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "slug": "grand-theft-auto-v",
+    "brand": "Rockstar Games",
+    "brand_recognition": "mainstream",
+    "score": 7.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "oba",
+      "gatunek": "Akcja (otwarty świat)",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 3,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2013,
+    "verdict": "Wydana przez Rockstar Games, Grand Theft Auto V to akcja (otwarty świat) na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę"
+    ],
+    "cons": [
+      "To nie jest gra stawiająca na grę wieloosobową - inne aspekty są tu ważniejsze",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Horizon Zero Dawn",
+    "slug": "horizon-zero-dawn",
+    "brand": "Guerrilla Games",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG akcji",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 75
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Horizon Zero Dawn to rpg akcji dostępna na PC i PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Horizon Forbidden West",
+    "slug": "horizon-forbidden-west",
+    "brand": "Guerrilla Games",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG akcji",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 75
+    },
+    "price_tier": "sredni",
+    "release_year": 2022,
+    "verdict": "Horizon Forbidden West (rpg akcji) trafia na PC i PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Guerrilla Games)"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "God of War (2018)",
+    "slug": "god-of-war-2018",
+    "brand": "Santa Monica Studio",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda",
+      "fabula_score": 5,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Wydana przez Santa Monica Studio, God of War (2018) to akcja/przygoda na PC i PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "God of War Ragnarök",
+    "slug": "god-of-war-ragnarok",
+    "brand": "Santa Monica Studio",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda",
+      "fabula_score": 5,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2022,
+    "verdict": "God of War Ragnarök (akcja/przygoda) trafia na PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Dostępna wyłącznie na PlayStation, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Santa Monica Studio)"
+    ],
+    "cons": [
+      "Dostępna tylko na PlayStation - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "The Last of Us Part I",
+    "slug": "the-last-of-us-part-i",
+    "brand": "Naughty Dog",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda (horror)",
+      "fabula_score": 5,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2022,
+    "verdict": "The Last of Us Part I to akcja/przygoda (horror) dostępna na PC i PlayStation. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Znane, sprawdzone studio stojące za produkcją (Naughty Dog)"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "The Last of Us Part II",
+    "slug": "the-last-of-us-part-ii",
+    "brand": "Naughty Dog",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda (horror)",
+      "fabula_score": 5,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2020,
+    "verdict": "The Last of Us Part II to akcja/przygoda (horror) dostępna na PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Dostępna wyłącznie na PlayStation, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Naughty Dog)"
+    ],
+    "cons": [
+      "Dostępna tylko na PlayStation - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Uncharted 4: Kres złodzieja",
+    "slug": "uncharted-4-kres-z-odzieja",
+    "brand": "Naughty Dog",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda",
+      "fabula_score": 4,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2016,
+    "verdict": "Uncharted 4: Kres złodzieja (akcja/przygoda) trafia na PC i PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Marvel's Spider-Man",
+    "slug": "marvel-s-spider-man",
+    "brand": "Insomniac Games",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja (otwarty świat)",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Marvel's Spider-Man (akcja (otwarty świat)) trafia na PC i PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Marvel's Spider-Man 2",
+    "slug": "marvel-s-spider-man-2",
+    "brand": "Insomniac Games",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja (otwarty świat)",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "premium",
+    "release_year": 2023,
+    "verdict": "Marvel's Spider-Man 2 (akcja (otwarty świat)) trafia na PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Cena odpowiada statusowi dużej premiery - nie jest to impulsywny zakup. Dostępna wyłącznie na PlayStation, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Insomniac Games)"
+    ],
+    "cons": [
+      "Dostępna tylko na PlayStation - brak wyboru platformy",
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie"
+    ]
+  },
+  {
+    "name": "Elden Ring",
+    "slug": "elden-ring",
+    "brand": "FromSoftware",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "oba",
+      "gatunek": "RPG akcji (souls-like)",
+      "fabula_score": 3,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 2,
+      "sesja_minuty": 90
+    },
+    "price_tier": "premium",
+    "release_year": 2022,
+    "verdict": "Elden Ring (rpg akcji (souls-like)) trafia na PC, PlayStation i Xbox. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. To pełnoprawna premiera w cenie premium - warto mieć pewność, że gatunek faktycznie trafia w Twój gust.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Przyzwoita fabuła jako sympatyczne tło dla rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (FromSoftware)"
+    ],
+    "cons": [
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku",
+      "Długie sesje - trudno wcisnąć w krótką przerwę",
+      "To nie jest gra stawiająca na grę wieloosobową - inne aspekty są tu ważniejsze"
+    ]
+  },
+  {
+    "name": "Hogwarts Legacy",
+    "slug": "hogwarts-legacy",
+    "brand": "Avalanche Software",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG akcji (otwarty świat)",
+      "fabula_score": 4,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 75
+    },
+    "price_tier": "sredni",
+    "release_year": 2023,
+    "verdict": "Hogwarts Legacy (rpg akcji (otwarty świat)) trafia na PC, PlayStation, Xbox i Switch. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Baldur's Gate 3",
+    "slug": "baldur-s-gate-3",
+    "brand": "Larian Studios",
+    "brand_recognition": "mainstream",
+    "score": 8.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "oba",
+      "gatunek": "RPG (cRPG)",
+      "fabula_score": 5,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 3,
+      "sesja_minuty": 120
+    },
+    "price_tier": "premium",
+    "release_year": 2023,
+    "verdict": "Wydana przez Larian Studios, Baldur's Gate 3 to rpg (crpg) na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. To pełnoprawna premiera w cenie premium - warto mieć pewność, że gatunek faktycznie trafia w Twój gust.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę"
+    ],
+    "cons": [
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku",
+      "Długie sesje - trudno wcisnąć w krótką przerwę",
+      "To nie jest gra stawiająca na grę wieloosobową - inne aspekty są tu ważniejsze"
+    ]
+  },
+  {
+    "name": "Disco Elysium",
+    "slug": "disco-elysium",
+    "brand": "ZA/UM",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG dialogowe",
+      "fabula_score": 5,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2019,
+    "verdict": "Disco Elysium to rpg dialogowe dostępna na PC, PlayStation, Xbox i Switch. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Death Stranding",
+    "slug": "death-stranding",
+    "brand": "Kojima Productions",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda",
+      "fabula_score": 4,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 2,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2019,
+    "verdict": "Wydana przez Kojima Productions, Death Stranding to akcja/przygoda na PC i PlayStation. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "To nie jest gra stawiająca na grę wieloosobową - inne aspekty są tu ważniejsze",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Ghost of Tsushima",
+    "slug": "ghost-of-tsushima",
+    "brand": "Sucker Punch Productions",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja (otwarty świat)",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2020,
+    "verdict": "Ghost of Tsushima to akcja (otwarty świat) dostępna na PC i PlayStation. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Znane, sprawdzone studio stojące za produkcją (Sucker Punch Productions)"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Control",
+    "slug": "control",
+    "brand": "Remedy Entertainment",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja (metroidvania)",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2019,
+    "verdict": "Control to akcja (metroidvania) dostępna na PC, PlayStation i Xbox. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Alan Wake 2",
+    "slug": "alan-wake-2",
+    "brand": "Remedy Entertainment",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja (horror psychologiczny)",
+      "fabula_score": 5,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "premium",
+    "release_year": 2023,
+    "verdict": "Alan Wake 2 to akcja (horror psychologiczny) dostępna na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. To pełnoprawna premiera w cenie premium - warto mieć pewność, że gatunek faktycznie trafia w Twój gust.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Niezależne studio (Remedy Entertainment) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Resident Evil 4 (Remake)",
+    "slug": "resident-evil-4-remake",
+    "brand": "Capcom",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja (survival horror)",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 50
+    },
+    "price_tier": "sredni",
+    "release_year": 2023,
+    "verdict": "Resident Evil 4 (Remake) (akcja (survival horror)) trafia na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Znane, sprawdzone studio stojące za produkcją (Capcom)"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Resident Evil Village",
+    "slug": "resident-evil-village",
+    "brand": "Capcom",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja (survival horror)",
+      "fabula_score": 4,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2021,
+    "verdict": "Resident Evil Village to akcja (survival horror) dostępna na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Silent Hill 2 (Remake)",
+    "slug": "silent-hill-2-remake",
+    "brand": "Bloober Team",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Survival horror",
+      "fabula_score": 5,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 50
+    },
+    "price_tier": "premium",
+    "release_year": 2024,
+    "verdict": "Silent Hill 2 (Remake) (survival horror) trafia na PC i PlayStation. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. To pełnoprawna premiera w cenie premium - warto mieć pewność, że gatunek faktycznie trafia w Twój gust.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Niezależne studio (Bloober Team) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)"
+    ]
+  },
+  {
+    "name": "Dead Space (Remake)",
+    "slug": "dead-space-remake",
+    "brand": "Motive Studio",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Survival horror",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "sredni",
+    "release_year": 2023,
+    "verdict": "Dead Space (Remake) (survival horror) trafia na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Znane, sprawdzone studio stojące za produkcją (Motive Studio)"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Alien: Isolation",
+    "slug": "alien-isolation",
+    "brand": "Creative Assembly",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Survival horror",
+      "fabula_score": 4,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 50
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2014,
+    "verdict": "Alien: Isolation (survival horror) trafia na PC, PlayStation, Xbox i Switch. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Amnesia: The Dark Descent",
+    "slug": "amnesia-the-dark-descent",
+    "brand": "Frictional Games",
+    "brand_recognition": "niche",
+    "score": 4,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "solo",
+      "gatunek": "Survival horror",
+      "fabula_score": 3,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 40
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2010,
+    "verdict": "Amnesia: The Dark Descent to survival horror dostępna na PC.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia wystarczająca, by nadać sens kolejnym sesjom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Niezależne studio (Frictional Games) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Dostępna tylko na PC - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie"
+    ]
+  },
+  {
+    "name": "Final Fantasy VII Remake",
+    "slug": "final-fantasy-vii-remake",
+    "brand": "Square Enix",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG akcji",
+      "fabula_score": 5,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2020,
+    "verdict": "Final Fantasy VII Remake (rpg akcji) trafia na PC i PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Square Enix)"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Final Fantasy XVI",
+    "slug": "final-fantasy-xvi",
+    "brand": "Square Enix",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG akcji",
+      "fabula_score": 5,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "premium",
+    "release_year": 2023,
+    "verdict": "Wydana przez Square Enix, Final Fantasy XVI to rpg akcji na PC i PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Cena odpowiada statusowi dużej premiery - nie jest to impulsywny zakup.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Square Enix)"
+    ],
+    "cons": [
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)"
+    ]
+  },
+  {
+    "name": "Persona 5 Royal",
+    "slug": "persona-5-royal",
+    "brand": "Atlus",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG (japoński)",
+      "fabula_score": 5,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 90
+    },
+    "price_tier": "sredni",
+    "release_year": 2020,
+    "verdict": "Wydana przez Atlus, Persona 5 Royal to rpg (japoński) na PC, PlayStation, Xbox i Switch. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Długie sesje - trudno wcisnąć w krótką przerwę",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Nier: Automata",
+    "slug": "nier-automata",
+    "brand": "PlatinumGames",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG akcji",
+      "fabula_score": 5,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Nier: Automata to rpg akcji dostępna na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "A Plague Tale: Requiem",
+    "slug": "a-plague-tale-requiem",
+    "brand": "Asobo Studio",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda",
+      "fabula_score": 5,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2022,
+    "verdict": "Wydana przez Asobo Studio, A Plague Tale: Requiem to akcja/przygoda na PC, PlayStation, Xbox i Switch. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "It Takes Two",
+    "slug": "it-takes-two",
+    "brand": "Hazelight Studios",
+    "brand_recognition": "niche",
+    "score": 9.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Przygodowa kooperacyjna",
+      "fabula_score": 4,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 5,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2021,
+    "verdict": "It Takes Two (przygodowa kooperacyjna) trafia na PC, PlayStation, Xbox i Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom"
+    ],
+    "cons": [
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Hellblade: Senua's Sacrifice",
+    "slug": "hellblade-senua-s-sacrifice",
+    "brand": "Ninja Theory",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda",
+      "fabula_score": 5,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Hellblade: Senua's Sacrifice to akcja/przygoda dostępna na PC, PlayStation, Xbox i Switch. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Detroit: Become Human",
+    "slug": "detroit-become-human",
+    "brand": "Quantic Dream",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "solo",
+      "gatunek": "Przygodowa (interaktywny film)",
+      "fabula_score": 5,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Wydana przez Quantic Dream, Detroit: Become Human to przygodowa (interaktywny film) na PC i PlayStation. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Niezależne studio (Quantic Dream) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)"
+    ]
+  },
+  {
+    "name": "Life is Strange",
+    "slug": "life-is-strange",
+    "brand": "Dontnod Entertainment",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Przygodowa epizodyczna",
+      "fabula_score": 5,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2015,
+    "verdict": "Wydana przez Dontnod Entertainment, Life is Strange to przygodowa epizodyczna na PC, PlayStation, Xbox, Switch i Mobilne. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Firewatch",
+    "slug": "firewatch",
+    "brand": "Campo Santo",
+    "brand_recognition": "niche",
+    "score": 4,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Przygodowa (walking sim)",
+      "fabula_score": 4,
+      "rozgrywka_score": 1,
+      "spoleczny_score": 1,
+      "sesja_minuty": 40
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2016,
+    "verdict": "Wydana przez Campo Santo, Firewatch to przygodowa (walking sim) na PC, PlayStation, Xbox i Switch. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "What Remains of Edith Finch",
+    "slug": "what-remains-of-edith-finch",
+    "brand": "Giant Sparrow",
+    "brand_recognition": "niche",
+    "score": 4.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Przygodowa (walking sim)",
+      "fabula_score": 5,
+      "rozgrywka_score": 1,
+      "spoleczny_score": 1,
+      "sesja_minuty": 30
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "What Remains of Edith Finch to przygodowa (walking sim) dostępna na PC, PlayStation, Xbox i Switch. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Outer Wilds",
+    "slug": "outer-wilds",
+    "brand": "Mobius Digital",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Przygodowa/zagadki (eksploracja kosmosu)",
+      "fabula_score": 5,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2019,
+    "verdict": "Outer Wilds (przygodowa/zagadki (eksploracja kosmosu)) trafia na PC, PlayStation, Xbox i Switch. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Return of the Obra Dinn",
+    "slug": "return-of-the-obra-dinn",
+    "brand": "Lucas Pope",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Zagadki/detektywistyczna",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 40
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Return of the Obra Dinn (zagadki/detektywistyczna) trafia na PC, PlayStation, Xbox i Switch. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Hollow Knight",
+    "slug": "hollow-knight",
+    "brand": "Team Cherry",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Metroidvania",
+      "fabula_score": 3,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Hollow Knight to metroidvania dostępna na PC, PlayStation, Xbox i Switch. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Przyzwoita fabuła jako sympatyczne tło dla rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Celeste",
+    "slug": "celeste",
+    "brand": "Maddy Makes Games",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Platformówka precyzyjna",
+      "fabula_score": 4,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Wydana przez Maddy Makes Games, Celeste to platformówka precyzyjna na PC, PlayStation, Xbox i Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Dead Cells",
+    "slug": "dead-cells",
+    "brand": "Motion Twin",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Roguelike/metroidvania",
+      "fabula_score": 2,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 30
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Wydana przez Motion Twin, Dead Cells to roguelike/metroidvania na PC, PlayStation, Xbox, Switch i Mobilne. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Hades",
+    "slug": "hades",
+    "brand": "Supergiant Games",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Roguelike akcji",
+      "fabula_score": 4,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 30
+    },
+    "price_tier": "sredni",
+    "release_year": 2020,
+    "verdict": "Wydana przez Supergiant Games, Hades to roguelike akcji na PC, PlayStation, Xbox i Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Undertale",
+    "slug": "undertale",
+    "brand": "Toby Fox",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG (parodia)",
+      "fabula_score": 5,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 40
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2015,
+    "verdict": "Undertale (rpg (parodia)) trafia na PC, PlayStation, Xbox, Switch i Mobilne. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Cuphead",
+    "slug": "cuphead",
+    "brand": "StudioMDHR",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "oba",
+      "gatunek": "Platformówka (run and gun)",
+      "fabula_score": 2,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 2,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Cuphead to platformówka (run and gun) dostępna na PC, PlayStation, Xbox, Switch i Mobilne. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Inside",
+    "slug": "inside",
+    "brand": "Playdead",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Platformówka zagadkowa",
+      "fabula_score": 4,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2016,
+    "verdict": "Inside (platformówka zagadkowa) trafia na PC, PlayStation, Xbox, Switch i Mobilne. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Limbo",
+    "slug": "limbo",
+    "brand": "Playdead",
+    "brand_recognition": "niche",
+    "score": 4.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Platformówka zagadkowa",
+      "fabula_score": 3,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 20
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2010,
+    "verdict": "Limbo (platformówka zagadkowa) trafia na PC, PlayStation, Xbox, Switch i Mobilne.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia wystarczająca, by nadać sens kolejnym sesjom",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Little Nightmares",
+    "slug": "little-nightmares",
+    "brand": "Tarsier Studios",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Platformówka (horror)",
+      "fabula_score": 4,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Wydana przez Tarsier Studios, Little Nightmares to platformówka (horror) na PC, PlayStation, Xbox, Switch i Mobilne. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Ori and the Blind Forest",
+    "slug": "ori-and-the-blind-forest",
+    "brand": "Moon Studios",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Metroidvania",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 30
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2015,
+    "verdict": "Ori and the Blind Forest (metroidvania) trafia na PC, Xbox i Switch. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Ori and the Will of the Wisps",
+    "slug": "ori-and-the-will-of-the-wisps",
+    "brand": "Moon Studios",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Metroidvania",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 35
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2020,
+    "verdict": "Wydana przez Moon Studios, Ori and the Will of the Wisps to metroidvania na PC, Xbox i Switch. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Slay the Spire",
+    "slug": "slay-the-spire",
+    "brand": "MegaCrit",
+    "brand_recognition": "niche",
+    "score": 4.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Karciana roguelike",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 35
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2019,
+    "verdict": "Slay the Spire to karciana roguelike dostępna na PC, PlayStation, Xbox, Switch i Mobilne. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Vampire Survivors",
+    "slug": "vampire-survivors",
+    "brand": "Poncle",
+    "brand_recognition": "niche",
+    "score": 4,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Roguelike (bullet heaven)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 20
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2022,
+    "verdict": "Wydana przez Poncle, Vampire Survivors to roguelike (bullet heaven) na PC, PlayStation, Xbox, Switch i Mobilne. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Cult of the Lamb",
+    "slug": "cult-of-the-lamb",
+    "brand": "Massive Monster",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Roguelike + zarządzanie sektą",
+      "fabula_score": 3,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 35
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2022,
+    "verdict": "Wydana przez Massive Monster, Cult of the Lamb to roguelike + zarządzanie sektą na PC, PlayStation, Xbox i Switch. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Przyzwoita fabuła jako sympatyczne tło dla rozgrywki",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Lethal Company",
+    "slug": "lethal-company",
+    "brand": "Zeekerss",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Kooperacyjny horror",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 30
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2023,
+    "verdict": "Wydana przez Zeekerss, Lethal Company to kooperacyjny horror na PC. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na PC - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Phasmophobia",
+    "slug": "phasmophobia",
+    "brand": "Kinetic Games",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Kooperacyjny horror",
+      "fabula_score": 1,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 5,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2020,
+    "verdict": "Phasmophobia to kooperacyjny horror dostępna na PC. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na PC - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Minecraft",
+    "slug": "minecraft",
+    "brand": "Mojang Studios",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "oba",
+      "gatunek": "Sandbox/przetrwanie",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 4,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2011,
+    "verdict": "Minecraft (sandbox/przetrwanie) trafia na PC, PlayStation, Xbox, Switch i Mobilne. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Terraria",
+    "slug": "terraria",
+    "brand": "Re-Logic",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "oba",
+      "gatunek": "Sandbox/przetrwanie 2D",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 4,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2011,
+    "verdict": "Terraria to sandbox/przetrwanie 2d dostępna na PC, PlayStation, Xbox, Switch i Mobilne. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Stardew Valley",
+    "slug": "stardew-valley",
+    "brand": "ConcernedApe",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "oba",
+      "gatunek": "Symulator farmy",
+      "fabula_score": 3,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 3,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2016,
+    "verdict": "Stardew Valley to symulator farmy dostępna na PC, PlayStation, Xbox, Switch i Mobilne. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Historia wystarczająca, by nadać sens kolejnym sesjom",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "To nie jest gra stawiająca na fabułę - inne aspekty są tu ważniejsze",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Valheim",
+    "slug": "valheim",
+    "brand": "Iron Gate Studio",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "oba",
+      "gatunek": "Przetrwanie (wikingowie)",
+      "fabula_score": 2,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 75
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2021,
+    "verdict": "Wydana przez Iron Gate Studio, Valheim to przetrwanie (wikingowie) na PC, PlayStation i Xbox. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Palworld",
+    "slug": "palworld",
+    "brand": "Pocketpair",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "Xbox"
+      ],
+      "tryb": "oba",
+      "gatunek": "Przetrwanie/zbieranie stworzeń",
+      "fabula_score": 2,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 3,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2024,
+    "verdict": "Palworld (przetrwanie/zbieranie stworzeń) trafia na PC i Xbox. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Solidny komponent społecznościowy jako miły dodatek",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Ograniczona dostępność platformowa (tylko PC i Xbox)",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Sea of Thieves",
+    "slug": "sea-of-thieves",
+    "brand": "Rare",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "Xbox"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Przygodowa (piraci)",
+      "fabula_score": 2,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 5,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2018,
+    "verdict": "Wydana przez Rare, Sea of Thieves to przygodowa (piraci) na PC i Xbox. Największą wartość daje tu wspólna zabawa ze znajomymi/online.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Znane, sprawdzone studio stojące za produkcją (Rare)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Ograniczona dostępność platformowa (tylko PC i Xbox)"
+    ]
+  },
+  {
+    "name": "Raft",
+    "slug": "raft",
+    "brand": "Redbeet Interactive",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "oba",
+      "gatunek": "Przetrwanie",
+      "fabula_score": 2,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 4,
+      "sesja_minuty": 50
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2022,
+    "verdict": "Raft (przetrwanie) trafia na PC. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Solidna, przystępna mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na PC - brak wyboru platformy",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Civilization VI",
+    "slug": "civilization-vi",
+    "brand": "Firaxis Games",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "oba",
+      "gatunek": "Strategia turowa (4X)",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 2,
+      "sesja_minuty": 120
+    },
+    "price_tier": "sredni",
+    "release_year": 2016,
+    "verdict": "Civilization VI (strategia turowa (4x)) trafia na PC, PlayStation, Xbox, Switch i Mobilne. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania",
+      "Znane, sprawdzone studio stojące za produkcją (Firaxis Games)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Długie sesje - trudno wcisnąć w krótką przerwę",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Age of Empires IV",
+    "slug": "age-of-empires-iv",
+    "brand": "Relic Entertainment",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "oba",
+      "gatunek": "Strategia czasu rzeczywistego",
+      "fabula_score": 2,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 3,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2021,
+    "verdict": "Wydana przez Relic Entertainment, Age of Empires IV to strategia czasu rzeczywistego na PC. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę",
+      "Znane, sprawdzone studio stojące za produkcją (Relic Entertainment)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na PC - brak wyboru platformy",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Total War: Warhammer III",
+    "slug": "total-war-warhammer-iii",
+    "brand": "Creative Assembly",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "oba",
+      "gatunek": "Strategia (turowa + RTS bitwy)",
+      "fabula_score": 2,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 2,
+      "sesja_minuty": 120
+    },
+    "price_tier": "premium",
+    "release_year": 2022,
+    "verdict": "Total War: Warhammer III to strategia (turowa + rts bitwy) dostępna na PC. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Cena odpowiada statusowi dużej premiery - nie jest to impulsywny zakup. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Creative Assembly)",
+      "Gatunek strategia (turowa + rts bitwy) dobrze zdefiniowany i konsekwentnie poprowadzony"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na PC - brak wyboru platformy",
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku"
+    ]
+  },
+  {
+    "name": "Crusader Kings III",
+    "slug": "crusader-kings-iii",
+    "brand": "Paradox Development Studio",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Strategia (symulator dynastii)",
+      "fabula_score": 4,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 120
+    },
+    "price_tier": "sredni",
+    "release_year": 2020,
+    "verdict": "Crusader Kings III to strategia (symulator dynastii) dostępna na PC, PlayStation i Xbox. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Niezależne studio (Paradox Development Studio) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Długie sesje - trudno wcisnąć w krótką przerwę",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Cities: Skylines",
+    "slug": "cities-skylines",
+    "brand": "Colossal Order",
+    "brand_recognition": "niche",
+    "score": 4,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Symulator miasta",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 90
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2015,
+    "verdict": "Cities: Skylines to symulator miasta dostępna na PC, PlayStation, Xbox i Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Długie sesje - trudno wcisnąć w krótką przerwę"
+    ]
+  },
+  {
+    "name": "The Sims 4",
+    "slug": "the-sims-4",
+    "brand": "Maxis",
+    "brand_recognition": "mainstream",
+    "score": 4,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Symulator życia",
+      "fabula_score": 2,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2014,
+    "verdict": "Wydana przez Maxis, The Sims 4 to symulator życia na PC, PlayStation i Xbox.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Solidna, przystępna mechanika rozgrywki",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Znane, sprawdzone studio stojące za produkcją (Maxis)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Football Manager 2024",
+    "slug": "football-manager-2024",
+    "brand": "Sports Interactive",
+    "brand_recognition": "mainstream",
+    "score": 4.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Symulator menadżerski",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 90
+    },
+    "price_tier": "sredni",
+    "release_year": 2023,
+    "verdict": "Wydana przez Sports Interactive, Football Manager 2024 to symulator menadżerski na PC i Mobilne. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Znane, sprawdzone studio stojące za produkcją (Sports Interactive)",
+      "Gatunek symulator menadżerski dobrze zdefiniowany i konsekwentnie poprowadzony"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Ograniczona dostępność platformowa (tylko PC i Mobilne)"
+    ]
+  },
+  {
+    "name": "Anno 1800",
+    "slug": "anno-1800",
+    "brand": "Ubisoft Blue Byte",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "oba",
+      "gatunek": "Strategia ekonomiczna",
+      "fabula_score": 2,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 2,
+      "sesja_minuty": 90
+    },
+    "price_tier": "sredni",
+    "release_year": 2019,
+    "verdict": "Wydana przez Ubisoft Blue Byte, Anno 1800 to strategia ekonomiczna na PC. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Ubisoft Blue Byte)",
+      "Gatunek strategia ekonomiczna dobrze zdefiniowany i konsekwentnie poprowadzony"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na PC - brak wyboru platformy",
+      "Długie sesje - trudno wcisnąć w krótką przerwę"
+    ]
+  },
+  {
+    "name": "XCOM 2",
+    "slug": "xcom-2",
+    "brand": "Firaxis Games",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Strategia turowa (taktyka)",
+      "fabula_score": 3,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 75
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2016,
+    "verdict": "XCOM 2 to strategia turowa (taktyka) dostępna na PC, PlayStation, Xbox i Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Historia wystarczająca, by nadać sens kolejnym sesjom",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Frostpunk",
+    "slug": "frostpunk",
+    "brand": "11 bit studios",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Strategia przetrwania",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 75
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Frostpunk (strategia przetrwania) trafia na PC, PlayStation i Xbox. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Planet Coaster",
+    "slug": "planet-coaster",
+    "brand": "Frontier Developments",
+    "brand_recognition": "niche",
+    "score": 4,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "solo",
+      "gatunek": "Symulator parku rozrywki",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 75
+    },
+    "price_tier": "sredni",
+    "release_year": 2016,
+    "verdict": "Planet Coaster (symulator parku rozrywki) trafia na PC, PlayStation i Xbox. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Niezależne studio (Frontier Developments) z autorskim, charakterystycznym stylem",
+      "Gatunek symulator parku rozrywki dobrze zdefiniowany i konsekwentnie poprowadzony"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Two Point Hospital",
+    "slug": "two-point-hospital",
+    "brand": "Two Point Studios",
+    "brand_recognition": "niche",
+    "score": 4.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Symulator menadżerski",
+      "fabula_score": 2,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Wydana przez Two Point Studios, Two Point Hospital to symulator menadżerski na PC, PlayStation, Xbox i Switch. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Fortnite",
+    "slug": "fortnite",
+    "brand": "Epic Games",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Battle royale",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Wydana przez Epic Games, Fortnite to battle royale na PC, PlayStation, Xbox, Switch i Mobilne. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Valorant",
+    "slug": "valorant",
+    "brand": "Riot Games",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strzelanka taktyczna",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 4,
+      "sesja_minuty": 35
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2020,
+    "verdict": "Valorant (strzelanka taktyczna) trafia na PC. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na PC - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Counter-Strike 2",
+    "slug": "counter-strike-2",
+    "brand": "Valve",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strzelanka taktyczna",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 4,
+      "sesja_minuty": 30
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2023,
+    "verdict": "Counter-Strike 2 to strzelanka taktyczna dostępna na PC. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na PC - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "League of Legends",
+    "slug": "league-of-legends",
+    "brand": "Riot Games",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "MOBA",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 4,
+      "sesja_minuty": 35
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2009,
+    "verdict": "League of Legends to moba dostępna na PC. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na PC - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Dota 2",
+    "slug": "dota-2",
+    "brand": "Valve",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "MOBA",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 4,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2013,
+    "verdict": "Dota 2 to moba dostępna na PC. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na PC - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Apex Legends",
+    "slug": "apex-legends",
+    "brand": "Respawn Entertainment",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Battle royale",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2019,
+    "verdict": "Apex Legends to battle royale dostępna na PC, PlayStation, Xbox, Switch i Mobilne. Największą wartość daje tu wspólna zabawa ze znajomymi/online.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Overwatch 2",
+    "slug": "overwatch-2",
+    "brand": "Blizzard Entertainment",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strzelanka bohaterska",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2022,
+    "verdict": "Overwatch 2 to strzelanka bohaterska dostępna na PC, PlayStation, Xbox i Switch. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Rocket League",
+    "slug": "rocket-league",
+    "brand": "Psyonix",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Sportowa (piłka samochodami)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 20
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2015,
+    "verdict": "Rocket League (sportowa (piłka samochodami)) trafia na PC, PlayStation, Xbox i Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Among Us",
+    "slug": "among-us",
+    "brand": "Innersloth",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Towarzyska (dedukcja)",
+      "fabula_score": 1,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 5,
+      "sesja_minuty": 15
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Among Us to towarzyska (dedukcja) dostępna na PC, PlayStation, Xbox, Switch i Mobilne. Największą wartość daje tu wspólna zabawa ze znajomymi/online.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu"
+    ]
+  },
+  {
+    "name": "Fall Guys",
+    "slug": "fall-guys",
+    "brand": "Mediatonic",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch",
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Imprezowa (battle royale)",
+      "fabula_score": 1,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 5,
+      "sesja_minuty": 15
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2020,
+    "verdict": "Wydana przez Mediatonic, Fall Guys to imprezowa (battle royale) na PC, PlayStation, Xbox, Switch i Mobilne. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Dostępna na PC, PlayStation, Xbox, Switch i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Deep Rock Galactic",
+    "slug": "deep-rock-galactic",
+    "brand": "Ghost Ship Games",
+    "brand_recognition": "niche",
+    "score": 7.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Kooperacyjna strzelanka",
+      "fabula_score": 2,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 35
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2020,
+    "verdict": "Deep Rock Galactic (kooperacyjna strzelanka) trafia na PC, PlayStation i Xbox. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Helldivers 2",
+    "slug": "helldivers-2",
+    "brand": "Arrowhead Game Studios",
+    "brand_recognition": "niche",
+    "score": 7.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Kooperacyjna strzelanka",
+      "fabula_score": 2,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 35
+    },
+    "price_tier": "sredni",
+    "release_year": 2024,
+    "verdict": "Wydana przez Arrowhead Game Studios, Helldivers 2 to kooperacyjna strzelanka na PC i PlayStation. Największą wartość daje tu wspólna zabawa ze znajomymi/online.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Niezależne studio (Arrowhead Game Studios) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Ograniczona dostępność platformowa (tylko PC i PlayStation)"
+    ]
+  },
+  {
+    "name": "Rainbow Six Siege",
+    "slug": "rainbow-six-siege",
+    "brand": "Ubisoft Montreal",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strzelanka taktyczna",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 4,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2015,
+    "verdict": "Rainbow Six Siege to strzelanka taktyczna dostępna na PC, PlayStation i Xbox. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Call of Duty: Warzone",
+    "slug": "call-of-duty-warzone",
+    "brand": "Infinity Ward",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Battle royale",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 30
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2020,
+    "verdict": "Call of Duty: Warzone to battle royale dostępna na PC, PlayStation i Xbox. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "PUBG: Battlegrounds",
+    "slug": "pubg-battlegrounds",
+    "brand": "Krafton",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Battle royale",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 30
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "PUBG: Battlegrounds (battle royale) trafia na PC, PlayStation, Xbox i Mobilne. Największą wartość daje tu wspólna zabawa ze znajomymi/online.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Dostępna na PC, PlayStation, Xbox i Mobilne - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "World of Warcraft",
+    "slug": "world-of-warcraft",
+    "brand": "Blizzard Entertainment",
+    "brand_recognition": "mainstream",
+    "score": 8,
+    "specs": {
+      "platformy": [
+        "PC"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "MMORPG",
+      "fabula_score": 3,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 90
+    },
+    "price_tier": "sredni",
+    "release_year": 2004,
+    "verdict": "World of Warcraft to mmorpg dostępna na PC. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Dostępna wyłącznie na PC, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia wystarczająca, by nadać sens kolejnym sesjom",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom"
+    ],
+    "cons": [
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na PC - brak wyboru platformy",
+      "Długie sesje - trudno wcisnąć w krótką przerwę"
+    ]
+  },
+  {
+    "name": "Destiny 2",
+    "slug": "destiny-2",
+    "brand": "Bungie",
+    "brand_recognition": "mainstream",
+    "score": 7.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "tryb": "oba",
+      "gatunek": "MMO-strzelanka",
+      "fabula_score": 3,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 60
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Destiny 2 to mmo-strzelanka dostępna na PC, PlayStation i Xbox. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to długie, wciągające sesje warte wygospodarowania wieczoru. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Przyzwoita fabuła jako sympatyczne tło dla rozgrywki",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi"
+    ],
+    "cons": [
+      "To nie jest gra stawiająca na fabułę - inne aspekty są tu ważniejsze",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Warframe",
+    "slug": "warframe",
+    "brand": "Digital Extremes",
+    "brand_recognition": "niche",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "oba",
+      "gatunek": "MMO-strzelanka (looter)",
+      "fabula_score": 2,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2013,
+    "verdict": "Warframe to mmo-strzelanka (looter) dostępna na PC, PlayStation, Xbox i Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "slug": "the-legend-of-zelda-breath-of-the-wild",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda (otwarty świat)",
+      "fabula_score": 4,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 90
+    },
+    "price_tier": "sredni",
+    "release_year": 2017,
+    "verdict": "Wydana przez Nintendo, The Legend of Zelda: Breath of the Wild to akcja/przygoda (otwarty świat) na Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Nintendo)"
+    ],
+    "cons": [
+      "Dostępna tylko na Switch - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Długie sesje - trudno wcisnąć w krótką przerwę"
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "slug": "the-legend-of-zelda-tears-of-the-kingdom",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Akcja/przygoda (otwarty świat)",
+      "fabula_score": 4,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 90
+    },
+    "price_tier": "premium",
+    "release_year": 2023,
+    "verdict": "Wydana przez Nintendo, The Legend of Zelda: Tears of the Kingdom to akcja/przygoda (otwarty świat) na Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Cena odpowiada statusowi dużej premiery - nie jest to impulsywny zakup. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Nintendo)"
+    ],
+    "cons": [
+      "Dostępna tylko na Switch - brak wyboru platformy",
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie"
+    ]
+  },
+  {
+    "name": "Super Mario Odyssey",
+    "slug": "super-mario-odyssey",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Platformówka 3D",
+      "fabula_score": 2,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 40
+    },
+    "price_tier": "sredni",
+    "release_year": 2017,
+    "verdict": "Super Mario Odyssey to platformówka 3d dostępna na Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to typowe, kilkudziesięciominutowe sesje. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Nintendo)",
+      "Gatunek platformówka 3d dobrze zdefiniowany i konsekwentnie poprowadzony"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na Switch - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie"
+    ]
+  },
+  {
+    "name": "Super Mario Bros. Wonder",
+    "slug": "super-mario-bros-wonder",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "oba",
+      "gatunek": "Platformówka 2D",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 3,
+      "sesja_minuty": 25
+    },
+    "price_tier": "sredni",
+    "release_year": 2023,
+    "verdict": "Super Mario Bros. Wonder (platformówka 2d) trafia na Switch. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę",
+      "Znane, sprawdzone studio stojące za produkcją (Nintendo)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na Switch - brak wyboru platformy",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Animal Crossing: New Horizons",
+    "slug": "animal-crossing-new-horizons",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "oba",
+      "gatunek": "Symulator życia",
+      "fabula_score": 2,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 3,
+      "sesja_minuty": 30
+    },
+    "price_tier": "sredni",
+    "release_year": 2020,
+    "verdict": "Animal Crossing: New Horizons to symulator życia dostępna na Switch.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę",
+      "Znane, sprawdzone studio stojące za produkcją (Nintendo)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na Switch - brak wyboru platformy",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Mario Kart 8 Deluxe",
+    "slug": "mario-kart-8-deluxe",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Wyścigi (imprezowa)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 5,
+      "sesja_minuty": 20
+    },
+    "price_tier": "sredni",
+    "release_year": 2017,
+    "verdict": "Mario Kart 8 Deluxe (wyścigi (imprezowa)) trafia na Switch. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to krótkie sesje w wolnej chwili. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Switch - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Super Smash Bros. Ultimate",
+    "slug": "super-smash-bros-ultimate",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 7.3,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Bijatyka (imprezowa)",
+      "fabula_score": 1,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 5,
+      "sesja_minuty": 20
+    },
+    "price_tier": "sredni",
+    "release_year": 2018,
+    "verdict": "Wydana przez Nintendo, Super Smash Bros. Ultimate to bijatyka (imprezowa) na Switch. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Switch - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Splatoon 3",
+    "slug": "splatoon-3",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strzelanka drużynowa",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 20
+    },
+    "price_tier": "sredni",
+    "release_year": 2022,
+    "verdict": "Wydana przez Nintendo, Splatoon 3 to strzelanka drużynowa na Switch. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to krótkie sesje w wolnej chwili. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Switch - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Pokémon Scarlet/Violet",
+    "slug": "pokemon-scarlet-violet",
+    "brand": "Game Freak",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "oba",
+      "gatunek": "RPG (zbieranie stworzeń)",
+      "fabula_score": 3,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 2,
+      "sesja_minuty": 60
+    },
+    "price_tier": "premium",
+    "release_year": 2022,
+    "verdict": "Pokémon Scarlet/Violet (rpg (zbieranie stworzeń)) trafia na Switch.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Cena odpowiada statusowi dużej premiery - nie jest to impulsywny zakup. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia wystarczająca, by nadać sens kolejnym sesjom",
+      "Solidna, przystępna mechanika rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Game Freak)"
+    ],
+    "cons": [
+      "Dostępna tylko na Switch - brak wyboru platformy",
+      "Wysoka cena premierowa względem tańszych tytułów w tym samym gatunku",
+      "To nie jest gra stawiająca na grę wieloosobową - inne aspekty są tu ważniejsze"
+    ]
+  },
+  {
+    "name": "Metroid Dread",
+    "slug": "metroid-dread",
+    "brand": "Nintendo",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Metroidvania",
+      "fabula_score": 3,
+      "rozgrywka_score": 5,
+      "spoleczny_score": 1,
+      "sesja_minuty": 40
+    },
+    "price_tier": "sredni",
+    "release_year": 2021,
+    "verdict": "Metroid Dread to metroidvania dostępna na Switch. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Przyzwoita fabuła jako sympatyczne tło dla rozgrywki",
+      "Znane, sprawdzone studio stojące za produkcją (Nintendo)"
+    ],
+    "cons": [
+      "Dostępna tylko na Switch - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Fire Emblem Engage",
+    "slug": "fire-emblem-engage",
+    "brand": "Intelligent Systems",
+    "brand_recognition": "niche",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "solo",
+      "gatunek": "Strategia taktyczna (RPG)",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 1,
+      "sesja_minuty": 60
+    },
+    "price_tier": "sredni",
+    "release_year": 2023,
+    "verdict": "Fire Emblem Engage to strategia taktyczna (rpg) dostępna na Switch. Największym atutem jest tu fabuła i klimat.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to długie, wciągające sesje warte wygospodarowania wieczoru. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Historia, która naprawdę wciąga od początku do końca",
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Niezależne studio (Intelligent Systems) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Dostępna tylko na Switch - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Kirby and the Forgotten Land",
+    "slug": "kirby-and-the-forgotten-land",
+    "brand": "HAL Laboratory",
+    "brand_recognition": "mainstream",
+    "score": 4.7,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Platformówka 3D",
+      "fabula_score": 2,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 2,
+      "sesja_minuty": 30
+    },
+    "price_tier": "sredni",
+    "release_year": 2022,
+    "verdict": "Wydana przez HAL Laboratory, Kirby and the Forgotten Land to platformówka 3d na Switch.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Znane, sprawdzone studio stojące za produkcją (HAL Laboratory)",
+      "Gatunek platformówka 3d dobrze zdefiniowany i konsekwentnie poprowadzony"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Switch - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Luigi's Mansion 3",
+    "slug": "luigi-s-mansion-3",
+    "brand": "Next Level Games",
+    "brand_recognition": "niche",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "Switch"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Akcja/przygoda (zagadki)",
+      "fabula_score": 2,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 3,
+      "sesja_minuty": 35
+    },
+    "price_tier": "sredni",
+    "release_year": 2019,
+    "verdict": "Wydana przez Next Level Games, Luigi's Mansion 3 to akcja/przygoda (zagadki) na Switch.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Dostępna wyłącznie na Switch, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę",
+      "Niezależne studio (Next Level Games) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Switch - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Gran Turismo 7",
+    "slug": "gran-turismo-7",
+    "brand": "Polyphony Digital",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PlayStation"
+      ],
+      "tryb": "oba",
+      "gatunek": "Symulator wyścigów",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 3,
+      "sesja_minuty": 45
+    },
+    "price_tier": "sredni",
+    "release_year": 2022,
+    "verdict": "Wydana przez Polyphony Digital, Gran Turismo 7 to symulator wyścigów na PlayStation. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Dostępna wyłącznie na PlayStation, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę",
+      "Znane, sprawdzone studio stojące za produkcją (Polyphony Digital)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na PlayStation - brak wyboru platformy",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Forza Horizon 5",
+    "slug": "forza-horizon-5",
+    "brand": "Playground Games",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "Xbox"
+      ],
+      "tryb": "oba",
+      "gatunek": "Wyścigi (otwarty świat)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 3,
+      "sesja_minuty": 40
+    },
+    "price_tier": "sredni",
+    "release_year": 2021,
+    "verdict": "Forza Horizon 5 (wyścigi (otwarty świat)) trafia na PC i Xbox. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę",
+      "Znane, sprawdzone studio stojące za produkcją (Playground Games)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Ograniczona dostępność platformowa (tylko PC i Xbox)",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "EA Sports FC 24",
+    "slug": "ea-sports-fc-24",
+    "brand": "EA Sports",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "oba",
+      "gatunek": "Sportowa (piłka nożna)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 30
+    },
+    "price_tier": "sredni",
+    "release_year": 2023,
+    "verdict": "Wydana przez EA Sports, EA Sports FC 24 to sportowa (piłka nożna) na PC, PlayStation, Xbox i Switch. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "NBA 2K24",
+    "slug": "nba-2k24",
+    "brand": "Visual Concepts",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Switch"
+      ],
+      "tryb": "oba",
+      "gatunek": "Sportowa (koszykówka)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 3,
+      "sesja_minuty": 25
+    },
+    "price_tier": "sredni",
+    "release_year": 2023,
+    "verdict": "NBA 2K24 to sportowa (koszykówka) dostępna na PC, PlayStation, Xbox i Switch. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Szeroka dostępność platformowa - duża szansa, że zagrasz na tym, co już masz.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Dostępna na PC, PlayStation, Xbox i Switch - duży wybór sprzętu do grania",
+      "Opcja grania ze znajomymi, gdy akurat masz na to ochotę"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Genshin Impact",
+    "slug": "genshin-impact",
+    "brand": "miHoYo",
+    "brand_recognition": "mainstream",
+    "score": 6.7,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Mobilne"
+      ],
+      "tryb": "oba",
+      "gatunek": "RPG akcji (gacha)",
+      "fabula_score": 4,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 2,
+      "sesja_minuty": 45
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2020,
+    "verdict": "Genshin Impact to rpg akcji (gacha) dostępna na PC, PlayStation i Mobilne. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "To nie jest gra stawiająca na grę wieloosobową - inne aspekty są tu ważniejsze",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Honkai: Star Rail",
+    "slug": "honkai-star-rail",
+    "brand": "miHoYo",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "PC",
+        "PlayStation",
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "RPG turowe (gacha)",
+      "fabula_score": 4,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 35
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2023,
+    "verdict": "Honkai: Star Rail (rpg turowe (gacha)) trafia na PC, PlayStation i Mobilne. Gra stawia przede wszystkim na historię i narrację.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka.",
+    "pros": [
+      "Mocna, zapadająca w pamięć fabuła i klimat",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Clash Royale",
+    "slug": "clash-royale",
+    "brand": "Supercell",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strategia karciana (PvP)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 3,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2016,
+    "verdict": "Clash Royale to strategia karciana (pvp) dostępna na Mobilne. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Solidny komponent społecznościowy jako miły dodatek",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Clash of Clans",
+    "slug": "clash-of-clans",
+    "brand": "Supercell",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strategia (budowanie bazy)",
+      "fabula_score": 1,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 4,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2012,
+    "verdict": "Clash of Clans (strategia (budowanie bazy)) trafia na Mobilne. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Solidna, przystępna mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Brawl Stars",
+    "slug": "brawl-stars",
+    "brand": "Supercell",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strzelanka (areny 3v3)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Brawl Stars (strzelanka (areny 3v3)) trafia na Mobilne. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Candy Crush Saga",
+    "slug": "candy-crush-saga",
+    "brand": "King",
+    "brand_recognition": "mainstream",
+    "score": 2.7,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Puzzle (dopasowywanie)",
+      "fabula_score": 1,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2012,
+    "verdict": "Candy Crush Saga (puzzle (dopasowywanie)) trafia na Mobilne.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę",
+      "Znane, sprawdzone studio stojące za produkcją (King)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Subway Surfers",
+    "slug": "subway-surfers",
+    "brand": "SYBO Games",
+    "brand_recognition": "niche",
+    "score": 3.3,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Endless runner",
+      "fabula_score": 1,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2012,
+    "verdict": "Wydana przez SYBO Games, Subway Surfers to endless runner na Mobilne.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Solidna, przystępna mechanika rozgrywki",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na Mobilne - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie"
+    ]
+  },
+  {
+    "name": "Monument Valley",
+    "slug": "monument-valley",
+    "brand": "ustwo Games",
+    "brand_recognition": "niche",
+    "score": 4.7,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Puzzle (iluzje optyczne)",
+      "fabula_score": 3,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 15
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2014,
+    "verdict": "Monument Valley (puzzle (iluzje optyczne)) trafia na Mobilne.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Przyzwoita fabuła jako sympatyczne tło dla rozgrywki",
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Dostępna tylko na Mobilne - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie",
+      "Mniej znane studio - mniejsza biblioteka wsparcia/społeczności niż u dużych wydawców"
+    ]
+  },
+  {
+    "name": "Alto's Odyssey",
+    "slug": "alto-s-odyssey",
+    "brand": "Snowman",
+    "brand_recognition": "niche",
+    "score": 2.7,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Endless runner (relaksacyjna)",
+      "fabula_score": 1,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Alto's Odyssey (endless runner (relaksacyjna)) trafia na Mobilne.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę",
+      "Niezależne studio (Snowman) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Plants vs. Zombies 2",
+    "slug": "plants-vs-zombies-2",
+    "brand": "PopCap Games",
+    "brand_recognition": "mainstream",
+    "score": 4,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Tower defense",
+      "fabula_score": 2,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 15
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2013,
+    "verdict": "Plants vs. Zombies 2 (tower defense) trafia na Mobilne.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na Mobilne - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie"
+    ]
+  },
+  {
+    "name": "Angry Birds 2",
+    "slug": "angry-birds-2",
+    "brand": "Rovio Entertainment",
+    "brand_recognition": "mainstream",
+    "score": 2.7,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Fizyczna łamigłówka",
+      "fabula_score": 1,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2015,
+    "verdict": "Angry Birds 2 (fizyczna łamigłówka) trafia na Mobilne.",
+    "summary": "To czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę",
+      "Znane, sprawdzone studio stojące za produkcją (Rovio Entertainment)"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Pokémon GO",
+    "slug": "pokemon-go",
+    "brand": "Niantic",
+    "brand_recognition": "mainstream",
+    "score": 5.3,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "oba",
+      "gatunek": "AR (zbieranie stworzeń)",
+      "fabula_score": 1,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 4,
+      "sesja_minuty": 20
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2016,
+    "verdict": "Pokémon GO to ar (zbieranie stworzeń) dostępna na Mobilne. Najlepiej wypada w towarzystwie - to przede wszystkim gra na wspólne sesje.",
+    "summary": "To da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Solidna, przystępna mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na Mobilne - brak wyboru platformy",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  },
+  {
+    "name": "Call of Duty: Mobile",
+    "slug": "call-of-duty-mobile",
+    "brand": "TiMi Studio Group",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Strzelanka (battle royale + mecze)",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 15
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2019,
+    "verdict": "Call of Duty: Mobile (strzelanka (battle royale + mecze)) trafia na Mobilne. Największym atutem jest sama mechanika rozgrywki.",
+    "summary": "To gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Typowa sesja to krótkie sesje w wolnej chwili. Niska bariera wejścia cenowego - łatwo spróbować na własną rękę. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Dopracowana, satysfakcjonująca mechanika rozgrywki",
+      "Silny komponent społecznościowy - naprawdę żyje dzięki innym graczom",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "PUBG Mobile",
+    "slug": "pubg-mobile",
+    "brand": "Krafton",
+    "brand_recognition": "mainstream",
+    "score": 6,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "multiplayer",
+      "gatunek": "Battle royale",
+      "fabula_score": 1,
+      "rozgrywka_score": 4,
+      "spoleczny_score": 4,
+      "sesja_minuty": 25
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "PUBG Mobile to battle royale dostępna na Mobilne. To przede wszystkim satysfakcjonujący, dopracowany gameplay.",
+    "summary": "Gra żyjąca głównie w towarzystwie/online - w pojedynkę straci sporo frajdy. Pod względem rytmu rozgrywki to typowe, kilkudziesięciominutowe sesje. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Gameplay, który sam w sobie jest głównym powodem, żeby zagrać",
+      "Świetna zabawa w towarzystwie/online ze znajomymi",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Praktycznie wymaga towarzystwa/internetu - w pojedynkę traci większość sensu",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Township",
+    "slug": "township",
+    "brand": "Playrix",
+    "brand_recognition": "niche",
+    "score": 3.3,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Symulator miasta/farmy",
+      "fabula_score": 1,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 1,
+      "sesja_minuty": 15
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2013,
+    "verdict": "Wydana przez Playrix, Township to symulator miasta/farmy na Mobilne.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na Mobilne - brak wyboru platformy",
+      "Brak jakiegokolwiek trybu wieloosobowego - czysto solowe doświadczenie"
+    ]
+  },
+  {
+    "name": "Homescapes",
+    "slug": "homescapes",
+    "brand": "Playrix",
+    "brand_recognition": "niche",
+    "score": 2.7,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "solo",
+      "gatunek": "Puzzle (dopasowywanie)",
+      "fabula_score": 1,
+      "rozgrywka_score": 2,
+      "spoleczny_score": 1,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2017,
+    "verdict": "Homescapes to puzzle (dopasowywanie) dostępna na Mobilne.",
+    "summary": "Czysto solowe doświadczenie - najlepsze we własnym tempie, bez potrzeby kogoś do grania. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę",
+      "Niezależne studio (Playrix) z autorskim, charakterystycznym stylem"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Sama mechanika rozgrywki jest dość prosta i szybko się jej uczysz",
+      "Dostępna tylko na Mobilne - brak wyboru platformy"
+    ]
+  },
+  {
+    "name": "Asphalt 9: Legends",
+    "slug": "asphalt-9-legends",
+    "brand": "Gameloft",
+    "brand_recognition": "mainstream",
+    "score": 4,
+    "specs": {
+      "platformy": [
+        "Mobilne"
+      ],
+      "tryb": "oba",
+      "gatunek": "Wyścigi arcade",
+      "fabula_score": 1,
+      "rozgrywka_score": 3,
+      "spoleczny_score": 2,
+      "sesja_minuty": 10
+    },
+    "price_tier": "budzetowy",
+    "release_year": 2018,
+    "verdict": "Asphalt 9: Legends (wyścigi arcade) trafia na Mobilne.",
+    "summary": "Da się grać solo, ale naprawdę rozkwita w towarzystwie albo online. Pod względem rytmu rozgrywki to krótkie sesje w wolnej chwili. Bardzo przystępna cena sprawia, że warto dać jej szansę bez większego ryzyka. Dostępna wyłącznie na Mobilne, więc warto to sprawdzić przed zakupem.",
+    "pros": [
+      "Rozgrywka prosta do ogarnięcia, ale nie nudzi się szybko",
+      "Bardzo przystępna cena - niskie ryzyko przy wypróbowaniu",
+      "Krótkie sesje - łatwo wcisnąć partyjkę w wolną chwilę"
+    ],
+    "cons": [
+      "Fabuła jest tu drugorzędna - to nie jest gra dla szukających mocnej historii",
+      "Dostępna tylko na Mobilne - brak wyboru platformy",
+      "Warto sprawdzić krótki fragment rozgrywki przed zakupem, żeby ocenić klimat na własną rękę"
+    ]
+  }
+]

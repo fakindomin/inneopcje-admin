@@ -2,32 +2,34 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import Logo from "../../components/Logo";
-import PageSlide from "../../components/PageSlide";
-import CategoryTiles from "../../components/CategoryTiles";
+import GryWizard from "../../components/GryWizard.js";
+import PageSlide from "../../components/PageSlide.js";
+import Logo from "../../components/Logo.js";
 
+// Single category (gry) - no CategoryTiles picker screen needed anymore,
+// so this goes straight into the wizard instead of asking "co szukasz"
+// first. See app/wybierz/gry/page.js's removal in the same commit; this
+// replaces it rather than redirecting to it.
 export default function WybierzPage() {
-  // Warms "/" for the back button below - same reasoning as
-  // components/HomeTiles.js (navigate() skips <Link>'s auto-prefetch).
   const router = useRouter();
   useEffect(() => {
     router.prefetch("/");
   }, [router]);
 
   return (
-    <main className="min-h-dvh flex flex-col items-center px-6 pt-16 sm:pt-24 pb-16">
-      <PageSlide className="w-full flex flex-col items-center">
+    <main className="max-w-[600px] mx-auto px-6 py-10">
+      <PageSlide>
         {(navigate) => (
           <>
-            <button type="button" onClick={() => navigate("/")} aria-label="Strona główna">
-              <Logo width={80} height={63} label="innaopcja.pl" />
-            </button>
-
-            <p className="text-sm text-brand-secondary text-center max-w-[420px] mt-6">
-              Zacznij od wyboru rodzaju sprzętu.
-            </p>
-
-            <CategoryTiles navigate={navigate} />
+            <div className="flex items-center justify-between mb-6">
+              <p className="text-lg font-medium">
+                <span className="text-brand-ink">Dobierz</span> <span className="text-brand-orange">grę</span>
+              </p>
+              <button type="button" onClick={() => navigate("/")} aria-label="Strona główna">
+                <Logo width={20} height={16} />
+              </button>
+            </div>
+            <GryWizard />
           </>
         )}
       </PageSlide>

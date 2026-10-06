@@ -2,22 +2,18 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { resolvePath } from "../lib/wizardTreeTv.js";
+import { resolvePath } from "../lib/wizardTreeGry.js";
 import WizardStep from "./WizardStep.js";
 import WizardHeightReveal from "./WizardHeightReveal.js";
 import VerdictCard from "./VerdictCard.js";
 import { IconShuffle, IconRefresh } from "./icons.js";
 
-// Mirrors components/PhoneWizard.js's reveal/reopen/retract choreography
-// and its /api/wizard-match call - see that file for the full reasoning.
-// Two deliberate differences from it: no live producent/screen-range fetch
-// (lib/wizardTreeTv.js's producent list is the static ALLOWED_BRANDS, not a
-// per-tier catalog lookup), and "Inna Opcja" never appends ?wprofile= - the
-// product page's otherBrandPicksForProduct (lib/wizardMatch.js) is
-// hardcoded to the telefony category, so passing a telewizory profile
-// through it would silently rank phones as a TV's alternatives instead of
-// erroring. Building a telewizory-aware equivalent is a separate task.
-export default function TvWizard() {
+// Mirrors components/TvWizard.js's reveal/reopen/retract choreography and
+// its /api/wizard-match-* call - see that file for the full reasoning.
+// "Inna Opcja" is a plain product-page link, no ?wprofile= - there's no
+// per-category alternatives mechanism for gry (no otherBrandPicksForProduct
+// equivalent exists, nor is one needed at this catalog size).
+export default function GryWizard() {
   const [answers, setAnswers] = useState({});
   const [revealedCount, setRevealedCount] = useState(1);
   const [retractingIds, setRetractingIds] = useState([]);
@@ -45,9 +41,6 @@ export default function TvWizard() {
 
   const showResult = visibleSteps.some((s) => s.id === "wynik");
 
-  // undefined = fetching, null = fetched but no match, object = matched
-  // product. Same fetchedForRef-keyed-off-answers pattern as PhoneWizard.js
-  // so a Strict-Mode re-invoke with the same answers is a no-op.
   const [match, setMatch] = useState(undefined);
   const fetchedForRef = useRef(null);
 
@@ -55,7 +48,7 @@ export default function TvWizard() {
     if (!showResult || fetchedForRef.current === answers) return;
     fetchedForRef.current = answers;
     setMatch(undefined);
-    fetch("/api/wizard-match-tv", {
+    fetch("/api/wizard-match-gry", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ answers }),
@@ -136,9 +129,7 @@ export default function TvWizard() {
                 )}
                 {match === null && (
                   <div className="wizard-body" style={{ borderColor: "#E4572E" }}>
-                    <p className="text-sm font-medium text-brand-ink mb-1">
-                      Nie mamy jeszcze telewizora w tym segmencie
-                    </p>
+                    <p className="text-sm font-medium text-brand-ink mb-1">Nie mamy jeszcze gry w tym segmencie</p>
                     <p className="text-xs text-brand-muted mb-3">Spróbuj zmienić wcześniejsze odpowiedzi.</p>
                     <button
                       type="button"

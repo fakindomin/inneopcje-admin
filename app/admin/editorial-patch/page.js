@@ -3,8 +3,7 @@ import EditorialPatchForm from "../../../components/EditorialPatchForm.js";
 
 // Belt-and-suspenders alongside actions.js's bulk UPDATE...FROM unnest() -
 // a very large pasted patch (hundreds of products) should now finish in
-// well under a second either way, but this keeps the same safety margin
-// telewizory-price-backfill/route.js gives its own batch endpoint.
+// well under a second either way, but this keeps a safety margin.
 export const maxDuration = 60;
 
 export default function EditorialPatchPage() {
@@ -21,15 +20,13 @@ export default function EditorialPatchPage() {
       </div>
 
       <p className="text-xs text-brand-muted mb-6">
-        Do dopisywania werdyktu, opisu i plusów/minusów produktom, które jeszcze ich nie mają (np. świeżo
-        wstawione przez import nowej bazy telefonów). Nadpisuje całkowicie verdict/summary/pros/cons dla
-        podanego sluga — score i specs zostają nietknięte. Wklej obiekt JSON w formacie{" "}
+        Do poprawiania werdyktu, opisu i plusów/minusów istniejącego produktu (np. ręczna korekta jednej gry z
+        data/gry.json). Nadpisuje całkowicie verdict/summary/pros/cons dla podanego sluga — score i specs
+        zostają nietknięte. Wklej obiekt JSON w formacie{" "}
         <code className="text-[11px] bg-brand-cream px-1 py-0.5 rounded">
           {"{ \"slug\": { \"verdict\": \"...\", \"summary\": \"...\", \"pros\": [\"...\"], \"cons\": [\"...\"] } }"}
         </code>
-        . Listę produktów bez werdyktu zobaczysz pod{" "}
-        <code className="text-[11px] bg-brand-cream px-1 py-0.5 rounded">/api/admin/missing-verdict</code> (dla
-        telewizorów: <code className="text-[11px] bg-brand-cream px-1 py-0.5 rounded">?category=telewizory</code>).
+        .
       </p>
 
       <EditorialPatchForm />

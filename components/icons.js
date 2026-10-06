@@ -105,6 +105,16 @@ export function IconLaptop(props) {
   );
 }
 
+export function IconGamepad(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
+      <rect x="2" y="8" width="20" height="10" rx="5" />
+      <path d="M7 11v4M5 13h4" />
+      <path d="M16.5 12.5h.01M19 14.5h.01" />
+    </svg>
+  );
+}
+
 export function IconBox(props) {
   return (
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
@@ -138,9 +148,7 @@ export function IconRefresh(props) {
 }
 
 export const CATEGORY_ICONS = {
-  telefony: IconPhone,
-  telewizory: IconTv,
-  laptopy: IconLaptop,
+  gry: IconGamepad,
 };
 
 export function getCategoryIcon(category) {

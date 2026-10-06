@@ -22,7 +22,8 @@ export default function AlternativeCard({ alt, fromSlug, fromName }) {
       </span>
       <p className="font-medium text-sm text-brand-ink mb-0.5">{alt.name}</p>
       <p className="text-xs text-brand-muted mb-1.5">
-        {alt.price_pln_approx} zł &middot; {score}/10
+        {alt.price_pln_approx ? `${alt.price_pln_approx} zł · ` : ""}
+        {score}/10
       </p>
       <p className="text-xs text-brand-secondary leading-relaxed">{alt.reason}</p>
     </Link>
