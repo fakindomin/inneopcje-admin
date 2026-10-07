@@ -1,19 +1,6 @@
 import Link from "next/link";
-import {
-  listProducts,
-  listCategories,
-  getStatusCounts,
-  getCategoryPublishedCounts,
-  MIN_PUBLISHED_FOR_FULL_ALTERNATIVES,
-} from "../../lib/adminQueries.js";
-import {
-  publishProduct,
-  unpublishProduct,
-  removeProduct,
-  logoutAction,
-  createCategory,
-  recomputeAllAlternatives,
-} from "./actions.js";
+import { listProducts, getStatusCounts } from "../../lib/adminQueries.js";
+import { publishProduct, unpublishProduct, removeProduct, logoutAction, recomputeAllAlternatives } from "./actions.js";
 import ConfirmButton from "../../components/ConfirmButton.js";
 
 // Queries the DB directly - can't be statically prerendered at build time
@@ -29,17 +16,10 @@ const STATUS_TABS = [
 export default async function AdminPage({ searchParams }) {
   const params = await searchParams;
   const status = params?.status ?? "all";
-  const category = params?.category ?? "all";
   const q = params?.q ?? "";
 
-  const [products, categories, statusCounts, categoryPublishedCounts] = await Promise.all([
-    listProducts({ status, category, q }),
-    listCategories(),
-    getStatusCounts(),
-    getCategoryPublishedCounts(),
-  ]);
+  const [products, statusCounts] = await Promise.all([listProducts({ status, q }), getStatusCounts()]);
 
-  const categoryTabs = [{ value: "all", label: "wszystkie kategorie" }, ...categories.map((c) => ({ value: c.slug, label: c.name }))];
   const tabCounts = {
     all: statusCounts.published + statusCounts.draft,
     published: statusCounts.published,
@@ -86,55 +66,14 @@ export default async function AdminPage({ searchParams }) {
         </div>
       </div>
 
-      {/* Kategorie */}
-      <div className="border border-brand-border rounded-lg p-4 bg-white mb-6">
-        <p className="text-sm font-medium text-brand-ink mb-3">Kategorie</p>
-        <div className="flex flex-wrap gap-2 mb-3">
-          {categories.map((c) => {
-            const counts = categoryPublishedCounts.find((x) => x.slug === c.slug);
-            const tooFew = counts && counts.publishedCount < MIN_PUBLISHED_FOR_FULL_ALTERNATIVES;
-            return (
-              <span
-                key={c.id}
-                className={`text-xs px-2.5 py-1 rounded-md border ${
-                  tooFew ? "border-amber-300 bg-amber-50 text-amber-800" : "border-brand-border text-brand-secondary"
-                }`}
-                title={
-                  tooFew
-                    ? `Za mało opublikowanych produktów na komplet 3 porównań (potrzeba min. ${MIN_PUBLISHED_FOR_FULL_ALTERNATIVES})`
-                    : undefined
-                }
-              >
-                {c.name} ({counts?.publishedCount ?? 0}){tooFew ? " ⚠" : ""}
-              </span>
-            );
-          })}
-          {categories.length === 0 && <p className="text-xs text-brand-muted">Brak kategorii.</p>}
-        </div>
-        <form action={createCategory} className="flex gap-2">
-          <input
-            type="text"
-            name="name"
-            placeholder="Nazwa nowej kategorii"
-            className="border border-brand-border rounded-md px-3 py-1.5 text-sm bg-white flex-1"
-          />
-          <button
-            type="submit"
-            className="text-xs px-3 py-1.5 rounded-md border border-brand-ink hover:bg-brand-cream shrink-0"
-          >
-            Dodaj kategorię
-          </button>
-        </form>
-      </div>
-
-      <div className="flex gap-2 mb-2">
+      <div className="flex gap-2 mb-6">
         {STATUS_TABS.map((tab) => {
           const count = tabCounts[tab.value] ?? 0;
           const needsAttention = tab.value === "draft" && count > 0;
           return (
             <Link
               key={tab.value}
-              href={`/admin?status=${tab.value}&category=${category}`}
+              href={`/admin?status=${tab.value}`}
               className={`flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-md border ${
                 status === tab.value
                   ? "border-brand-ink bg-brand-ink text-brand-cream"
@@ -158,25 +97,8 @@ export default async function AdminPage({ searchParams }) {
         })}
       </div>
 
-      <div className="flex flex-wrap gap-2 mb-6">
-        {categoryTabs.map((tab) => (
-          <Link
-            key={tab.value}
-            href={`/admin?status=${status}&category=${tab.value}`}
-            className={`text-xs px-2.5 py-1 rounded-md border ${
-              category === tab.value
-                ? "border-brand-orange text-brand-orange"
-                : "border-brand-border text-brand-muted"
-            }`}
-          >
-            {tab.label}
-          </Link>
-        ))}
-      </div>
-
       <form action="/admin" className="flex gap-2 mb-3">
         <input type="hidden" name="status" value={status} />
-        <input type="hidden" name="category" value={category} />
         <input
           type="text"
           name="q"
@@ -192,7 +114,7 @@ export default async function AdminPage({ searchParams }) {
         </button>
         {q && (
           <Link
-            href={`/admin?status=${status}&category=${category}`}
+            href={`/admin?status=${status}`}
             className="text-xs px-3 py-1.5 rounded-md border border-brand-border text-brand-secondary hover:bg-brand-cream shrink-0"
           >
             Wyczyść
@@ -208,7 +130,7 @@ export default async function AdminPage({ searchParams }) {
             <div className="flex items-start justify-between gap-3 mb-1.5">
               <div>
                 <p className="text-xs text-brand-muted">
-                  {p.category} &middot; {p.brand} &middot; {p.price_tier}
+                  {p.brand} &middot; {p.price_tier}
                 </p>
                 <p className="font-medium text-sm text-brand-ink">
                   {p.name} <span className="text-brand-muted font-normal">({p.score})</span>

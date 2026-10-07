@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { requireAdmin, destroySession } from "../../lib/adminAuth.js";
-import { setProductStatus, deleteProduct, addCategory, listCategories } from "../../lib/adminQueries.js";
+import { setProductStatus, deleteProduct, listCategories } from "../../lib/adminQueries.js";
 import { getProductCategoryId, recomputeCategoryAlternatives } from "../../lib/adminImport.js";
 
 export async function publishProduct(id) {
@@ -33,13 +33,6 @@ export async function removeProduct(id) {
 export async function logoutAction() {
   await destroySession();
   redirect("/admin/login");
-}
-
-export async function createCategory(formData) {
-  await requireAdmin();
-  const name = (formData.get("name") || "").toString();
-  await addCategory(name);
-  revalidatePath("/admin");
 }
 
 // product_alternatives is a CACHE, written once by recomputeCategoryAlternatives
