@@ -18,6 +18,25 @@ export default function ProductView({ product, alternatives, backTo, platformy }
   const withPlatformy = (href) =>
     platformyParam ? `${href}${href.includes("?") ? "&" : "?"}platformy=${encodeURIComponent(platformyParam)}` : href;
 
+  // Lets a visitor who landed here WITHOUT going through the wizard (search,
+  // an external link) pick which of this game's own platforms is theirs -
+  // "Inne Opcje" below then filters live to that platform the same way the
+  // wizard-originated flow already does (lib/queries.js's getAlternatives).
+  // Offered platforms are this game's own, since that's the set a visitor
+  // looking at it could plausibly own. Clicking the already-selected one
+  // clears the filter back to the unfiltered, cached alternatives.
+  const basePlatforms = Array.isArray(product.specs?.platformy) ? product.specs.platformy : [];
+  function platformHref(platform) {
+    const params = new URLSearchParams();
+    if (backTo) {
+      params.set("from", backTo.slug);
+      params.set("fromName", backTo.name);
+    }
+    if (!platformy?.includes(platform)) params.set("platformy", platform);
+    const qs = params.toString();
+    return `/produkt/${product.slug}${qs ? `?${qs}` : ""}`;
+  }
+
   return (
     <main className="max-w-[600px] mx-auto px-6 py-10">
       <PageSlide>
@@ -32,6 +51,29 @@ export default function ProductView({ product, alternatives, backTo, platformy }
                 <IconArrowLeft />
                 Wróć do {backTo.name}
               </button>
+            )}
+
+            {basePlatforms.length > 1 && (
+              <div className="flex flex-wrap items-center gap-1.5 mb-2.5">
+                <span className="text-xs text-brand-muted">Twoja platforma:</span>
+                {basePlatforms.map((p) => {
+                  const isSelected = platformy?.includes(p);
+                  return (
+                    <button
+                      key={p}
+                      type="button"
+                      onClick={() => navigate(platformHref(p))}
+                      className={`text-xs px-2.5 py-1 rounded-full border ${
+                        isSelected
+                          ? "border-brand-ink bg-brand-ink text-brand-cream"
+                          : "border-brand-border text-brand-secondary hover:bg-brand-cream"
+                      }`}
+                    >
+                      {p}
+                    </button>
+                  );
+                })}
+              </div>
             )}
 
             <VerdictCard product={product} />
