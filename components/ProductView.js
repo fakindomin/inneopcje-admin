@@ -39,7 +39,11 @@ export default function ProductView({ product, alternatives, backTo, platformy }
 
   return (
     <main className="max-w-[600px] mx-auto px-6 py-10">
-      <PageSlide>
+      {/* Picking a platform re-renders this same /produkt/{slug} route with
+          just a different ?platformy= query - the pathname doesn't change,
+          so PageSlide needs an explicit navKey to still remount and replay
+          its entrance animation (see PageSlide.js). */}
+      <PageSlide navKey={`${product.slug}:${platformyParam ?? ""}`}>
         {(navigate) => (
           <>
             {backTo && (

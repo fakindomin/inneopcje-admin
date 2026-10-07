@@ -7,6 +7,6 @@ export async function GET(request, { params }) {
   if (!product) {
     return NextResponse.json({ error: "not_found" }, { status: 404 });
   }
-  const alternatives = await getAlternatives(product.id);
+  const alternatives = await getAlternatives(product, []);
   return NextResponse.json({ product, alternatives });
 }

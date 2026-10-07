@@ -23,9 +23,15 @@ const NAVIGATE_DELAY_MS = 260;
 // as a fresh instance of PageSlideInner regardless of what Next's own
 // cache does underneath, so the entrance always plays on every arrival,
 // however it happened.
-export default function PageSlide(props) {
+// `navKey` lets a caller force a remount on a content change that doesn't
+// move the pathname - e.g. ProductView.js re-rendering the SAME /produkt/
+// slug with a different `?platformy=` query. Without it, phase would stay
+// stuck at whatever it was mid-navigation (see navigate() below), leaving
+// the new content permanently translated off-screen by the stale "exiting"
+// transform instead of a fresh "entering" animation.
+export default function PageSlide({ navKey, ...props }) {
   const pathname = usePathname();
-  return <PageSlideInner key={pathname} {...props} />;
+  return <PageSlideInner key={navKey ?? pathname} {...props} />;
 }
 
 // `footer` is for content that should trigger the SAME exit-then-navigate
