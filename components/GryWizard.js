@@ -10,9 +10,10 @@ import { IconShuffle, IconRefresh } from "./icons.js";
 
 // Mirrors components/TvWizard.js's reveal/reopen/retract choreography and
 // its /api/wizard-match-* call - see that file for the full reasoning.
-// "Inna Opcja" is a plain product-page link, no ?wprofile= - there's no
-// per-category alternatives mechanism for gry (no otherBrandPicksForProduct
-// equivalent exists, nor is one needed at this catalog size).
+// "Inna Opcja" carries the chosen platform(s) as ?platformy=... so the
+// product page's "Inne Opcje" alternatives stay restricted to what the
+// user can actually play (see lib/queries.js's getAlternatives) - and
+// AlternativeCard keeps forwarding it through every further hop.
 export default function GryWizard() {
   const [answers, setAnswers] = useState({});
   const [revealedCount, setRevealedCount] = useState(1);
@@ -144,7 +145,14 @@ export default function GryWizard() {
                   <>
                     <VerdictCard product={match} />
                     <div className="grid grid-cols-2 gap-2">
-                      <Link href={`/produkt/${match.slug}`} className="big-tile big-tile-compact">
+                      <Link
+                        href={
+                          Array.isArray(answers.platforma) && answers.platforma.length > 0
+                            ? `/produkt/${match.slug}?platformy=${encodeURIComponent(answers.platforma.join(","))}`
+                            : `/produkt/${match.slug}`
+                        }
+                        className="big-tile big-tile-compact"
+                      >
                         <span className="big-tile-icon">
                           <IconShuffle width={14} height={14} />
                         </span>

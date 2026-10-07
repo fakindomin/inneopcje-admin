@@ -17,8 +17,13 @@ export default async function ProductPage({ params, searchParams }) {
     notFound();
   }
 
-  const alternatives = await getAlternatives(product.id);
+  // Platforms chosen in the wizard, carried forward as a query param through
+  // every "Inne Opcje" hop (see GryWizard.js/ProductView.js/AlternativeCard.js)
+  // so alternatives stay restricted to what the user can actually play.
+  const platformy = sp?.platformy ? sp.platformy.split(",").filter(Boolean) : [];
+
+  const alternatives = await getAlternatives(product, platformy);
   const backTo = sp?.from ? { slug: sp.from, name: sp.fromName ?? sp.from } : null;
 
-  return <ProductView product={product} alternatives={alternatives} backTo={backTo} />;
+  return <ProductView product={product} alternatives={alternatives} backTo={backTo} platformy={platformy} />;
 }

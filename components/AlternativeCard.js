@@ -2,14 +2,20 @@ import Link from "next/link";
 import { ANGLE_META } from "../lib/angles";
 import { ANGLE_ICONS } from "./icons";
 
-export default function AlternativeCard({ alt, fromSlug, fromName }) {
+export default function AlternativeCard({ alt, fromSlug, fromName, platformy }) {
   const meta = ANGLE_META[alt.comparison_angle];
   const Icon = ANGLE_ICONS[meta.icon];
   const score = Number(alt.score).toFixed(1);
 
-  const href = fromSlug
-    ? `/produkt/${alt.slug}?from=${encodeURIComponent(fromSlug)}&fromName=${encodeURIComponent(fromName)}`
-    : `/produkt/${alt.slug}`;
+  const params = new URLSearchParams();
+  if (fromSlug) {
+    params.set("from", fromSlug);
+    params.set("fromName", fromName);
+  }
+  // Keeps the wizard's chosen platform(s) restricting "Inne Opcje" across
+  // every subsequent hop - see lib/queries.js's getAlternatives.
+  if (platformy) params.set("platformy", platformy);
+  const href = params.toString() ? `/produkt/${alt.slug}?${params.toString()}` : `/produkt/${alt.slug}`;
 
   return (
     <Link
