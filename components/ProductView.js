@@ -18,23 +18,23 @@ export default function ProductView({ product, alternatives, backTo, platformy }
   const withPlatformy = (href) =>
     platformyParam ? `${href}${href.includes("?") ? "&" : "?"}platformy=${encodeURIComponent(platformyParam)}` : href;
 
-  // Lets a visitor who landed here WITHOUT going through the wizard (search,
-  // an external link) pick which of this game's own platforms is theirs -
-  // "Inne Opcje" below then filters live to that platform the same way the
-  // wizard-originated flow already does (lib/queries.js's getAlternatives).
-  // Offered platforms are this game's own, since that's the set a visitor
-  // looking at it could plausibly own. Clicking the already-selected one
-  // clears the filter back to the unfiltered, cached alternatives.
-  const basePlatforms = Array.isArray(product.specs?.platformy) ? product.specs.platformy : [];
+  // Lets a visitor who landed here with NO platform context yet (search, an
+  // external link - not the wizard, which already asked) pick which of this
+  // game's own platforms is theirs - "Inne Opcje" below then filters live to
+  // that platform (lib/queries.js's getAlternatives). Only shown while
+  // `platformy` is still empty: once a platform is known (from the wizard or
+  // from picking one here), it keeps propagating silently through every
+  // further click (ProductView/AlternativeCard) without asking again.
+  const basePlatforms =
+    (!platformy || platformy.length === 0) && Array.isArray(product.specs?.platformy) ? product.specs.platformy : [];
   function platformHref(platform) {
     const params = new URLSearchParams();
     if (backTo) {
       params.set("from", backTo.slug);
       params.set("fromName", backTo.name);
     }
-    if (!platformy?.includes(platform)) params.set("platformy", platform);
-    const qs = params.toString();
-    return `/produkt/${product.slug}${qs ? `?${qs}` : ""}`;
+    params.set("platformy", platform);
+    return `/produkt/${product.slug}?${params.toString()}`;
   }
 
   return (
@@ -56,23 +56,16 @@ export default function ProductView({ product, alternatives, backTo, platformy }
             {basePlatforms.length > 1 && (
               <div className="flex flex-wrap items-center gap-1.5 mb-2.5">
                 <span className="text-xs text-brand-muted">Twoja platforma:</span>
-                {basePlatforms.map((p) => {
-                  const isSelected = platformy?.includes(p);
-                  return (
-                    <button
-                      key={p}
-                      type="button"
-                      onClick={() => navigate(platformHref(p))}
-                      className={`text-xs px-2.5 py-1 rounded-full border ${
-                        isSelected
-                          ? "border-brand-ink bg-brand-ink text-brand-cream"
-                          : "border-brand-border text-brand-secondary hover:bg-brand-cream"
-                      }`}
-                    >
-                      {p}
-                    </button>
-                  );
-                })}
+                {basePlatforms.map((p) => (
+                  <button
+                    key={p}
+                    type="button"
+                    onClick={() => navigate(platformHref(p))}
+                    className="text-xs px-2.5 py-1 rounded-full border border-brand-border text-brand-secondary hover:bg-brand-cream"
+                  >
+                    {p}
+                  </button>
+                ))}
               </div>
             )}
 
