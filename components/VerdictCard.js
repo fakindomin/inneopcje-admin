@@ -1,32 +1,15 @@
 import { IconCheck, IconX } from "./icons";
 
-export const PRICE_TIER_LABELS = {
-  budzetowy: "budżetowy",
-  sredni: "średni",
-  premium: "premium",
-};
-
-// No live price-check here anymore (see lib/geminiPrice.js's removal) -
-// gry's specs are fully static (platformy/tryb/oceny tagów), so there's
-// nothing to fetch or go stale. The segment badge below is the only
-// price-related signal, and it's just the product's own price_tier.
 export default function VerdictCard({ product }) {
   const score = Number(product.score).toFixed(1);
   const platformy = Array.isArray(product.specs?.platformy) ? product.specs.platformy : [];
-  const tierLabel = PRICE_TIER_LABELS[product.price_tier] ?? product.price_tier;
 
   return (
     <div className="bg-white border border-brand-ink rounded-xl p-4 mb-5">
       <div className="flex items-start justify-between gap-4 mb-2.5">
         <div>
           <p className="font-medium text-lg text-brand-ink">{product.name}</p>
-          {(platformy.length > 0 || tierLabel) && (
-            <p className="text-xs text-brand-muted mt-0.5">
-              {platformy.join(" · ")}
-              {platformy.length > 0 && tierLabel && " · "}
-              {tierLabel && `segment ${tierLabel}`}
-            </p>
-          )}
+          {platformy.length > 0 && <p className="text-xs text-brand-muted mt-0.5">{platformy.join(" · ")}</p>}
         </div>
         <div className="w-14 h-14 rounded-full bg-brand-orange flex items-center justify-center shrink-0">
           <span className="text-brand-cream font-bold text-xl">{score}</span>

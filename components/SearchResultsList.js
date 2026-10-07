@@ -86,10 +86,7 @@ export default function SearchResultsList({ results }) {
             className="w-full text-left flex flex-col bg-white border border-brand-ink rounded-xl p-3.5 hover:bg-brand-cream transition-colors"
           >
             <p className="font-medium text-sm text-brand-ink mb-0.5">{result.name}</p>
-            <p className="text-xs text-brand-muted mb-1.5">
-              {result.price_pln_approx ? `${result.price_pln_approx} zł · ` : ""}
-              {Number(result.score).toFixed(1)}/10
-            </p>
+            <p className="text-xs text-brand-muted mb-1.5">{Number(result.score).toFixed(1)}/10</p>
             <p className="text-xs text-brand-secondary leading-relaxed">{result.verdict}</p>
           </button>
         );
